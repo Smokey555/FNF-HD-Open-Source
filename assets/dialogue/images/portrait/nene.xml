@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NENE PORTRAITS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nene cries.png" x="0" y="0" width="842" height="1170"/>
+	<SubTexture name="nene default.png" x="852" y="0" width="783" height="1041"/>
+	<SubTexture name="nene disgusted.png" x="0" y="1180" width="801" height="833"/>
+	<SubTexture name="nene shocked.png" x="811" y="1180" width="801" height="833"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DAD PORTRAITS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dad bleed 1.png" x="0" y="0" width="982" height="1468"/>
+	<SubTexture name="dad bleed 2.png" x="992" y="0" width="982" height="1468"/>
+	<SubTexture name="dad default.png" x="1984" y="0" width="983" height="1469"/>
+	<SubTexture name="dad limit.png" x="2977" y="0" width="982" height="1468"/>
+	<SubTexture name="dad mic.png" x="0" y="1479" width="1479" height="1499"/>
+</TextureAtlas>

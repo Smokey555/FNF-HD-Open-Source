@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PICO PORTRAITS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pico angry.png" x="0" y="0" width="1871" height="1023"/>
+	<SubTexture name="pico blush.png" x="1881" y="0" width="1186" height="1230"/>
+	<SubTexture name="pico choke.png" x="3077" y="0" width="941" height="1148"/>
+	<SubTexture name="pico default.png" x="4028" y="0" width="1465" height="1051"/>
+	<SubTexture name="pico disappearing.png" x="5503" y="0" width="940" height="1149"/>
+	<SubTexture name="pico furious 2.png" x="6453" y="0" width="1476" height="1051"/>
+	<SubTexture name="pico furious.png" x="0" y="1240" width="1476" height="1051"/>
+	<SubTexture name="pico gloom.png" x="1486" y="1240" width="739" height="1142"/>
+	<SubTexture name="pico grimace.png" x="2235" y="1240" width="1635" height="1229"/>
+	<SubTexture name="pico happy.png" x="3880" y="1240" width="1721" height="1149"/>
+	<SubTexture name="pico bruh.png" x="5611" y="1240" width="729" height="1165"/>
+	<SubTexture name="pico scoff.png" x="6350" y="1240" width="887" height="1023"/>
+	<SubTexture name="pico shout.png" x="0" y="2479" width="1338" height="1283"/>
+	<SubTexture name="pico smile.png" x="1348" y="2479" width="1186" height="1230"/>
+</TextureAtlas>

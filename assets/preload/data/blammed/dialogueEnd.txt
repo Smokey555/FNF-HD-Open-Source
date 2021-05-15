@@ -1,0 +1,42 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:pico:furious:OKAY I'M TIRED OF PLAYING FAIR, I'M ACTUALLY JUST FINNA KILL YOU!
+:pico:furious2:FUCK THE MONEY, I JUST WANT YOU GONE!
+
+:sound:gunClick:
+:pico:furious2:*click click*
+:pico:furious2:You gotta be pullin' my nuts here.
+:pico:scoff:Whatever, let's throw hands--
+
+:effect:fadeIn:0.4
+:effect:flip:
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:gf:default:Not so fast!
+
+:pico:choke: ...!!
+
+:effect:rightSide:
+:effect:flip:
+:gf:smile:You belong to the Dearest family now.
+
+:effect:fadeOut:0.4
+:sound:picoWithExtraReverb:
+:pico:choke:
+
+:darnell:shit:...
+
+:effect:exitStageLeft:1.2
+:darnell:shit:*shimmies away*
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:questionMark:???
+
+:gf:blush:Uhm...erhm...
+:gf:nervous:Yeah so turns out I'm not adopted haha!
+:gf:blush:Just promise you won't tell anyone okay?
+
+:effect:rightSide:
+:bf:questionMark:...Bet.

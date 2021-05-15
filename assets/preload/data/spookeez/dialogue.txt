@@ -1,0 +1,63 @@
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:nervous:...
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:effect:flip:
+:gf:nervous2:...erm--
+
+:effect:rightSide:
+:bf:nervous:Babe, I know that haunted houses are intended to be eery 'n' shit...
+:effect:rightSide:
+:bf:nervous2:But nah, this place is whack! I hate it here!!
+
+:gf:worry:What are you so afraid of?
+:gf:worry:I'm here by your side, no one's gonna hurt you.
+
+:effect:rightSide:
+:bf:nervous2:But I've BEEN hurt! I got jumpscared so much my scrote's losing control of itself...
+
+:effect:flip:
+:gf:nervous2:I'm sure there's a bathroom around here so you can fix yourself up.
+
+:effect:flip:
+:effect:toRight:0.6
+:gf:worry:Do you 2 dolls have any idea where a bathroom may be?
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:spooky:default: Up stairs, first door on the right!
+
+:effect:rightSide:
+:effect:flip:
+:gf:default:Ah okay, thank you!
+:effect:rightSide:
+:effect:flip:
+:gf:default:...
+:effect:rightSide:
+:effect:flip:
+:gf:surprised:WAIT WHAT THE FUCK?!
+
+:spooky:default:(S) We were informed that you were our precious candy, senora GF!
+:spooky:default:(P) So we'll be taking you now, as a treat!
+
+:effect:rightSide:
+:bf:default:Not so fast! You guys ain't earn her like I did, she's all mine!
+
+:effect:rightSide:
+:effect:flip:
+:gf:blush:Baby...
+
+:effect:rightSide:
+:bf:fist:UNLESS you guys can beat me in a sing-off! Then you can have her.
+
+:effect:rightSide:
+:effect:flip:
+:gf:grimace:Bitch...
+
+:effect:rightSide:
+:bf:fist:Issa good deal ain't it?
+
+:spooky:happy:It sounds so fun! Let's go for it, fren!!

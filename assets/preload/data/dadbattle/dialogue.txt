@@ -1,0 +1,22 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:default:...Huh.
+:gf:default:That also wasn't as intense as I thought it'd be!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:dad:limit:Mother FUCKER. You persistent little SHIT.
+
+:gf:confused:???
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:fistSweat:Whatcha gonna do now, pops? The crowd's getting bigger.
+:effect:rightSide:
+:bf:fistSweat:They want a show. I say we give em one...
+:effect:rightSide:
+:bf:fistSweat:However, you ARE lookin' mighty tired.
+
+:dad:limit:Same could be said for you, boh. But I'm 'bouta make mincemeat outta you.
+:dad:limit:Let's give the crowd somethin' to scream about.

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BF PORTRAITS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf and gf default.png" x="0" y="0" width="1527" height="1321"/>
+	<SubTexture name="bf confused.png" x="1537" y="0" width="824" height="1200"/>
+	<SubTexture name="bf dazed.png" x="2371" y="0" width="1088" height="983"/>
+	<SubTexture name="bf default sweaty.png" x="3469" y="0" width="1769" height="1461"/>
+	<SubTexture name="bf default.png" x="5248" y="0" width="1769" height="1461"/>
+	<SubTexture name="bf fist sweat.png" x="0" y="1471" width="1187" height="1124"/>
+	<SubTexture name="bf fist.png" x="1197" y="1471" width="1187" height="1112"/>
+	<SubTexture name="bf flirt.png" x="2394" y="1471" width="1409" height="1225"/>
+	<SubTexture name="bf kiss.png" x="3813" y="1471" width="911" height="1191"/>
+	<SubTexture name="bf nervous 2.png" x="4734" y="1471" width="944" height="1205"/>
+	<SubTexture name="bf nervous.png" x="5688" y="1471" width="944" height="1205"/>
+	<SubTexture name="bf oof.png" x="6642" y="1471" width="933" height="1235"/>
+	<SubTexture name="bf question mark.png" x="0" y="2716" width="824" height="1200"/>
+	<SubTexture name="bf reassure.png" x="834" y="2716" width="919" height="1203"/>
+	<SubTexture name="bf scoff.png" x="1763" y="2716" width="1476" height="1270"/>
+	<SubTexture name="bf smile.png" x="3249" y="2716" width="750" height="1090"/>
+	<SubTexture name="bf sulk.png" x="4009" y="2716" width="1149" height="1127"/>
+	<SubTexture name="bf week clear.png" x="5168" y="2716" width="1450" height="1199"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DARNELL PORTRAITS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="darnell default.png" x="0" y="0" width="873" height="1244"/>
+	<SubTexture name="darnell shit.png" x="883" y="0" width="873" height="1244"/>
+	<SubTexture name="darnell shocked.png" x="1766" y="0" width="1448" height="1309"/>
+</TextureAtlas>

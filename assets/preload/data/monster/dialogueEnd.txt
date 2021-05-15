@@ -1,0 +1,44 @@
+:effect:fadeIn:0.2
+:effect:enterStageLeft:0.4
+:gf:surprised:Are you okay?!
+
+:effect:fadeIn:0.8
+:effect:rightSide:
+:effect:enterStageRight:1.6
+:bf:dazed:...
+:effect:rightSide:
+:bf:oof:...!!
+:effect:rightSide:
+:bf:nervous:What...what even??
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:spooky:default:(S) Are you okay fren? You blacked out, probably from too much spooky dancing!
+
+:effect:rightSide:
+:bf:nervous:No, I...what?
+:effect:rightSide:
+:bf:nervous:You guys didn't see that thing?!
+
+:gf:surprised:What are you on about?
+
+:effect:rightSide:
+:bf:nervous:I must be going mad...either way, we done here! No more.
+:effect:rightSide:
+:bf:clear:It was fun, I guess, but my bowels are gettin' irritable.
+:effect:rightSide:
+:bf:confused: By the way, what were you two's names?
+
+:spooky:happy:(S) I'm Skid!
+:spooky:happy:(P) I'm pump!
+:spooky:happy:And we're the Spooky Kids!!
+
+:gf:default:Awe, I change my mind, they're so cute!
+:gf:smile:Hope we have kids as ambitious as them one day.
+
+:effect:rightSide:
+:bf:nervous2:The more I gotta do shit like this, the less fertile I become.
+:effect:rightSide:
+:bf:clear:But it's coo! We do it for the culture! And the sex.
+:effect:rightSide:
+:bf:fist:Let's get going lady!

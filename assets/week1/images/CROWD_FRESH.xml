@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CROWD_FRESH.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="crowd0000" x="0" y="0" width="1280" height="265" frameX="0" frameY="-26" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0001" x="0" y="0" width="1280" height="265" frameX="0" frameY="-26" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0002" x="0" y="275" width="1280" height="277" frameX="0" frameY="-14" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0003" x="0" y="275" width="1280" height="277" frameX="0" frameY="-14" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0004" x="0" y="562" width="1280" height="285" frameX="0" frameY="-6" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0005" x="0" y="562" width="1280" height="285" frameX="0" frameY="-6" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0006" x="0" y="857" width="1280" height="290" frameX="0" frameY="-1" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0007" x="0" y="857" width="1280" height="290" frameX="0" frameY="-1" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0008" x="0" y="857" width="1280" height="290" frameX="0" frameY="-1" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0009" x="0" y="857" width="1280" height="290" frameX="0" frameY="-1" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0010" x="0" y="857" width="1280" height="290" frameX="0" frameY="-1" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0011" x="0" y="857" width="1280" height="290" frameX="0" frameY="-1" frameWidth="1280" frameHeight="291"/>
+	<SubTexture name="crowd0012" x="0" y="1157" width="1280" height="291"/>
+</TextureAtlas>

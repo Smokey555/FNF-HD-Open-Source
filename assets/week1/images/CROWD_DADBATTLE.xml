@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CROWD_DADBATTLE.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="crowd 20000" x="0" y="0" width="1280" height="272" frameX="0" frameY="-21" frameWidth="1280" frameHeight="293"/>
+	<SubTexture name="crowd 20001" x="0" y="0" width="1280" height="272" frameX="0" frameY="-21" frameWidth="1280" frameHeight="293"/>
+	<SubTexture name="crowd 20002" x="0" y="272" width="1280" height="277" frameX="0" frameY="-16" frameWidth="1280" frameHeight="293"/>
+	<SubTexture name="crowd 20003" x="0" y="272" width="1280" height="277" frameX="0" frameY="-16" frameWidth="1280" frameHeight="293"/>
+	<SubTexture name="crowd 20004" x="0" y="549" width="1280" height="287" frameX="0" frameY="-6" frameWidth="1280" frameHeight="293"/>
+	<SubTexture name="crowd 20005" x="0" y="549" width="1280" height="287" frameX="0" frameY="-6" frameWidth="1280" frameHeight="293"/>
+	<SubTexture name="crowd 20006" x="0" y="836" width="1280" height="293"/>
+	<SubTexture name="crowd 20007" x="0" y="836" width="1280" height="293"/>
+	<SubTexture name="crowd 20008" x="0" y="836" width="1280" height="293"/>
+	<SubTexture name="crowd 20009" x="0" y="836" width="1280" height="293"/>
+	<SubTexture name="crowd 20010" x="0" y="836" width="1280" height="293"/>
+	<SubTexture name="crowd 20011" x="0" y="836" width="1280" height="293"/>
+	<SubTexture name="crowd 20012" x="0" y="1129" width="1280" height="291" frameX="0" frameY="-2" frameWidth="1280" frameHeight="293"/>
+</TextureAtlas>

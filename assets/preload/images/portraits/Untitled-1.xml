@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Untitled-1.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pissface0000" x="0" y="0" width="250" height="258"/>
+	<SubTexture name="Pissface0001" x="250" y="0" width="250" height="258"/>
+	<SubTexture name="Pissface0002" x="500" y="0" width="250" height="258"/>
+	<SubTexture name="Pissface0003" x="750" y="0" width="250" height="258"/>
+	<SubTexture name="Pissface0004" x="0" y="258" width="250" height="258"/>
+	<SubTexture name="Pissface0005" x="250" y="258" width="250" height="258"/>
+	<SubTexture name="Pissface0006" x="500" y="258" width="250" height="258"/>
+	<SubTexture name="Pissface0007" x="750" y="258" width="250" height="258"/>
+	<SubTexture name="Pissface0008" x="750" y="258" width="250" height="258"/>
+	<SubTexture name="Pissface0009" x="0" y="516" width="250" height="258"/>
+	<SubTexture name="Pissface0010" x="250" y="516" width="250" height="258"/>
+	<SubTexture name="Pissface0011" x="500" y="516" width="250" height="258"/>
+	<SubTexture name="Pissface0012" x="750" y="516" width="250" height="258"/>
+	<SubTexture name="Pissface0013" x="0" y="774" width="250" height="258"/>
+	<SubTexture name="Pissface0014" x="250" y="774" width="250" height="258"/>
+	<SubTexture name="Pissface0015" x="500" y="774" width="250" height="258"/>
+	<SubTexture name="Pissface0016" x="750" y="774" width="250" height="258"/>
+	<SubTexture name="Pissface0017" x="0" y="1032" width="250" height="258"/>
+	<SubTexture name="Pissface0018" x="0" y="1290" width="250" height="258"/>
+	<SubTexture name="Pissface0019" x="0" y="1548" width="250" height="258"/>
+	<SubTexture name="Pissface0020" x="250" y="1032" width="250" height="258"/>
+	<SubTexture name="Pissface0021" x="500" y="1032" width="250" height="258"/>
+	<SubTexture name="Pissface0022" x="750" y="1032" width="250" height="258"/>
+	<SubTexture name="Pissface0023" x="250" y="1290" width="250" height="258"/>
+	<SubTexture name="Pissface0024" x="250" y="1548" width="250" height="258"/>
+	<SubTexture name="Pissface0025" x="500" y="1290" width="250" height="258"/>
+	<SubTexture name="Pissface0026" x="750" y="1290" width="250" height="258"/>
+	<SubTexture name="Pissface0027" x="500" y="1548" width="250" height="258"/>
+	<SubTexture name="Pissface0028" x="750" y="1548" width="250" height="258"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GF PORTRAITS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf angry.png" x="0" y="0" width="879" height="1111"/>
+	<SubTexture name="gf blush.png" x="889" y="0" width="998" height="1248"/>
+	<SubTexture name="gf confused.png" x="1897" y="0" width="1159" height="1264"/>
+	<SubTexture name="gf default.png" x="3066" y="0" width="1108" height="1264"/>
+	<SubTexture name="gf giggle.png" x="4184" y="0" width="1014" height="1229"/>
+	<SubTexture name="gf grimace.png" x="5208" y="0" width="902" height="1203"/>
+	<SubTexture name="gf nervous.png" x="6120" y="0" width="998" height="1221"/>
+	<SubTexture name="gf owl.png" x="0" y="1274" width="1073" height="1113"/>
+	<SubTexture name="gf pout.png" x="1083" y="1274" width="824" height="1143"/>
+	<SubTexture name="gf smile.png" x="1917" y="1274" width="1108" height="1264"/>
+	<SubTexture name="gf surprised.png" x="3035" y="1274" width="1228" height="1236"/>
+	<SubTexture name="gf wehhh.png" x="4273" y="1274" width="1131" height="1108"/>
+	<SubTexture name="gf worry.png" x="5414" y="1274" width="1027" height="1191"/>
+	<SubTexture name="nervous 2.png" x="6451" y="1274" width="998" height="1221"/>
+</TextureAtlas>

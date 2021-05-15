@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SKUMP PORTRAITS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="skump default.png" x="0" y="0" width="1306" height="813"/>
+	<SubTexture name="skump happy.png" x="1316" y="0" width="1412" height="873"/>
+	<SubTexture name="skump sad.png" x="0" y="883" width="1645" height="849"/>
+</TextureAtlas>

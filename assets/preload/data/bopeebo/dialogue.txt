@@ -1,0 +1,64 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:dad:default:GF, it's time to come home, your 2nd dinner's gonna get cold--
+:dad:default:...
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:oof:...
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:gf:owl:...
+
+:dad:default:Who is this?
+
+:effect:rightSide:
+:gf:nervous:Well, he's--
+
+:effect:rightSide:
+:bf:reassure:The name's .XML...BF, .XML!
+:effect:rightSide:
+:bf:reassure:I'm an up-and-coming rapper who wants to touch on every music genre!!
+:effect:rightSide:
+:bf:reassure:And to an extent, your daughter.
+
+:effect:rightSide:
+:effect:flip:
+:gf:surprised:BF WHAT??
+
+:dad:default:I'll tell ya right now, boy;
+:dad:default:If you wanna get with my daughter, you gotta beat my ass first.
+
+:effect:rightSide:
+:effect:flip:
+:gf:surprised:Wait dad--
+
+:effect:rightSide:
+:bf:default:Thassa BET!! I'll suplex ya, old man! You ain't ready for this problem!!
+
+:effect:rightSide:
+:bf:default:And after I fuck you up, i'm gonna fuck up your daughter's--
+
+:dad:mic:...In a singin' battle!
+
+:effect:rightSide:
+:bf:default:...Oh.
+:effect:rightSide:
+:bf:default:Well in that case, I'm one of the hottest rappers out right now.
+:effect:rightSide:
+:bf:default:I'll help you get with the times, then I'm gonna smooch this dime, heheh...
+:effect:rightSide:
+:bf:flirt:Ain't that right, baby?
+
+:effect:rightSide:
+:effect:flip:
+:gf:wehhh:Why won't you guys just calm doooown?!
+
+:dad:mic:You've got some nerve tryin' to swoon my little girl while I'm right here.
+:dad:mic:Put yer mic where yer yapper is, boh!
+
+:effect:rightSide:
+:bf:fist:Aight! Don't go to hard, you might get an aneurysm.

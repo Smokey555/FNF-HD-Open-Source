@@ -1,0 +1,39 @@
+:music:picoMusic2:0.9
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:pico:happy:Okay cool, I don't hate you.
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:gf:angry:Wait wait wait, hold on...
+
+:effect:rightSide:
+:gf:angry:You mentioned "pops" a minute ago...who is that?
+
+:pico:default:I was talm bout YOUR pops, shorty.
+
+:effect:rightSide:
+:effect:flip:
+:gf:surprised:wuh HUH!?
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:confused:Wait...so you guys are related?
+
+:pico:bruh:Come on man...
+:pico:bruh:Lemme spell it out for you, DUMBASS.
+:pico:default:You are blood money to me. Your girl's dad hired me to take you out--
+
+:effect:rightSide:
+:bf:confused:Wait to like dinner or--
+
+:pico:angry:LET ME FINISH!! DAMN.
+:pico:angry:He hired me to kill you. Said you embarrassed him but he won't tell me what for.
+
+:effect:rightSide:
+:bf:nervous:All I did was out-rap him like the sexy beast I am...
+
+:pico:default:That's petty as hell in hindsight. But money is money, and murder fuckin' rocks!
+:pico:default:Aight, next song.

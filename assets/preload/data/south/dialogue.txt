@@ -1,0 +1,50 @@
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:fist:Raw as fuck! I totally aced that!
+:effect:rightSide:
+:bf:fist:It was hard as shit, but I aced it!
+:effect:rightSide:
+:bf:fist:I...almost died many times during it, but I'm still kickin'!
+:effect:rightSide:
+:bf:fist:How you feelin' towards these little duders hon?
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:worry:They're cute and all, but I really think it's too scary here. We should leave.
+
+:effect:rightSide:
+:bf:fist:What, can't handle a little dark atmosphere?
+
+:gf:pout:No, I can handle that and these two freaks of nature...
+
+:effect:flip:
+:gf:nervous2:If anything, it's the thunder for me.
+
+:effect:rightSide:
+:bf:nervous:...I get it.
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:spooky:sad:(S) Aw come on! Don't leave so soon, fren!
+:spooky:sad:(P) Espooky month barely even started!!
+
+:effect:rightSide:
+:bf:confused:Spooky month?
+
+:spooky:default:(S) You don't know 'bout espooky month!?
+
+:effect:rightSide:
+:effect:flip:
+:gf:default: No, please enlighten us!
+
+:spooky:default:(P) Well it's...it's when you enjoy, ya know, spooky things!
+:spooky:default:(P) Eating spooky candies, discovering spooky monsters...
+:spooky:default:(S) And doing the spooky dance!!
+
+:effect:rightSide:
+:bf:confused:Is that what you guys were doing while you were singing?
+:effect:rightSide:
+:bf:smile:I kinda wanna try it out too, honestly!
+
+:spooky:default:(P) We can teach you gringo! Please queue the next song, senora GF!

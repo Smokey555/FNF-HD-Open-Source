@@ -1,0 +1,18 @@
+:bg:tutorialcutscene:
+:effect:hidden:
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:default:What are you so afraid of?
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:sulk:I just wanna... y'know--
+
+:effect:rightSide:
+:bf:sulk:Not mess up in front of you! It'll be so lame.
+
+:gf:default:I don't think you'll mess up. And if you do...
+:gf:default:Then who cares?! You gotta fail before you succeed!!
+:gf:smile:Come on, I'll show you.

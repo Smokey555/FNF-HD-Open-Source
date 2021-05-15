@@ -1,0 +1,23 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:default:...
+:gf:default:You know what?
+:gf:default:That was a lot less scary than I imagined it would be.
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:dad:default:Pfft, it was just baby-time music. 
+:dad:default:I thought someone as puny as him would only be able to handle that.
+:dad:default:Now comes the real test. Yer gonna show me just how badly you want my baby girl.
+
+:gf:surprised:Oh no, dad please don't do something rash--
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:default:Don't worry doll, this is all for practice. Hit me with anything geezer!
+
+:dad:default:Alright.
+:dad:default:You said you were a rapper, right?
+:dad:default:Well I actually hung with and killed both Biggie and Tupac.
+:dad:mic:Lemme show you what they taught me before I made their lives forfeit.

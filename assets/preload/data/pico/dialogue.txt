@@ -1,0 +1,69 @@
+:bg:picoweek1:
+:music:dateTypeBeat:0.8
+:effect:hidden:
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:smile:This view's so pretty, almost as pretty as you...
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:giggle:You're awfully corny!! I like it.
+:gf:giggle:Also, your hand's really low.
+
+:effect:rightSide:
+:bf:oof:Oh shit, my bad--
+
+:gf:blush:Move it lower.
+
+:effect:rightSide:
+:bf:kiss:Ohh it's like that huh?! Well come here babe--
+
+:bg:picoweek2:
+:sound:gunClick:
+:music:stop:
+:effect:hidden:
+
+:music:picoMusic1:0.9
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:pico:default:I knew i'd find you here you lil shit.
+
+:effect:rightSide:
+:bf:oof:Pico? Of all people...
+
+:effect:rightSide:
+:effect:flip:
+:gf:surprised:Huh!? Who are you 3?! What's going on, how does BF know you?
+
+:effect:rightSide:
+:bf:default:What did I do now man?!
+
+:pico:default:Nothin' to me, but pops coughed up the dough, and you know me, heheh.
+
+:effect:rightSide:
+:gf:pout:Bringing your goons along with you huh?
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:darnell:default:You were one letter away from gettin' lit up like a suburb in December.
+
+:pico:shout:AYE, YOU KNOW WHO I AM, FATASS SKANK?!
+:pico:angry:I bring my boys with me wherever I go, no matter the difficulty of the task!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:nene:default:Boy and girl!
+
+:pico:grimace:Fuck up.
+
+:nene:default:Okay! ^_^
+
+:pico:default:Anyway, as the realest muhfucka on the rooftop was sayin'...
+:pico:default:Jobs like this have been scarce, so lemme play with my food a little.
+:pico:default:Hey fatty, lay down a beat! If we jam, y'all live...
+:pico:smile:And if it's trash...you gettin' merc'd.
+
+:effect:rightSide:
+:bf:nervous:...

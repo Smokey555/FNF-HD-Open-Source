@@ -1,0 +1,31 @@
+:effect:fadeIn:5
+:monster:default: . . .
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:oof:Wait huh...?
+:effect:rightSide:
+:bf:oof:Where's the little monster kids?
+:effect:rightSide:
+:bf:oof:GF???
+:effect:rightSide:
+:bf:oof:Why's it so dark now...and what's this presence I feel?
+
+
+:monster:default: you ask too many questions, big fella! just chill and hang out with a new pal okay?
+
+:effect:rightSide:
+:bf:defaultSweat:W-who the hell are you?! Tell me what you did to them!
+
+:monster:smile: i just wanted some alone time with you, is that so wrong?
+:monster:smile: i'm dying to have a little singing battle with you.
+
+:effect:rightSide:
+:bf:nervous:For what reason...what will you gain from this if I lose?
+
+:monster:default: . . .
+:monster:laugh: don't know, but it's gonna be fu-u-un! let's get to singin', shall we?
+
+:effect:rightSide:
+:bf:nervous:...

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MONSTER PORTRAITS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="monster default.png" x="0" y="0" width="962" height="963"/>
+	<SubTexture name="monster laugh.png" x="972" y="0" width="1194" height="1094"/>
+	<SubTexture name="monster smile.png" x="2176" y="0" width="1471" height="958"/>
+</TextureAtlas>

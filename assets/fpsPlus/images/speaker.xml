@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speaker.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BUMP0000" x="5" y="5" width="715" height="351"/>
+	<SubTexture name="BUMP0001" x="5" y="5" width="715" height="351"/>
+	<SubTexture name="BUMP0002" x="730" y="5" width="692" height="348" frameX="-12" frameY="0" frameWidth="715" frameHeight="351"/>
+	<SubTexture name="BUMP0003" x="5" y="366" width="692" height="348" frameX="-12" frameY="0" frameWidth="715" frameHeight="351"/>
+</TextureAtlas>

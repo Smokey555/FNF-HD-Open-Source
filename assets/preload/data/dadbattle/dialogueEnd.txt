@@ -1,0 +1,30 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:dad:limit:How...
+:dad:limit:How are you so damn good?!
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:default:I'd do anything for your girl man. Don't you understand?
+:effect:rightSide:
+:bf:default:I really want her, I've proven myself worthy.
+:effect:rightSide:
+:bf:reassure:I deserve this...I deserve, HER!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:blush:BF...
+
+
+:dad:bleed:You don't deserve shit...she's been with other men, y'know.
+:dad:bleed:BETTER men at that, better than you'll EVER be.
+
+:effect:rightSide:
+:bf:default:Even if they are better than me...well, I don't care! No flaws make you a lame!
+:effect:rightSide:
+:bf:default:Your daughter knows what she's doing. She picked my bum-ass for a reason.
+:effect:rightSide:
+:bf:clear:Now stay out her business, and attend to the tightness of them jeans.
+
+:dad:bleed2:...
