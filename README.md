@@ -11,6 +11,8 @@ Don't even dare to make shitty pull requests or you'll be shot
 - [Smokey](https://twitter.com/Smokey36011945) - Coding
 - [Rozebud](https://twitter.com/helpme_thebigt) - Coding and Music
 - [Cval](https://twitter.com/cval_brown) - Lazy coding
+- [Luc](https://twitter.com/Leukuh) - Dialogue 
+- [Shinseinaken](https://twitter.com/shnsnkn) -Dialogue
 
 [Donate to us](https://www.paypal.com/paypalme/kolsan8)
 
