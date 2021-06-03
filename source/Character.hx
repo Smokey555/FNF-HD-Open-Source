@@ -276,6 +276,27 @@ class Character extends FlxSprite
 					addOffset("singDOWN", 20, -176);
 	
 					playAnim('idle');
+
+					case 'mom-car-limo':
+
+						//HAD TO MAKE HER DRIVING THING A CHARACTER LOL EASIER TO WORK WITH
+						//FUCK U CVAL
+						tex = Paths.getSparrowAtlas('momCar_DRIVE');
+						frames = tex;
+		
+					
+						animation.addByPrefix('drive', 'MOM DRIVE', 24, false);
+						animation.addByPrefix('driveLEFT', 'MOM DRIVELEFT', 24, false);
+						animation.addByPrefix('driveUP', 'MOM DRIVE UP', 24, false);
+						animation.addByPrefix('driveDOWN', 'MOM DRIVE DOWN', 24, false);
+						animation.addByPrefix('driveRIGHT', 'MOM DRIVE RIGHT', 24, false);
+						animation.addByPrefix('SHOOT', 'MOM SHOOT EM', 24, false);
+					
+				
+		
+					
+		
+						playAnim('idle');
 			case 'monster':
 				tex = Paths.getSparrowAtlas('Monster_Assets');
 				frames = tex;
