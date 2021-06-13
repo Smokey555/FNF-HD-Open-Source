@@ -40,8 +40,10 @@ class DialogueBox extends FlxSpriteGroup
 	var dropText:FlxText;
 	//Cutscene shit, HAS TO LOAD ON EVERY STAGE IDIOT
 	var cutsceneImage:FlxSprite;
+	var sound:FlxSound;
 
 	public var finishThing:Void->Void;
+
 
 	var portraitBF:Portrait;
 	var portraitGF:Portrait;
@@ -51,19 +53,29 @@ class DialogueBox extends FlxSpriteGroup
 	var portraitPICO:Portrait;
 	var portraitDARNELL:Portrait;
 	var portraitNENE:Portrait;
+	var portraitMOM:Portrait;
+	var portraitIMPS:Portrait;
+	var portraitNOCHAR:Portrait;
 
 	var portraitLeft:FlxSprite;
 	var portraitRight:FlxSprite;
-
+	
 	//var handSelect:FlxSprite;
 	var bgFade:FlxSprite;
 	var blackBG:FlxSprite;
 
+
 	var canAdvance = false;
+	
+	
 
 	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>)
 	{
 		super();
+		
+		
+	
+
 
 		new FlxTimer().start(0.5, function(tmr:FlxTimer)
 		{
@@ -83,7 +95,7 @@ class DialogueBox extends FlxSpriteGroup
 
 		blackBG = new FlxSprite(-256, -256).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
 		add(blackBG);
-
+	
 		bgFade = new FlxSprite(-200, -200).makeGraphic(Std.int(FlxG.width * 1.3), Std.int(FlxG.height * 1.3), 0xFFB3DFd8);
 		bgFade.scrollFactor.set();
 		bgFade.alpha = 0;
@@ -103,6 +115,7 @@ class DialogueBox extends FlxSpriteGroup
 		var hasDialog = false;
 		switch (PlayState.SONG.song.toLowerCase())
 		{
+			
 			default:
 				hasDialog = true;
 				box.frames = Paths.getSparrowAtlas('speech_bubble_talking', 'shared');
@@ -180,6 +193,13 @@ class DialogueBox extends FlxSpriteGroup
 
 			portraitNENE = new Portrait(170, 25, "nene");
 			add(portraitNENE);
+
+			portraitMOM = new Portrait(170, 25, "mom");
+			add(portraitMOM);
+			portraitIMPS = new Portrait(140, 205, "imps");
+			add(portraitIMPS);
+			portraitNOCHAR = new Portrait(0, 9999, "bf");
+			add(portraitNOCHAR);
 			
 		}
 		portraitRight = new FlxSprite(0, 40);
@@ -231,7 +251,6 @@ class DialogueBox extends FlxSpriteGroup
 		dropText.font = 'Pixel Arial 11 Bold';
 		dropText.color = 0xFFD89494;
 		add(dropText);
-
 		skipText = new FlxText(5, 695, 640, "Press SPACE to skip the dialogue.\n", 40);
 		skipText.scrollFactor.set(0, 0);
 		skipText.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -242,6 +261,7 @@ class DialogueBox extends FlxSpriteGroup
 		swagDialogue = new FlxTypeText(240, 500, Std.int(FlxG.width * 0.6), "", 32);
 		swagDialogue.font = 'Pixel Arial 11 Bold';
 		swagDialogue.color = 0xFF3F2021;
+		swagDialogue.finishSounds = true;
 		swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
 		add(swagDialogue);
 
@@ -267,6 +287,9 @@ class DialogueBox extends FlxSpriteGroup
 		
 		dropText.text = swagDialogue.text;
 
+		
+		
+		
 		if (box.animation.curAnim != null)
 		{
 			if (box.animation.curAnim.name == 'normalOpen' && box.animation.curAnim.finished)
@@ -275,7 +298,8 @@ class DialogueBox extends FlxSpriteGroup
 				dialogueOpened = true;
 			}
 		}
-
+		portraitIMPS.y = 205;
+		if (curAnim == "imps") portraitIMPS.y = 220;
 		if (dialogueOpened && !dialogueStarted)
 		{
 			startDialogue();
@@ -327,7 +351,7 @@ class DialogueBox extends FlxSpriteGroup
 			FlxG.sound.music.fadeOut(2.2, 0);
 
 		hideAll();
-
+		if (this.sound != null) this.sound.stop();
 		FlxTween.tween(box, {alpha: 0}, 1.2, {ease: FlxEase.circOut});
 		FlxTween.tween(bgFade, {alpha: 0}, 1.2, {ease: FlxEase.circOut});
 		FlxTween.tween(cutsceneImage, {alpha: 0}, 1.2, {ease: FlxEase.circOut});
@@ -347,6 +371,7 @@ class DialogueBox extends FlxSpriteGroup
 
 	}
 
+	
 	function startDialogue():Void
 	{
 
@@ -364,20 +389,40 @@ class DialogueBox extends FlxSpriteGroup
 		{
 			case "bf":
 				portraitBF.playFrame(curAnim);
+				changeSound('boyfriendText',0.6);
 			case "gf":
 				portraitGF.playFrame(curAnim);
+				changeSound('gfText',0.6);
 			case "dad":
 				portraitDAD.playFrame(curAnim);
+				changeSound('pixelText',0.6);
 			case "spooky":
 				portraitSPOOKY.playFrame(curAnim);
+				changeSound('pumpText',0.6);
 			case "monster":
 				portraitMONSTER.playFrame(curAnim);
+				changeSound('monsterText',0.6);
 			case "pico":
 				portraitPICO.playFrame(curAnim);
+				changeSound('picoText',0.6);
 			case "darnell":
 				portraitDARNELL.playFrame(curAnim);
+				changeSound('darnellText',0.6);
+				
 			case "nene":
 				portraitNENE.playFrame(curAnim);
+				changeSound('neneText',0.6);
+
+			case "mom":
+				portraitMOM.playFrame(curAnim);
+				changeSound('momText',1);
+			case "imps":
+				portraitIMPS.playFrame(curAnim);
+				changeSound('pixelText',0.6);
+			case "noChar":
+				portraitNOCHAR.playFrame("default");
+				changeSound('momText',0);
+			
 			case "effect":
 				switch(curAnim){
 					case "hidden":
@@ -402,7 +447,9 @@ class DialogueBox extends FlxSpriteGroup
 				}
 			case "sound":
 				skipDialogue = true;
-				FlxG.sound.play(Sound.fromFile("assets/dialogue/sounds/" + curAnim + ".ogg"));
+				if (this.sound != null) this.sound.stop();
+				sound = new FlxSound().loadEmbedded(Sound.fromFile("assets/dialogue/sounds/" + curAnim + ".ogg"));
+				sound.play();
 			case "music":
 				skipDialogue = true;
 				switch(curAnim){
@@ -494,137 +541,93 @@ class DialogueBox extends FlxSpriteGroup
 
 	}
 
+	function changeSound(sound:String, volume:Float){
+	swagDialogue.sounds = [FlxG.sound.load(Paths.sound(sound, 'dialogue'), volume)];
+	
+	}
+
+	function portraitArray(){
+	//Why? i don't know, i was bored and hey it's easier to work with
+	var portraitArray = [portraitBF,portraitGF,portraitDAD,portraitSPOOKY,portraitMONSTER,portraitDARNELL,portraitNENE,portraitMOM,portraitPICO,portraitIMPS];
+	return portraitArray;
+	}
+	
+
 	function hideAll():Void{
-		portraitBF.hide();
-		portraitGF.hide();
-		portraitDAD.hide();
-		portraitSPOOKY.hide();
-		portraitMONSTER.hide();
-		portraitPICO.hide();
-		portraitDARNELL.hide();
-		portraitNENE.hide();
+		
+		for(i in 0...portraitArray().length){
+		portraitArray()[i].hide();
+		}
 	}
 
 	function effectFadeOut(?time:Float = 1):Void{
-		portraitBF.effectFadeOut(time);
-		portraitGF.effectFadeOut(time);
-		portraitDAD.effectFadeOut(time);
-		portraitSPOOKY.effectFadeOut(time);
-		portraitMONSTER.effectFadeOut(time);
-		portraitPICO.effectFadeOut(time);
-		portraitDARNELL.effectFadeOut(time);
-		portraitNENE.effectFadeOut(time);
+		for(i in 0...portraitArray().length){
+		portraitArray()[i].effectFadeOut(time);
+		}
 	}
 
 	function effectFadeIn(?time:Float = 1):Void{
-		portraitBF.effectFadeIn(time);
-		portraitGF.effectFadeIn(time);
-		portraitDAD.effectFadeIn(time);
-		portraitSPOOKY.effectFadeIn(time);
-		portraitMONSTER.effectFadeIn(time);
-		portraitPICO.effectFadeIn(time);
-		portraitDARNELL.effectFadeIn(time);
-		portraitNENE.effectFadeIn(time);
+		for(i in 0...portraitArray().length){
+		portraitArray()[i].effectFadeIn(time);
+		}
 	}
 
 	function effectExitStageLeft(?time:Float = 1):Void{
-		portraitBF.effectExitStageLeft(time);
-		portraitGF.effectExitStageLeft(time);
-		portraitDAD.effectExitStageLeft(time);
-		portraitSPOOKY.effectExitStageLeft(time);
-		portraitMONSTER.effectExitStageLeft(time);
-		portraitPICO.effectExitStageLeft(time);
-		portraitDARNELL.effectExitStageLeft(time);
-		portraitNENE.effectExitStageLeft(time);
+		for(i in 0...portraitArray().length){
+			portraitArray()[i].effectExitStageLeft(time);
+			}
 	}
 
 	function effectExitStageRight(?time:Float = 1):Void{
-		portraitBF.effectExitStageRight(time);
-		portraitGF.effectExitStageRight(time);
-		portraitDAD.effectExitStageRight(time);
-		portraitSPOOKY.effectExitStageRight(time);
-		portraitMONSTER.effectExitStageRight(time);
-		portraitPICO.effectExitStageRight(time);
-		portraitDARNELL.effectExitStageRight(time);
-		portraitNENE.effectExitStageRight(time);
+		for(i in 0...portraitArray().length){
+			portraitArray()[i].effectExitStageRight(time);
+			}
 	}
 
 	function effectFlipRight(){
-		portraitBF.effectFlipRight();
-		portraitGF.effectFlipRight();
-		portraitDAD.effectFlipRight();
-		portraitSPOOKY.effectFlipRight();
-		portraitMONSTER.effectFlipRight();
-		portraitPICO.effectFlipRight();
-		portraitDARNELL.effectFlipRight();
-		portraitNENE.effectFlipRight();
-		box.flipX = false;
+		for(i in 0...portraitArray().length){
+			portraitArray()[i].effectFlipRight();
+			}
+			box.flipX = false;
+		
 	}
 	
 	function effectFlipDirection(){
-		portraitBF.effectFlipDirection();
-		portraitGF.effectFlipDirection();
-		portraitDAD.effectFlipDirection();
-		portraitSPOOKY.effectFlipDirection();
-		portraitMONSTER.effectFlipDirection();
-		portraitPICO.effectFlipDirection();
-		portraitDARNELL.effectFlipDirection();
-		portraitNENE.effectFlipDirection();
+		for(i in 0...portraitArray().length){
+			portraitArray()[i].effectFlipDirection();
+			}
+		
 	}
 
 	function effectEnterStageLeft(?time:Float = 1){
-		portraitBF.effectEnterStageLeft(time);
-		portraitGF.effectEnterStageLeft(time);
-		portraitDAD.effectEnterStageLeft(time);
-		portraitSPOOKY.effectEnterStageLeft(time);
-		portraitMONSTER.effectEnterStageLeft(time);
-		portraitPICO.effectEnterStageLeft(time);
-		portraitDARNELL.effectEnterStageLeft(time);
-		portraitNENE.effectEnterStageLeft(time);
+		for(i in 0...portraitArray().length){
+			portraitArray()[i].effectEnterStageLeft(time);
+			}
+		
 	}
 
 	function effectEnterStageRight(?time:Float = 1){
-		portraitBF.effectEnterStageRight(time);
-		portraitGF.effectEnterStageRight(time);
-		portraitDAD.effectEnterStageRight(time);
-		portraitSPOOKY.effectEnterStageRight(time);
-		portraitMONSTER.effectEnterStageRight(time);
-		portraitPICO.effectEnterStageRight(time);
-		portraitDARNELL.effectEnterStageRight(time);
-		portraitNENE.effectEnterStageRight(time);
+		for(i in 0...portraitArray().length){
+			portraitArray()[i].effectEnterStageRight(time);
+			}
+	
 	}
 
 	function effectToRight(?time:Float = 1){
-		portraitBF.effectToRight(time);
-		portraitGF.effectToRight(time);
-		portraitDAD.effectToRight(time);
-		portraitSPOOKY.effectToRight(time);
-		portraitMONSTER.effectToRight(time);
-		portraitPICO.effectToRight(time);
-		portraitDARNELL.effectToRight(time);
-		portraitNENE.effectToRight(time);
+		for(i in 0...portraitArray().length){
+			portraitArray()[i].effectToRight(time);
+			}
+		
 		box.flipX = false;
 	}
 
 	function effectToLeft(?time:Float = 1){
-		portraitBF.effectToLeft(time);
-		portraitGF.effectToLeft(time);
-		portraitDAD.effectToLeft(time);
-		portraitSPOOKY.effectToLeft(time);
-		portraitMONSTER.effectToLeft(time);
-		portraitPICO.effectToLeft(time);
-		portraitDARNELL.effectToLeft(time);
-		portraitNENE.effectToLeft(time);
+		for(i in 0...portraitArray().length){
+			portraitArray()[i].effectToLeft(time);
+			}
+		
 	}
 
-	/*function effectShake(?time:Float = 0.5){
-		portraitBF.effectShake(time);
-		portraitGF.effectShake(time);
-		portraitDAD.effectShake(time);
-		portraitSPOOKY.effectShake(time);
-		portraitMONSTER.effectShake(time);
-		portraitPICO.effectShake(time);
-		portraitDARNELL.effectShake(time);
-		portraitNENE.effectShake(time);
-	}*/
+
+	
 }

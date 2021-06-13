@@ -42,7 +42,7 @@ class AnimationDebug extends FlxState
 		gridBG.scrollFactor.set(0.5, 0.5);
 		add(gridBG);
 
-		if (daAnim == 'bf')
+		if (daAnim == 'bf' )
 			isDad = false;
 		
 		if (isDad)
@@ -52,17 +52,20 @@ class AnimationDebug extends FlxState
 			dad.debugMode = true;
 			add(dad);
 			
-			dadOverlay = new Character(0, 0, daAnim);
-			dadOverlay.screenCenter();
-			dadOverlay.debugMode = true;
-			dadOverlay.alpha = 0;
-			add(dadOverlay);
+			
 
 			char = dad;
 			if (daAnim == 'pico')
 			dad.flipX = true;
 			else
 			dad.flipX = false;
+
+			dadOverlay = new Character(0, 0, daAnim);
+			dadOverlay.screenCenter();
+			dadOverlay.debugMode = true;
+			
+			dadOverlay.alpha = 0;
+			add(dadOverlay);
 		}
 		else
 		{
@@ -92,6 +95,10 @@ class AnimationDebug extends FlxState
 		textAnim.scrollFactor.set();
 		add(textAnim);
 
+
+		if (isDad)
+		trace('DAD');
+		
 		genBoyOffsets();
 
 		camFollow = new FlxObject(0, 0, 2, 2);
@@ -133,6 +140,11 @@ class AnimationDebug extends FlxState
 	override function update(elapsed:Float)
 	{
 
+
+		if (FlxG.keys.justPressed.END){
+		trace('FLIP THE DAMN X NIGGA');
+		dadOverlay.flipX = false;
+		}
 		if(isBF){
 
 			if(FlxG.keys.justPressed.DELETE && bfOverlay.alpha == 0)

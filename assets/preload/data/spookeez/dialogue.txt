@@ -1,3 +1,4 @@
+:bg:yomama:
 :effect:fadeIn:0.4
 :effect:rightSide:
 :effect:enterStageRight:0.8

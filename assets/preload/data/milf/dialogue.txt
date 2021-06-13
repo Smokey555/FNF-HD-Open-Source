@@ -1,0 +1,144 @@
+:bg:news2:
+:sound:news/10:
+:noChar:default:Is it really that important? Nobody gives a shit about this kid! I'm eight days into a 2-week notice, I'm tired of this shit.
+:bg:news3:
+:sound:news/11:
+:noChar:default:An anonymous tip sent into the newsroom just moments ago has identified the short, blue-haired youth accompanying the Dearest family members and associates atop the speeding limos as Boyfriend.XML
+:bg:news3:
+:sound:news/12:
+:noChar:default:the up-and-coming rapper who made headlines after defeating Mearest's husband, ex-rockstar Daddy Dearest, in a series of performance arts showdowns.
+
+:bg:hide:
+:music:mommiTalki:0.9
+
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:bf:defaultSweat:OKAY! That's enough Mrs. Mearest! I've had enough.
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:mom:defaultSweat:What's the matter boo?
+:mom:defaultSweat:Are you losin' focus from seeing me move so gracefully?
+:mom:defaultSweat:Bet you got so many nasty thoughts in yer head goin on...
+:mom:seduce:You want me so bad...don't you??
+
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:gf:think:(That's it...I think he's gone.)
+:effect:rightSide:
+:gf:think:(There's no way he doesn't want her after that. It always works on horny men.)
+:effect:rightSide:
+:effect:flip:
+:gf:angry2:(B-but, he can't just go on and lust for her! She just wants to snag his soul!!)
+:effect:rightSide:
+:gf:think:(If you were to leave me, I atleast want the ability to find solace in your assured safety...)
+:effect:rightSide:
+:gf:cry:(Damn it. He's going to leave me now, and it's all cuz of that stupid argument. It's all my fault.)
+
+:effect:rightSide:
+:bf:angry:Ugh, just shut the FUCK UP!!
+
+:effect:rightSide:
+:effect:toLeft:0.6
+:effect:flip:
+:gf:cry:...wuh??
+
+:mom:angry:EXCUSE ME!?
+
+:effect:rightSide:
+:bf:angry:I'm sick of hearing you speak! You're fuckin' weird!
+:effect:rightSide:
+:bf:angry:The way you talk to me makes me feel so infantilized. 
+:effect:rightSide:
+:bf:default:And have you considered the fact you're speakin' outta turn about your own daughter?
+:effect:rightSide:
+:bf:default:All just to impress ME, a random!? 
+:effect:rightSide:
+:bf:angry2:It makes me so furious, how could you ever say some foul shit like that about her...
+:effect:rightSide:
+:bf:angry2:I love your daughter. I ONLY love your daughter.
+:effect:rightSide:
+:bf:sulk:I won't lie, I do find you attractive. You're very pretty, and your voice is nice, and you smell good...
+:effect:rightSide:
+:bf:default:But I wouldn't even be fawnin' over you if I wasn't so mad at GF!
+:effect:rightSide:
+:bf:sulk:I...I just got really hurt when you told me you weren't clingy...
+:effect:rightSide:
+:bf:sulk:...and that you only stuck around so much to keep me from dying.
+:effect:rightSide:
+:bf:sulk:And the Pico thing, I just feel really insecure about him always bein' able to be with you...
+:effect:rightSide:
+:bf:sulk:It should be me!
+
+:gf:cry:I only told you that to try and reassure you that I wouldn't let anything hurt you...
+:gf:cry:And that I'm your #1 cheer-leader...I'm sorry that it came off the way it did.
+:gf:cry:I have so much faith in you because you're just...you're just so cool, okay?!
+:gf:cry:It's one thing to be a powerful demon with a stupid amount of confidence,
+:gf:cry:but it's another to be a mere mortal with the feeling of invincibility!!
+:gf:happycry:That's you, BF!!
+:gf:happycry:No matter what's been thrown at you, you've pulled through with confidence.
+:gf:count:Whether it's having to face my demon parents, literal monster kids, and being shot at...
+:gf:count:You've shown nothing but resilience.
+:gf:cry:I wish i was mortal so I could know how it feels to have your life on the line everyday you wake up.
+:gf:happycry:I love you, BF, I feel like if we were to separate we'd actually die. I NEED you.
+
+:effect:rightSide:
+:bf:cry:You feel it too then...this feeling, like our souls are inseparable in a sense?
+:effect:rightSide:
+:bf:cry:It's real fitting for how corny we are.
+:effect:rightSide:
+:bf:happyCry:I'm real sorry too, GF. You got no idea how greatful I am for you.
+:effect:rightSide:
+:bf:happyCry:I'm glad we can get this shit out of the way.
+
+:mom:horny1:Oh...oh this feeling...
+
+:effect:rightSide:
+:bf:confused:HUH--
+
+:mom:horny1:Oh dear God, Daddy ain't made me feel like this in sooo long...
+
+:effect:toRight:0.6
+:effect:flip:
+:gf:surprised:Momma??
+
+:mom:horny1:But YOU, BF...you're a whole different breed.
+:mom:horny2:A man who knows how to put a bitch like me in her place...
+:mom:horny2:AND shows love to his own girl after some tramp dissed her...
+:mom:horny3:IT'S THE BARE MINIMUM DOLL, BUT...YOU'RE JUST TOO PERFECT!
+:mom:horny3:I'll tell you this, BF...If you lose this, your soul is mine for all eternity.
+:mom:defaulthorny:You'll never see GF ever again, I'll use you for whatever the hell I want.
+:mom:defaulthorny:I might even make you into an imp
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:imps:michael:Wait, we were somethin' before bein' demon?
+
+:mom:defaultHorny:You can't refuse this offer, either, or I'll just eviscerate you right here and now!!
+
+:effect:rightSide:
+:bf:nervous:Shit, GF...this might not end too well.
+
+:effect:rightSide:
+:gf:angry:Now that's not like you, to just give in so quickly.
+:effect:rightSide:
+:effect:flip:
+:gf:smile:Kick my mom's ass for me, 'kay?
+
+:effect:rightSide:
+:bf:confused:...
+:effect:rightSide:
+:bf:fist:Hmph!! Okay! For you baby.
+
+:effect:flip:
+:imps:alvin:Boys, this might very well be our last jam togetha under Mrs. Mearest.
+:imps:alvin:Go into this next song with the reminder that you were all brothas to me. I love y'all equally!
+:effect:flip:
+:imps:alvin:Let's just hope she won't use the Beautiful Evisceratin' Agony Machine...
+
+:mom:defaulthorny:By the way, baby, I don't want this to be too borin'...
+:mom:horny1:However, I wanna be the one who takes you to your grave...I can't let wreckless drivin' do it!
+:mom:horny1:So dance, dance for me baby!! Maintain your balance, just like my imps...
+:mom:crazy:CUZ THIS SHIT'S FINNA GET N U T T Y!!

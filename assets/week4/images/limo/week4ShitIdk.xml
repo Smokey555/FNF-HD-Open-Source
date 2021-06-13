@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="week4ShitIdk.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BG limo instance 10000" x="10" y="10" width="2160" height="422" frameX="-20" frameY="-1" frameWidth="2196" frameHeight="423"/>
+	<SubTexture name="BG limo instance 10001" x="2180" y="10" width="2196" height="420" frameX="0" frameY="-3" frameWidth="2196" frameHeight="423"/>
+	<SubTexture name="BG limo instance 10002" x="4386" y="10" width="2160" height="423" frameX="-20" frameY="0" frameWidth="2196" frameHeight="423"/>
+	<SubTexture name="BG limo instance 10003" x="10" y="443" width="2175" height="422" frameX="-20" frameY="-1" frameWidth="2196" frameHeight="423"/>
+	<SubTexture name="railing instance 10000" x="10" y="875" width="6730" height="287" frameX="0" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10001" x="10" y="1172" width="6730" height="287" frameX="-162" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10002" x="10" y="1172" width="6730" height="287" frameX="-324" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10003" x="10" y="1172" width="6730" height="287" frameX="-486" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10004" x="10" y="1172" width="6730" height="287" frameX="-648" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10005" x="10" y="1172" width="6730" height="287" frameX="-810" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10006" x="10" y="1172" width="6730" height="287" frameX="-972" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10007" x="10" y="1172" width="6730" height="287" frameX="-1134" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10008" x="10" y="1172" width="6730" height="287" frameX="-1296" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10009" x="10" y="1172" width="6730" height="287" frameX="-1458" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="railing instance 10010" x="10" y="1469" width="6730" height="287" frameX="-1620" frameY="0" frameWidth="8350" frameHeight="287"/>
+	<SubTexture name="street instance 10000" x="10" y="1766" width="3933" height="472"/>
+	<SubTexture name="street instance 10001" x="10" y="1766" width="3933" height="472"/>
+	<SubTexture name="street instance 10002" x="3953" y="1766" width="3933" height="472"/>
+	<SubTexture name="street instance 10003" x="3953" y="1766" width="3933" height="472"/>
+</TextureAtlas>

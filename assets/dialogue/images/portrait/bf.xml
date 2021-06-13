@@ -2,22 +2,33 @@
 <TextureAtlas imagePath="BF PORTRAITS.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="bf and gf default.png" x="0" y="0" width="1527" height="1321"/>
-	<SubTexture name="bf confused.png" x="1537" y="0" width="824" height="1200"/>
-	<SubTexture name="bf dazed.png" x="2371" y="0" width="1088" height="983"/>
-	<SubTexture name="bf default sweaty.png" x="3469" y="0" width="1769" height="1461"/>
-	<SubTexture name="bf default.png" x="5248" y="0" width="1769" height="1461"/>
-	<SubTexture name="bf fist sweat.png" x="0" y="1471" width="1187" height="1124"/>
-	<SubTexture name="bf fist.png" x="1197" y="1471" width="1187" height="1112"/>
-	<SubTexture name="bf flirt.png" x="2394" y="1471" width="1409" height="1225"/>
-	<SubTexture name="bf kiss.png" x="3813" y="1471" width="911" height="1191"/>
-	<SubTexture name="bf nervous 2.png" x="4734" y="1471" width="944" height="1205"/>
-	<SubTexture name="bf nervous.png" x="5688" y="1471" width="944" height="1205"/>
-	<SubTexture name="bf oof.png" x="6642" y="1471" width="933" height="1235"/>
-	<SubTexture name="bf question mark.png" x="0" y="2716" width="824" height="1200"/>
-	<SubTexture name="bf reassure.png" x="834" y="2716" width="919" height="1203"/>
-	<SubTexture name="bf scoff.png" x="1763" y="2716" width="1476" height="1270"/>
-	<SubTexture name="bf smile.png" x="3249" y="2716" width="750" height="1090"/>
-	<SubTexture name="bf sulk.png" x="4009" y="2716" width="1149" height="1127"/>
-	<SubTexture name="bf week clear.png" x="5168" y="2716" width="1450" height="1199"/>
+	<SubTexture name="bf and gf default.png" x="10" y="10" width="1527" height="1321"/>
+	<SubTexture name="bf angry 2.png" x="1547" y="10" width="1114" height="1158"/>
+	<SubTexture name="bf angry.png" x="2671" y="10" width="962" height="1139"/>
+	<SubTexture name="bf blush.png" x="3643" y="10" width="833" height="1101"/>
+	<SubTexture name="bf confused.png" x="4486" y="10" width="824" height="1200"/>
+	<SubTexture name="bf cry.png" x="5320" y="10" width="824" height="1200"/>
+	<SubTexture name="bf dazed.png" x="6154" y="10" width="1088" height="983"/>
+	<SubTexture name="bf default blush.png" x="10" y="1341" width="1769" height="1461"/>
+	<SubTexture name="bf default sweaty.png" x="1789" y="1341" width="1769" height="1461"/>
+	<SubTexture name="bf default.png" x="3568" y="1341" width="1769" height="1461"/>
+	<SubTexture name="bf dreamy.png" x="5347" y="1341" width="1015" height="1270"/>
+	<SubTexture name="bf fist blush.png" x="6372" y="1341" width="1187" height="1112"/>
+	<SubTexture name="bf fist sweat.png" x="10" y="2812" width="1187" height="1124"/>
+	<SubTexture name="bf fist.png" x="1207" y="2812" width="1187" height="1112"/>
+	<SubTexture name="bf flirt.png" x="2404" y="2812" width="1409" height="1225"/>
+	<SubTexture name="bf happy cry.png" x="3823" y="2812" width="928" height="1165"/>
+	<SubTexture name="bf kiss.png" x="4761" y="2812" width="911" height="1191"/>
+	<SubTexture name="bf nervous 2.png" x="5682" y="2812" width="944" height="1205"/>
+	<SubTexture name="bf nervous.png" x="6636" y="2812" width="944" height="1205"/>
+	<SubTexture name="bf oof.png" x="10" y="4047" width="933" height="1235"/>
+	<SubTexture name="bf pant.png" x="953" y="4047" width="946" height="1232"/>
+	<SubTexture name="bf post-up.png" x="1909" y="4047" width="1094" height="1268"/>
+	<SubTexture name="bf question mark.png" x="3013" y="4047" width="824" height="1200"/>
+	<SubTexture name="bf reassure.png" x="3847" y="4047" width="919" height="1203"/>
+	<SubTexture name="bf sad.png" x="4776" y="4047" width="771" height="1075"/>
+	<SubTexture name="bf scoff.png" x="5557" y="4047" width="1476" height="1270"/>
+	<SubTexture name="bf smile.png" x="7043" y="4047" width="750" height="1090"/>
+	<SubTexture name="bf sulk.png" x="10" y="5327" width="1149" height="1127"/>
+	<SubTexture name="bf week clear.png" x="1169" y="5327" width="1450" height="1199"/>
 </TextureAtlas>

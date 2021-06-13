@@ -71,14 +71,11 @@ class ConfigMenu extends MusicBeatState
 
 		persistentUpdate = persistentDraw = true;
 
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
+		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('optionsHD'));
 		bg.scrollFactor.x = 0;
 		bg.scrollFactor.y = 0;
-		bg.setGraphicSize(Std.int(bg.width * 1.18));
 		bg.updateHitbox();
 		bg.screenCenter();
-		bg.antialiasing = true;
-		bg.color = 0xFF5C6CA5;
 		add(bg);
 	
 		// var magenta = new FlxSprite(-80).loadGraphic('assets/images/menuBGMagenta.png');

@@ -4,6 +4,8 @@ import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.animation.FlxBaseAnimation;
 import flixel.graphics.frames.FlxAtlasFrames;
+import flixel.system.FlxSound;
+import flixel.util.FlxColor;
 
 using StringTools;
 
@@ -16,6 +18,7 @@ class Character extends FlxSprite
 	public var curCharacter:String = 'bf';
 
 	public var holdTimer:Float = 0;
+	public var dodgetime:Float = 0;
 
 	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
 	{
@@ -46,19 +49,19 @@ class Character extends FlxSprite
 				animation.addByIndices('hairFall', "GF Dancing Beat Hair Landing", [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "", 24, false);
 				animation.addByPrefix('scared', 'GF FEAR', 24);
 
-				addOffset('cheer', 1, -71);
-				addOffset('sad', -11, -32);
+				addOffset('cheer', 2, -35);
+				addOffset('sad', -9, -14);
 				addOffset('danceLeft', 2, -11);
 				addOffset('danceRight', 2, -11);
 
-				addOffset("singUP", 3, -33);
-				addOffset("singRIGHT", 1, -15);
-				addOffset("singLEFT", 1, -12);
-				addOffset("singDOWN", 1, -34);
-				addOffset('hairBlow', 0, -36);
-				addOffset('hairFall', -1, -44);
+				addOffset("singUP", 3, 10);
+				addOffset("singRIGHT", 1, -7);
+				addOffset("singLEFT", 1, -2);
+				addOffset("singDOWN", 1, 3);
+				addOffset('hairBlow', 0, 1);
+				addOffset('hairFall', 2, -9);
 
-				addOffset('scared', -11, -31);
+				addOffset('scared', -9, -3);
 
 				playAnim('danceRight');
 
@@ -72,12 +75,12 @@ class Character extends FlxSprite
 				animation.addByIndices('hairBlow', "GF Dancing Beat Hair blowing 2", [0, 1, 2, 3], "", 24);
 				animation.addByIndices('hairFall', "GF Dancing Beat Hair Landing 2", [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "", 24, false);
 
-				addOffset('sad', -11, -32);
+				addOffset('sad', 2, -16);
 				addOffset('danceLeft', 2, -11);
 				addOffset('danceRight', 2, -11);
 
-				addOffset('hairBlow', 0, -36);
-				addOffset('hairFall', -1, -44);
+				addOffset('hairBlow', 2, 1);
+				addOffset('hairFall', 2, -13);
 
 				playAnim('danceRight');
 
@@ -95,8 +98,8 @@ class Character extends FlxSprite
 				addOffset('danceLeft', 2, -11);
 				addOffset('danceRight', 2, -11);
 	
-				addOffset('hairBlow', 0, -36);
-				addOffset('hairFall', -1, -44);
+				addOffset('hairBlow', 2, 1);
+				addOffset('hairFall',  2, 1);
 	
 				playAnim('danceRight');
 
@@ -135,46 +138,34 @@ class Character extends FlxSprite
 				tex = Paths.getSparrowAtlas('limo/gfCar');
 				frames = tex;
 				animation.addByIndices('singUP', 'GF Dancing Beat Hair blowing CAR', [0], "", 24, false);
+				animation.addByIndices('sad', 'GF Dancing Beat Hair blowing CAR', [0], "", 24, false);
+				animation.addByIndices('idle', 'GF Dancing Beat Hair blowing CAR', [0], "", 24, false);
 				animation.addByIndices('danceLeft', 'GF Dancing Beat Hair blowing CAR', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
-				animation.addByIndices('danceRight', 'GF Dancing Beat Hair blowing CAR', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24,
-					false);
+				animation.addByIndices('danceRight', 'GF Dancing Beat Hair blowing CAR', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24,false);
+				animation.addByPrefix('duck', 'GF Duck',24,false);
 
 				addOffset('danceLeft', 0);
 				addOffset('danceRight', 0);
+				addOffset('duck', -7,-20);
 
 				playAnim('danceRight');
-
-			case 'gf-pixel':
-				tex = Paths.getSparrowAtlas('weeb/gfPixel');
-				frames = tex;
-				animation.addByIndices('singUP', 'GF IDLE', [2], "", 24, false);
-				animation.addByIndices('danceLeft', 'GF IDLE', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
-				animation.addByIndices('danceRight', 'GF IDLE', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
-
-				addOffset('danceLeft', 0);
-				addOffset('danceRight', 0);
-
-				playAnim('danceRight');
-
-				setGraphicSize(Std.int(width * PlayState.daPixelZoom));
-				updateHitbox();
-				antialiasing = false;
+				
 
 			case 'dad':
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('DADDY_DEAREST');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24);
-				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
-				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
+				animation.addByPrefix('singUP', 'Dad Sing note UP', 24);
+				animation.addByPrefix('singRIGHT', 'dad sing note right', 24);
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
 
 				addOffset('idle', 0, 170);
-				addOffset("singUP", -0, 170);
-				addOffset("singRIGHT", -1, 144);
-				addOffset("singLEFT", 56, 143);
-				addOffset("singDOWN", 3, 116);
+				addOffset("singUP", 7, 189);
+				addOffset("singRIGHT", 71, 143);
+				addOffset("singLEFT", -1, 144);
+				addOffset("singDOWN", 1, 114);
 
 				playAnim('idle');
 				
@@ -188,11 +179,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
 
+			
 				addOffset('idle', 0, 170);
-				addOffset("singUP", -8, 190);
-				addOffset("singRIGHT", -6, 149);
-				addOffset("singLEFT", 47, 141);
-				addOffset("singDOWN", 8, 122);
+				addOffset("singUP", 6, 187);
+				addOffset("singRIGHT", -2, 144);
+				addOffset("singLEFT", 58, 142);
+				addOffset("singDOWN", 3, 117);
 
 				playAnim('idle');
 			case 'spooky':
@@ -209,7 +201,7 @@ class Character extends FlxSprite
 				addOffset('danceLeft');
 				addOffset('danceRight');
 
-				addOffset("singUP", -20, 26);
+				addOffset("singUP", -20, 56);
 				addOffset("singRIGHT", -130, -14);
 				addOffset("singLEFT", 130, -10);
 				addOffset("singDOWN", -50, -130);
@@ -255,27 +247,28 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 
-				case 'mom-car-horny':
-					tex = Paths.getSparrowAtlas('momCar_Horny');
-					frames = tex;
-	
-					animation.addByPrefix('idle', "Mom Idle", 24, false);
-					animation.addByPrefix('singUP', "Mom Up Pose", 24, false);
-					animation.addByPrefix('singDOWN', "MOM DOWN POSE", 24, false);
-					animation.addByPrefix('singLEFT', 'Mom Left Pose', 24, false);
-					animation.addByPrefix('shootThatMF', 'MOM BEAM', 24, false);
-					// ANIMATION IS CALLED MOM LEFT POSE BUT ITS FOR THE RIGHT
-					// CUZ DAVE IS DUMB!
-					animation.addByPrefix('singRIGHT', 'Mom Pose Left', 24, false);
-	
-					addOffset('idle');
-					addOffset("singUP", 35, 105);
-					addOffset("singRIGHT", 58, -35);
-					addOffset("singLEFT", 230, 37);
-					addOffset("shootThatMF", 230, 37);
-					addOffset("singDOWN", 20, -176);
-	
-					playAnim('idle');
+			case 'mom-car-horny':
+				tex = Paths.getSparrowAtlas('momCar_Horny');
+				frames = tex;
+
+				animation.addByPrefix('idle', "Mom Idle", 24, false);
+				animation.addByPrefix('singUP', "Mom Up Pose", 24, false);
+				animation.addByPrefix('singDOWN', "MOM DOWN POSE", 24, false);
+				animation.addByPrefix('singLEFT', 'Mom Left Pose', 24, false);
+				animation.addByPrefix('shootThatMF', 'MOM BEAM', 24, false);
+				// ANIMATION IS CALLED MOM LEFT POSE BUT ITS FOR THE RIGHT
+				// CUZ DAVE IS DUMB!
+				animation.addByPrefix('singRIGHT', 'Mom Pose Left', 24, false);
+
+				addOffset('idle');
+				addOffset('shoot');
+				addOffset("singUP", 35, 105);
+				addOffset("singRIGHT", 38, -55);
+				addOffset("singLEFT", 172, 27);
+				addOffset("shootThatMF", -31, 8);
+				addOffset("singDOWN", 19, -216);
+
+				playAnim('idle');
 			case 'monster':
 				tex = Paths.getSparrowAtlas('Monster_Assets');
 				frames = tex;
@@ -285,11 +278,11 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Monster left note', 24, false);
 				animation.addByPrefix('singRIGHT', 'Monster Right note', 24, false);
 
-				addOffset('idle', 30, 30);
-				addOffset("singUP", 90, 170);
+				addOffset('idle', 0, 0);
+				addOffset("singUP", -60, 150);
 				addOffset("singRIGHT", -51);
-				addOffset("singLEFT", -25, 5);
-				addOffset("singDOWN", -44, -75);
+				addOffset("singLEFT", -47, 15);
+				addOffset("singDOWN", -75, -79);
 				playAnim('idle');
 			case 'monster-christmas':
 				tex = Paths.getSparrowAtlas('christmas/monsterChristmas');
@@ -319,11 +312,11 @@ class Character extends FlxSprite
 				
 
 				addOffset('idle');
-				addOffset("singUP", -28, 81);
+				addOffset("singUP", -32, 40);
 				addOffset("singRIGHT", -56, -7);
-				addOffset("singLEFT",  55, 13);
-				addOffset("singDOWN", -8, -67);
-				addOffset("shoot", -8, -30);
+				addOffset("singLEFT",  53, -2);
+				addOffset("singDOWN", -29, -71);
+				addOffset("shoot", -44, -22);
 
 				playAnim('idle');
 
@@ -361,37 +354,36 @@ class Character extends FlxSprite
 				updateHitbox();
 
 				addOffset('idle', -5);
-				addOffset("singUP", -45, 51);
-				addOffset("singRIGHT", -46, 0);
-				addOffset("singLEFT", -8, -7);
-				addOffset("singDOWN", -34, -63);
+				addOffset("singUP", -46, 29);
+				addOffset("singRIGHT", -44, 3);
+				addOffset("singLEFT", -25, -11);
+				addOffset("singDOWN", -23, -65);
 
-				addOffset('danceLeft', -10, -15);
-				addOffset('danceRight', -10, -15);
-
-				addOffset("singUPmiss", -48, 41);
+			
+				addOffset("singUPmiss", -44, 17);
 				addOffset("singRIGHTmiss", -38, 1);
-				addOffset("singLEFTmiss", -1, -1);
-				addOffset("singDOWNmiss", -35, -50);
+				addOffset("singLEFTmiss", -10, -7);
+				addOffset("singDOWNmiss", -27, -52);
 
 				addOffset('idle-stressed', -5);
-				addOffset("singUP-stressed", -27, 48);
-				addOffset("singRIGHT-stressed", -43, 5);
-				addOffset("singLEFT-stressed", -3, 0);
-				addOffset("singDOWN-stressed", -32, -49);
+				addOffset("singUP-stressed", -24, 61);
+				addOffset("singRIGHT-stressed", -37, 20);
+				addOffset("singLEFT-stressed", -4,11);
+				addOffset("singDOWN-stressed", -19, -43);
 
-				addOffset("singUPmiss-stressed", -45, 44);
-				addOffset("singRIGHTmiss-stressed", -48, 11);
-				addOffset("singLEFTmiss-stressed", -4, 5);
-				addOffset("singDOWNmiss-stressed", -37, -56);
+				addOffset("singUPmiss-stressed", -45, 54);
+				addOffset("singRIGHTmiss-stressed", -42, 54);
+				addOffset("singLEFTmiss-stressed", 1, 17);
+				addOffset("singDOWNmiss-stressed", -32, -43);
 
 				addOffset("hey", -1, -1);
-				addOffset('firstDeath', -10, 9);
+				addOffset('firstDeath', -3, 13);
 				addOffset('deathLoop', -20, 8);
-				addOffset('deathConfirm', -20, 62);
-				addOffset('scared', -9, -4);
+				addOffset('deathConfirm', -24, 76);
+				addOffset('scared', -5, 9);
 
 				playAnim('danceLeft');
+				//color = FlxColor.BLACK;
 
 				flipX = true;
 
@@ -517,19 +509,84 @@ class Character extends FlxSprite
 				animation.addByPrefix('firstDeath', "BF dies", 24, false);
 				animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
 				animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
-
+				animation.addByPrefix('dodge', 'boyfriend dodge instance 1', 24, false);
 				addOffset('idle', -5);
-				addOffset("singUP", -40, 38);
-				addOffset("singRIGHT", -18, -11);
-				addOffset("singLEFT", 22, -23);
-				addOffset("singDOWN", -20, -85);
-				addOffset("singUPmiss", -39, 17);
-				addOffset("singRIGHTmiss", -20, -22);
-				addOffset("singLEFTmiss", 13, -25);
+				addOffset("singUP", -17, 24);
+				addOffset("singRIGHT", -20, -4);
+				addOffset("singLEFT", -4, -15);
+				addOffset("singDOWN", -16, -79);
+				addOffset("singUPmiss", -20, 5);
+				addOffset("singRIGHTmiss", -15, -21);
+				addOffset("singLEFTmiss", 9, -21);
 				addOffset("singDOWNmiss", -11, -69);
+				addOffset('idle-stressed', 12,4);
+				addOffset("singUP-stressed", 0, 14);
+				addOffset("singRIGHT-stressed", -21, 0);
+				addOffset("singLEFT-stressed", -10, -6);
+				addOffset("singDOWN-stressed", -16, -64);
+				addOffset("singUPmiss-stressed", -24, 13);
+				addOffset("singRIGHTmiss-stressed", -14, 6);
+				addOffset("singLEFTmiss-stressed", 9, 1);
+				addOffset("singDOWNmiss-stressed", -14, -65);
+				addOffset('dodge', 48, 3);
 				playAnim('idle');
 
 				flipX = true;
+
+
+				case 'bf-milf':
+					var tex = Paths.getSparrowAtlas('bfCar_MILF');
+					frames = tex;
+					animation.addByPrefix('idle', 'Idle', 24, false);
+					animation.addByPrefix('idle-stressed', 'Stressed Idle', 24, false);
+					animation.addByPrefix('singUP', 'Sing Up', 24, false);
+					animation.addByPrefix('singUP-stressed', 'Stressed Up', 24, false);
+					animation.addByPrefix('singLEFT', 'Sing Left', 24, false);
+					animation.addByPrefix('singLEFT-stressed', 'Stressed Left', 24, false);
+					animation.addByPrefix('singRIGHT', 'Sing Right', 24, false);
+					animation.addByPrefix('singRIGHT-stressed', 'Stressed Right', 24, false);
+					animation.addByPrefix('singDOWN', 'Sing Down', 24, false);
+					animation.addByPrefix('singDOWN-stressed', 'Stressed Down', 24, false);
+					animation.addByPrefix('singUPmiss', 'Miss Up', 24, false);
+					animation.addByPrefix('singUPmiss-stressed', 'Miss Stress Up', 24, false);
+					animation.addByPrefix('singLEFTmiss', 'Miss Left', 24, false);
+					animation.addByPrefix('singLEFTmiss-stressed', 'Miss Stress Left', 24, false);
+					animation.addByPrefix('singRIGHTmiss', 'Miss Right', 24, false);
+					animation.addByPrefix('singRIGHTmiss-stressed', 'Miss Stress Right', 24, false);
+					animation.addByPrefix('singDOWNmiss', 'Miss Down', 24, false);
+					animation.addByPrefix('singDOWNmiss-stressed', 'Miss Stress Down', 24, false);
+					animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
+					animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
+
+					animation.addByIndices('danceLeft', 'bf limo dance', [0, 1, 2, 3, 4, 5, 6,7, 8], "", 24, false);
+					animation.addByIndices('danceRight', 'bf limo dance', [9 ,10, 11, 12, 13, 14, 15, 16, 17], "", 24, false);
+					animation.addByPrefix('dodge', 'boyfriend dodge', 12, false);
+					addOffset("dodge", 46, -30);
+					
+	
+					addOffset('idle', -5);
+					addOffset('danceLeft', 35,40);
+					addOffset('danceRight', 165,50);
+					addOffset("singUP", -20, 8);
+					addOffset("singRIGHT", -18, -11);
+					addOffset("singLEFT", 2, -23);
+					addOffset("singDOWN", 0, -85);
+					addOffset("singUPmiss", -19, 5);
+					addOffset("singRIGHTmiss", -20, -27);
+					addOffset("singLEFTmiss", 13, -25);
+					addOffset("singDOWNmiss", -2, -79);
+					
+					addOffset("singUP-stressed", -20, 8);
+					addOffset("singRIGHT-stressed", -18, -11);
+					addOffset("singLEFT-stressed", 2, -23);
+					addOffset("singDOWN-stressed", 0, -85);
+					addOffset("singUPmiss-stressed", -19, 5);
+					addOffset("singRIGHTmiss-stressed", -20, -27);
+					addOffset("singLEFTmiss-stressed", 13, -25);
+					addOffset("singDOWNmiss-stressed", -2, -79);
+					playAnim('danceLeft');
+	
+					flipX = true;
 			case 'bf-pixel':
 				frames = Paths.getSparrowAtlas('weeb/bfPixel');
 				animation.addByPrefix('idle', 'BF IDLE', 24, false);
@@ -580,6 +637,32 @@ class Character extends FlxSprite
 				updateHitbox();
 				antialiasing = false;
 				flipX = true;
+
+			case 'bf-death-street':
+				tex = Paths.getSparrowAtlas('STREETLIGHT_DEATH');
+				frames = tex;
+				animation.addByPrefix('deathConfirm', 'bf hat confirm instance 1', 24, false);
+				animation.addByPrefix('deathLoop', 'BF dead 3 loop instance 1', 24, true);
+				animation.addByPrefix('firstDeath', 'BF dead 3 instance 1', 24, false);
+	
+				addOffset('firstDeath', 500);
+				addOffset('deathLoop', 500);
+				addOffset('deathConfirm', 500);
+
+				playAnim('firstDeath');
+				flipX = true;
+
+			case 'bf-fucking-dies':
+				frames = Paths.getSparrowAtlas('EVISCERATION');
+				animation.addByPrefix('deathConfirm', 'BF dead 2 confirm instance 1', 24, false);
+				animation.addByPrefix('deathLoop', 'BF dead 2 loop instance 1', 24, true);
+				animation.addByPrefix('firstDeath', 'BF dies 2 instance 1', 24, false);
+				addOffset('firstDeath');
+				addOffset('deathLoop', -37, 30);
+				addOffset('deathConfirm', -37);
+				playAnim('firstDeath');
+				flipX = true;
+
 
 			case 'senpai':
 				frames = Paths.getSparrowAtlas('weeb/senpai');
@@ -694,6 +777,7 @@ class Character extends FlxSprite
 
 	override function update(elapsed:Float)
 	{
+		if (dodgetime > 0) dodgetime --;
 		if (!curCharacter.startsWith('bf'))
 		{
 			if (animation.curAnim.name.startsWith('sing'))
@@ -735,7 +819,9 @@ class Character extends FlxSprite
 	{
 		if (!debugMode)
 		{
-	
+			
+
+			
 			switch (curCharacter)
 			{
 				case 'gf' | 'gf-christmas' | 'gf-car' | 'gf-pixel' | 'gfpico' | 'gfpico2':
@@ -754,7 +840,7 @@ class Character extends FlxSprite
 						playAnim('idle',true);
 					danced = !danced;
 
-				case 'spooky' | 'bf-spooky':
+				case 'spooky' | 'bf-spooky' | 'bf-milf':
 					danced = !danced;
 
 					if (danced)
@@ -770,8 +856,13 @@ class Character extends FlxSprite
 					//not sure if this else is needed so uh, delete it if its unnecessary
 					playAnim('idle' + suffix);
 				case 'bf-car':
+					var suffix:String = "";
+					if (PlayState.fuckCval)
+					suffix = '-stressed';
+					else
+					suffix = '';
 					if(!danced)
-						playAnim('idle',true);
+						playAnim('idle' + suffix ,true);
 					danced = !danced;	
 				default:
 					playAnim('idle');

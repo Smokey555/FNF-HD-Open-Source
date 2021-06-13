@@ -1,0 +1,43 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:mom:defaultSweaty:BF...that was amazing...I'm so...exhilarated.
+:mom:defaultSweaty:You sapped me of all of my juices. From my mic, that is, hehe...
+:mom:defaultSweaty:I know you won, but...can you please, just come be a part of my collection?
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:clear:I don't want you!! DAMN!
+:effect:rightSide:
+:bf:clear:I'm with your daughter because I love HER.
+:effect:rightSide:
+:bf:dreamy:I love the way SHE smells, how HER voice sounds, how HER hair flows in the wind...
+
+:mom:angry: What are you saying?!
+
+:effect:rightSide:
+:bf:angry:I'M SAYING I LOVE FAT BITCHES!! Mainly the one I'm with, but the others are cool too!!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:happycry2: Eghhjgfhhfh hooohooooo!?
+
+:effect:rightSide:
+:bf:angry:ALSO, you just let those imps die. They had lives, too!
+
+:mom:angry:Tch, those imps couldn't take the heat, so they got kicked outta the kitchen.
+:mom:smirk:By that I mean their limbs are strewn along the road.
+:mom:happy:Agh, you two are perfect for eachother!! Whatever, you can have 'em girl.
+
+:effect:toRight:0.6
+:effect:flip:
+:gf:happycry:Momma!!
+:effect:rightSide:
+:effect:flip:
+:gf:happycry:Even though you've permanently damaged my view of you and made my ego plummet, I love you for this!
+
+:effect:rightSide:
+:bf:smile:You serious, ma?!
+
+:mom:smirk:Yeah, you're kinda boring, actually. Welcome to the Dearest family, hon.
+:mom:happy:Let's say, in a month or so, you come by for a...haunted house tour?

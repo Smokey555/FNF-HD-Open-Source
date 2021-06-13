@@ -17,7 +17,7 @@ class Portrait extends FlxSprite
 
     private var resize = 0.35;
 
-    private var characters:Array<String> = ["bf", "gf", "dad", "spooky", "monster", "pico", "darnell", "nene"];
+    private var characters:Array<String> = ["bf", "gf", "dad", "spooky", "monster", "pico", "darnell", "nene", 'mom', 'imps'];
 
     var posTween:FlxTween;
     var alphaTween:FlxTween;
@@ -30,6 +30,7 @@ class Portrait extends FlxSprite
         setGraphicSize(Std.int(width * resize));
         updateHitbox();
         scrollFactor.set();
+        antialiasing = true;
 
         refx = x;
         refy = y + height;
@@ -49,96 +50,149 @@ class Portrait extends FlxSprite
 
         switch(_character){
 
+            case "noChar":
+                addAnim("default", "noChar instance 1");
             case "bf":
-                animation.addByPrefix("default", "bf default.png", 0, false);
-                animation.addByPrefix("bfGf", "bf and gf default.png", 0, false);
-                animation.addByPrefix("confused", "bf confused.png", 0, false);
-                animation.addByPrefix("dazed", "bf dazed.png", 0, false);
-                animation.addByPrefix("defaultSweat", "bf default sweaty.png", 0, false);
-                animation.addByPrefix("fistSweat", "bf fist sweat.png", 0, false);
-                animation.addByPrefix("fist", "bf fist.png", 0, false);
-                animation.addByPrefix("flirt", "bf flirt.png", 0, false);
-                animation.addByPrefix("kiss", "bf kiss.png", 0, false);
-                animation.addByPrefix("nervous2", "bf nervous 2.png", 0, false);
-                animation.addByPrefix("nervous", "bf nervous.png", 0, false);
-                animation.addByPrefix("oof", "bf oof.png", 0, false);
-                animation.addByPrefix("questionMark", "bf question mark.png", 0, false);
-                animation.addByPrefix("reassure", "bf reassure.png", 0, false);
-                animation.addByPrefix("scoff", "bf scoff.png", 0, false);
-                animation.addByPrefix("smile", "bf smile.png", 0, false);
-                animation.addByPrefix("sulk", "bf sulk.png", 0, false);
-                animation.addByPrefix("clear", "bf week clear.png", 0, false);
+                addAnim("default", "bf default.png");
+                addAnim("bfGf", "bf and gf default.png");
+                addAnim("confused", "bf confused.png");
+                addAnim("dazed", "bf dazed.png");
+                addAnim("defaultSweat", "bf default sweaty.png");
+                addAnim("fistSweat", "bf fist sweat.png");
+                addAnim("fist", "bf fist.png");
+                addAnim('defaultBlush', 'bf default blush.png');
+                addAnim('fistBlush', 'bf fist blush.png');
+                addAnim('dreamy', 'bf dreamy.png');
+                addAnim('blush', 'bf blush.png');
+                addAnim('pant', 'bf pant.png');
+                addAnim('happyCry', 'bf happy cry.png');
+                addAnim('post-up', 'bf post-up.png');
+                addAnim('angry', 'bf angry.png');
+                addAnim('angry2', 'bf angry 2.png');
+                addAnim('cry', 'bf cry.png');
+                addAnim('sad', 'bf sad.png');
+                addAnim("flirt", "bf flirt.png");
+                addAnim("kiss", "bf kiss.png");
+                addAnim("nervous2", "bf nervous 2.png");
+                addAnim("nervous", "bf nervous.png");
+                addAnim("oof", "bf oof.png");
+                addAnim("questionMark", "bf question mark.png");
+                addAnim("reassure", "bf reassure.png");
+                addAnim("scoff", "bf scoff.png");
+                addAnim("smile", "bf smile.png");
+                addAnim("sulk", "bf sulk.png");
+                addAnim("clear", "bf week clear.png");
                 animation.play("default");
                 resize = 0.4;
             case "gf":
-                animation.addByPrefix("default", "gf default.png", 0, false);
-                animation.addByPrefix("angry", "gf angry.png", 0, false);
-                animation.addByPrefix("blush", "gf blush.png", 0, false);
-                animation.addByPrefix("confused", "gf confused.png", 0, false);
-                animation.addByPrefix("giggle", "gf giggle.png", 0, false);
-                animation.addByPrefix("grimace", "gf grimace.png", 0, false);
-                animation.addByPrefix("nervous", "gf nervous.png", 0, false);
-                animation.addByPrefix("owl", "gf owl.png", 0, false);
-                animation.addByPrefix("pout", "gf pout.png", 0, false);
-                animation.addByPrefix("smile", "gf smile.png", 0, false);
-                animation.addByPrefix("surprised", "gf surprised.png", 0, false);
-                animation.addByPrefix("wehhh", "gf wehhh.png", 0, false);
-                animation.addByPrefix("worry", "gf worry.png", 0, false);
-                animation.addByPrefix("nervous2", "nervous 2.png", 0, false);
+                addAnim("default", "gf default.png");
+                addAnim("angry", "gf angry.png");
+                addAnim("blush", "gf blush.png");
+                addAnim("confused", "gf confused.png");
+                addAnim("giggle", "gf giggle.png");
+                addAnim("grimace", "gf grimace.png");
+                addAnim("nervous", "gf nervous.png");
+                addAnim("owl", "gf owl.png");
+                addAnim("pout", "gf pout.png");
+                addAnim("smile", "gf smile.png");
+                addAnim("surprised", "gf surprised.png");
+                addAnim("wehhh", "gf wehhh.png");
+                addAnim("worry", "gf worry.png");
+                addAnim("nervous2", "nervous 2.png");
+                addAnim('happycry', 'gf happy cry.png');
+                addAnim('happycry2', 'gf happy cry 2.png');
+                addAnim('count', 'gf count.png');
+                addAnim('embarrassed','gf embarrassed.png');
+                addAnim('angry2', 'gf angry 2.png');
+                addAnim('reassure', 'gf reassure.png');
+                addAnim('cry','gf cry.png');
+                addAnim('think', 'gf think.png');
                 animation.play("default");
                 resize = 0.50;
             case "dad":
-                animation.addByPrefix("default", "dad default.png", 0, false);
-                animation.addByPrefix("bleed", "dad bleed 1.png", 0, false);
-                animation.addByPrefix("bleed2", "dad bleed 2.png", 0, false);
-                animation.addByPrefix("limit", "dad limit.png", 0, false);
-                animation.addByPrefix("mic", "dad mic.png", 0, false);
+                addAnim("default", "dad default.png");
+                addAnim("bleed", "dad bleed 1.png");
+                addAnim("bleed2", "dad bleed 2.png");
+                addAnim("limit", "dad limit.png");
+                addAnim("mic", "dad mic.png");
                 animation.play("default");
             case "spooky":
-                animation.addByPrefix("default", "skump default.png", 0, false);
-                animation.addByPrefix("happy", "skump happy.png", 0, false);
-                animation.addByPrefix("sad", "skump sad.png", 0, false);
+                addAnim("default", "skump default.png");
+                addAnim("happy", "skump happy.png");
+                addAnim("sad", "skump sad.png");
                 animation.play("default");
             case "monster":
-                animation.addByPrefix("default", "monster default.png", 0, false);
-                animation.addByPrefix("laugh", "monster laugh.png", 0, false);
-                animation.addByPrefix("smile", "monster smile.png", 0, false);
+                addAnim("default", "monster default.png");
+                addAnim("laugh", "monster laugh.png");
+                addAnim("smile", "monster smile.png");
                 animation.play("default");
             case "pico":
-                animation.addByPrefix("default", "pico default.png", 0, false);
-                animation.addByPrefix("angry", "pico angry.png", 0, false);
-                animation.addByPrefix("blush", "pico blush.png", 0, false);
-                animation.addByPrefix("choke", "pico choke.png", 0, false);
-                animation.addByPrefix("disappearing", "pico disappearing.png", 0, false);
-                animation.addByPrefix("furious2", "pico furious 2.png", 0, false);
-                animation.addByPrefix("furious", "pico furious.png", 0, false);
-                animation.addByPrefix("gloom", "pico gloom.png", 0, false);
-                animation.addByPrefix("grimace", "pico grimace.png", 0, false);
-                animation.addByPrefix("happy", "pico happy.png", 0, false);
-                animation.addByPrefix("bruh", "pico bruh.png", 0, false);
-                animation.addByPrefix("scoff", "pico scoff.png", 0, false);
-                animation.addByPrefix("shout", "pico shout.png", 0, false);
-                animation.addByPrefix("smile", "pico smile.png", 0, false);
+                addAnim("default", "pico default.png");
+                addAnim("angry", "pico angry.png");
+                addAnim("blush", "pico blush.png");
+                addAnim("choke", "pico choke.png");
+                addAnim("disappearing", "pico disappearing.png");
+                addAnim("furious2", "pico furious 2.png");
+                addAnim("furious", "pico furious.png");
+                addAnim("gloom", "pico gloom.png");
+                addAnim("grimace", "pico grimace.png");
+                addAnim("happy", "pico happy.png");
+                addAnim("bruh", "pico bruh.png");
+                addAnim("scoff", "pico scoff.png");
+                addAnim("shout", "pico shout.png");
+                addAnim("smile", "pico smile.png");
                 animation.play("default");
                 resize = 0.3;
             case "darnell":
-                animation.addByPrefix("default", "darnell default.png", 0, false);
-                animation.addByPrefix("shit", "darnell shit.png", 0, false);
-                animation.addByPrefix("shocked", "darnell shocked.png", 0, false);
+                addAnim("default", "darnell default.png");
+                addAnim("shit", "darnell shit.png");
+                addAnim("shocked", "darnell shocked.png");
                 animation.play("default");
                 resize = 0.38;
             case "nene":
-                animation.addByPrefix("default", "nene default.png", 0, false);
-                animation.addByPrefix("cries", "nene cries.png", 0, false);
-                animation.addByPrefix("disgusted", "nene disgusted.png", 0, false);
-                animation.addByPrefix("shocked", "nene shocked.png", 0, false);
+                addAnim("default", "nene default.png");
+                addAnim("cries", "nene cries.png");
+                addAnim("disgusted", "nene disgusted.png");
+                addAnim("shocked", "nene shocked.png");
                 animation.play("default");
                 resize = 0.5;
+             case "mom":
+                addAnim('default', 'mom default.png');
+                addAnim("defaultSweat", "mom default sweat.png");
+                addAnim("defaultHorny", "mom default horny.png");
+                addAnim("happy", "mom happy.png");
+                addAnim("crazy", "mom crazy.png");
+                addAnim("laugh", "mom laugh.png");
+                addAnim("point", "mom point.png");
+                addAnim("seduce", "mom seduce.png");
+                addAnim("smirk", "mom smirk.png");
+                addAnim("angry", "mom angry.png");
+                addAnim("grab", "mom grab.png");
+                addAnim("horny1", "mom horny 1.png");
+                addAnim("horny2", "mom horny 2.png");
+                addAnim("horny3", "mom horny 3.png");
+                animation.play("default");
+                resize = 0.2;
                 
+                case "imps":
+                addAnim('alvin', 'alvin.png');
+                addAnim('bojangles', 'bojangles.png');
+                addAnim('bubbles', 'bubbles.png');
+                addAnim('imps', 'imps.png');
+                addAnim('michael', 'michael.png');
+                animation.play("default");
+                resize = 0.4;
+        
 
         }
 
+     
+
     }
+    
+    function addAnim(anim:String, prefix:String){
+        animation.addByPrefix(anim,prefix, 0, false);
+    }    
 
     public function playFrame(?_frame:String = "default"){
 
@@ -240,12 +294,5 @@ class Portrait extends FlxSprite
         posTween = FlxTween.tween(this, {x: finalX}, time, {ease: FlxEase.quintOut});
     }
 
-    /*public function effectShake(?time:Float = 1){
-        
-        posTween.cancel();
-        var finalX = x;
-        x = FlxG.width;
-        posTween = FlxTween.tween(this, {x: finalX}, time, {ease: FlxEase.circOut});
-    }*/
-
+   
 }

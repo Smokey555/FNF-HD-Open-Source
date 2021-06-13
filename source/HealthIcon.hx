@@ -25,9 +25,11 @@ class HealthIcon extends FlxSprite
 
 			animation.add('bf', [0, 1, 0], 0, false, isPlayer);
 			animation.add('bf-spooky', [0, 1, 0], 0, false, isPlayer);
-			animation.add('bf-car', [0, 1], 0, false, isPlayer);
-			animation.add('mom-car', [0, 1], 0, false, isPlayer);
-			animation.add('mom-car-horny', [0, 1], 0, false, isPlayer);
+			animation.add('bf-car', [0, 1, 0], 0, false, isPlayer);
+			animation.add('bf-milf', [0, 1, 0], 0, false, isPlayer);
+			animation.add('mom', [15, 16, 17], 0, false, isPlayer);
+			animation.add('mom-car', [15, 16, 17], 0, false, isPlayer);
+			animation.add('mom-car-horny', [18,19,20], 0, false, isPlayer);
 			animation.add('spooky', [5, 6, 13], 0, false, isPlayer);
 			animation.add('pico', [7, 8, 14], 0, false, isPlayer);
 			animation.add('dad', [2, 3, 4], 0, false, isPlayer);
@@ -48,13 +50,14 @@ class HealthIcon extends FlxSprite
 			animation.add('bf', [0, 1], 0, false, isPlayer);
 			animation.add('bf-spooky', [0, 1], 0, false, isPlayer);
 			animation.add('bf-car', [0, 1], 0, false, isPlayer);
+			animation.add('bf-milf', [0, 1], 0, false, isPlayer);
 			animation.add('bf-christmas', [0, 1], 0, false, isPlayer);
 			animation.add('bf-pixel', [21, 21], 0, false, isPlayer);
 			animation.add('spooky', [2, 3], 0, false, isPlayer);
 			animation.add('pico', [4, 5], 0, false, isPlayer);
 			animation.add('mom', [6, 7], 0, false, isPlayer);
 			animation.add('mom-car', [6, 7], 0, false, isPlayer);
-			animation.add('mom-car-horny', [0, 1], 0, false, isPlayer);
+			animation.add('mom-car-horny', [6,7], 0, false, isPlayer);
 			animation.add('tankman', [8, 9], 0, false, isPlayer);
 			animation.add('face', [10, 11], 0, false, isPlayer);
 			animation.add('dad', [12, 13], 0, false, isPlayer);

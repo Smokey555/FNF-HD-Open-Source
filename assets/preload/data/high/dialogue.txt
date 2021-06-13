@@ -1,0 +1,89 @@
+:bg:news1:
+:sound:news/1:
+:noChar:default:Good evening, beautiful people.
+:sound:news/2:
+:noChar:default:This is KOL News Network with an update on the unusual high-speed chase unfolding along Route 76.
+:sound:news/3:
+:noChar:default:Two of the persons atop the involved matte-black limos have been identified as ex-popstar Mommy Mearest...
+:bg:news2:
+:sound:news/4:
+:noChar:default:That's a fuckin' stupid name...
+:bg:news1:
+:sound:news/5:
+:noChar:default:Ahem- and her daughter. with a number of other persons assumed to be affiliates and entourage.
+:sound:news/6:
+:noChar:default:Whatever the case, the road there is known to be littered with low-hanging street lights, so caution is advised.
+:bg:news2:
+:sound:news/7:
+:noChar:default:Seriously, who the fuck put those there!? There's, like, a twelve mile stretch with no light behind them.
+:bg:news1:
+:sound:news/8:
+:noChar:default:More on this high-speed action soon... 
+:bg:news2:
+:sound:news/9:
+:noChar:default:Was I supposed to say that? No? I don't give a shit, dude.
+
+:bg:blank:
+:music:mommiTalki:0.9
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:mom:default:Not bad, boy...not bad at all.
+
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:bf:pant:This shit...this shit is too much!!
+:effect:rightSide:
+:bf:pant:I see where those abs come from now...
+
+:mom:smirk:What're you starin' so hard for, boy? You want me??
+
+:effect:rightSide:
+:bf:fistBlush:Tch!! As if.
+
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:gf:angry:You're weird as hell mom! Why is it so hard for you and dad to be normal?
+:effect:rightSide:
+:gf:angry:Crashing my dates,
+:effect:rightSide:
+:gf:angry:trapping people into televisions,
+:effect:rightSide:
+:gf:angry:causing someone to smoke themselves from the sheer dread of having to deal with you guys??
+:effect:rightSide:
+:effect:flip:
+:gf:angry2:It's so annoying!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:effect:flip:
+:imps:bojangles:Ms. GF, please calm down suga'!
+:imps:bubbles:Your parents know what's best for ya...just chill on it.
+
+:effect:rightSide:
+:effect:flip:
+:gf:grimace:And bringing your simps along!? You're the worst.
+
+:mom:seduce:Your boyfriend don't seem to think so. Look at how he's pantin' from just bein' in my presence!
+
+:effect:rightSide:
+:bf:nervous:...
+
+:mom:seduce:Tell me, BF, what is it that you like the most about me?
+:mom:seduce:Is it...my scent? The way? My beautiful, long, curly hair...?
+:mom:grab:Or perhaps...somethin' else has your eye?
+
+:effect:rightSide:
+:bf:defaultBlush:Can we go to the next song please?
+
+:effect:rightSide:
+:gf:embarrassed:Why are you dodging the question you manwhore?!
+:effect:rightSide:
+:gf:embarrassed:(I'm losing him. It's so quick but, I'm already losing him.)
+:effect:rightSide:
+:gf:think:(It can't end like this. BF's gotta remember what he's doing this for...)
+
+:mom:point:Remember, BF. There's a huge difference between a woman, and a little girl.
+:mom:default:Perhaps this next one can show you what the former can do.

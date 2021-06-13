@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="billboards.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="billboards instance 10000" x="10" y="10" width="892" height="1120" frameX="-448" frameY="-98" frameWidth="1361" frameHeight="1252"/>
+	<SubTexture name="billboards instance 10001" x="912" y="10" width="1021" height="1156" frameX="-326" frameY="-96" frameWidth="1361" frameHeight="1252"/>
+	<SubTexture name="billboards instance 10002" x="1943" y="10" width="996" height="1015" frameX="-351" frameY="-100" frameWidth="1361" frameHeight="1252"/>
+	<SubTexture name="billboards instance 10003" x="2949" y="10" width="892" height="1120" frameX="-448" frameY="-98" frameWidth="1361" frameHeight="1252"/>
+	<SubTexture name="billboards instance 10004" x="10" y="1176" width="1115" height="1174" frameX="-236" frameY="-34" frameWidth="1361" frameHeight="1252"/>
+	<SubTexture name="billboards instance 10005" x="1135" y="1176" width="1356" height="1218" frameX="0" frameY="0" frameWidth="1361" frameHeight="1252"/>
+	<SubTexture name="billboards instance 10006" x="2501" y="1176" width="892" height="1120" frameX="-448" frameY="-98" frameWidth="1361" frameHeight="1252"/>
+	<SubTexture name="billboards instance 10007" x="10" y="2404" width="1067" height="1168" frameX="-294" frameY="-48" frameWidth="1361" frameHeight="1252"/>
+</TextureAtlas>

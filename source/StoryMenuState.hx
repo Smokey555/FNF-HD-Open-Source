@@ -27,7 +27,7 @@ class StoryMenuState extends MusicBeatState
 		['Bopeebo', 'Fresh', 'Dadbattle'],
 		['Spookeez', 'South', "Monster"],
 		['Pico', 'Philly', "Blammed"],
-		
+		['Satin-Panties', 'High', "Milf"]
 	];
 	var curDifficulty:Int = 1;
 
@@ -57,6 +57,7 @@ class StoryMenuState extends MusicBeatState
 	var txtWeekTitle:FlxText;
 
 	var curWeek:Int = 0;
+	var weekSprites:FlxSprite;
 
 	var txtTracklist:FlxText;
 
@@ -169,8 +170,20 @@ class StoryMenuState extends MusicBeatState
 			}
 
 			grpWeekCharacters.add(weekCharacterThing);
+			grpWeekCharacters.visible = false;
 		}
 
+		weekSprites =  new FlxSprite(yellowBG.x, yellowBG.y);
+		weekSprites.frames = Paths.getSparrowAtlas('weekspriteSheet');
+		weekSprites.animation.addByIndices('week0', 'week',[0],"", 1, false);
+		weekSprites.animation.addByIndices('week1', 'week',[1],"", 1, false);
+		weekSprites.animation.addByIndices('week2', 'week',[2],"", 1, false);
+		weekSprites.animation.addByIndices('week3', 'week',[3],"", 1, false);
+		weekSprites.animation.addByIndices('week4', 'week',[4],"", 1, false);
+		weekSprites.antialiasing = true;
+	
+	
+		
 		difficultySelectors = new FlxGroup();
 		add(difficultySelectors);
 
@@ -204,6 +217,7 @@ class StoryMenuState extends MusicBeatState
 
 		add(yellowBG);
 		add(grpWeekCharacters);
+		add(weekSprites);
 
 		txtTracklist = new FlxText(FlxG.width * 0.05, yellowBG.x + yellowBG.height + 100, 0, "Tracks", 32);
 		txtTracklist.alignment = CENTER;
@@ -372,12 +386,13 @@ class StoryMenuState extends MusicBeatState
 	function changeWeek(change:Int = 0):Void
 	{
 		curWeek += change;
-
+	
+	
 		if (curWeek >= weekData.length)
 			curWeek = 0;
 		if (curWeek < 0)
 			curWeek = weekData.length - 1;
-
+		weekSprites.animation.play('week' + curWeek);
 		var bullShit:Int = 0;
 
 		for (item in grpWeekText.members)

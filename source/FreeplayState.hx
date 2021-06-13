@@ -3,7 +3,7 @@ package;
 #if desktop
 import Discord.DiscordClient;
 #end
-import flash.text.TextField;
+
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
@@ -13,15 +13,22 @@ import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import lime.utils.Assets;
 import flixel.util.FlxTimer;
+import flixel.tweens.FlxEase;
+
+import flixel.tweens.FlxTween;
 
 using StringTools;
 
 class FreeplayState extends MusicBeatState
 {
+	
 	var songs:Array<SongMetadata> = [];
-
+	var beatArray:Array<Int> = [100,100,120,180,150,165,130,150,175,165,110,125,180];
 	var selector:FlxText;
+	
 	var curSelected:Int = 0;
+	var defaultCamZoom:Float = 1;
+	
 	var curDifficulty:Int = 1;
 
 	var scoreText:FlxText;
@@ -37,12 +44,15 @@ class FreeplayState extends MusicBeatState
 
 	override function create()
 	{
+
+		Conductor.changeBPM(110);
 		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglist'));
 
 		for (i in 0...initSonglist.length)
 		{
 			songs.push(new SongMetadata(initSonglist[i], 1, 'gf'));
 		}
+
 
 		/* 
 			if (FlxG.sound.music != null)
@@ -72,7 +82,8 @@ class FreeplayState extends MusicBeatState
 		if (StoryMenuState.weekUnlocked[3] || isDebug)
 			addWeek(['Pico', 'Philly', 'Blammed'], 3, ['pico']);
 		
-	
+		if (StoryMenuState.weekUnlocked[4] || isDebug)
+			addWeek(['Satin-Panties', 'High', 'Milf'], 4, ['mom-car']);
 
 		/*if (StoryMenuState.weekUnlocked[4] || isDebug)
 			addWeek(['Satin-Panties', 'High', 'Milf'], 4, ['mom']);
@@ -87,7 +98,7 @@ class FreeplayState extends MusicBeatState
 
 		// LOAD CHARACTERS
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
+		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('freeplayHD'));
 		add(bg);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
@@ -188,7 +199,23 @@ class FreeplayState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+
+		
+
+		
 		super.update(elapsed);
+		for (i in 0...iconArray.length)
+			{
+				iconArray[i].animation.curAnim.curFrame = 0;
+			}
+		if (Config.betterIcons)
+		iconArray[curSelected].animation.curAnim.curFrame = 2;
+		FlxG.camera.zoom = FlxMath.lerp(defaultCamZoom, FlxG.camera.zoom, 0.95);
+	
+	
+
+		if (FlxG.sound.music != null)
+			Conductor.songPosition = FlxG.sound.music.time;
 
 		if (FlxG.sound.music.volume < 0.7)
 		{
@@ -264,10 +291,37 @@ class FreeplayState extends MusicBeatState
 				diffText.text = "HARD";
 		}
 	}
+	override function beatHit()
+		{
+			super.beatHit();
+			trace(curBeat);
+		
+		
+		
+		
+			iconBop();
+			
+			if (FlxG.camera.zoom < 1.35 && songs[curSelected].songName.toLowerCase() == 'milf' && curBeat >= 8)
+				{
+					FlxG.camera.zoom += 0.030;
+					
+				}
+			//Sum extra detail
+			if (FlxG.camera.zoom < 1.35 && songs[curSelected].songName.toLowerCase() == 'milf' && curBeat >= 168 && curBeat < 200)
+				{
+					FlxG.camera.zoom += 0.060;
+						
+				}
+			
+
+		}
+	
+		
 
 	function changeSelection(change:Int = 0)
 	{
 
+		
 		// NGio.logEvent('Fresh');
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 
@@ -278,6 +332,8 @@ class FreeplayState extends MusicBeatState
 		if (curSelected >= songs.length)
 			curSelected = 0;
 
+
+		
 		// selector.y = (70 * curSelected) + 30;
 
 		#if !switch
@@ -286,8 +342,10 @@ class FreeplayState extends MusicBeatState
 		#end
 
 		#if PRELOAD_ALL
+		FlxG.sound.music.stop();
 		songWait.cancel();
 		songWait.start(1, function(tmr:FlxTimer) {
+			Conductor.changeBPM(beatArray[curSelected]);
 			FlxG.sound.playMusic(Paths.inst(songs[curSelected].songName), 0);
 		});
 		#end
@@ -316,7 +374,19 @@ class FreeplayState extends MusicBeatState
 			}
 		}
 	}
+
+	function iconBop(?_scale:Float = 1.25, ?_time:Float = 0.2):Void {
+		iconArray[curSelected].iconScale = iconArray[curSelected].defualtIconScale * _scale;
+	
+	
+		FlxTween.tween(iconArray[curSelected], {iconScale: iconArray[curSelected].defualtIconScale}, _time, {ease: FlxEase.quintOut});
+		
+		}
+	
+
 }
+
+
 
 class SongMetadata
 {

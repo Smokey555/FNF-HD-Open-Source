@@ -221,7 +221,7 @@ class Note extends FlxSprite
 				wasGoodHit = true;
 		}
 
-		if (canBeHit && Config.noteGlow && !isSustainNote){
+		if (canBeHit && Config.noteGlow && !isSustainNote && !warning){
 			switch (noteData)
 			{
 				case 2:

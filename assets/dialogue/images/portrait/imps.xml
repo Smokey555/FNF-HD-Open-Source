@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SIMPS.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="alvin.png instance 1" x="10" y="10" width="1853" height="876"/>
+	<SubTexture name="bojangles.png instance 1" x="1873" y="10" width="1853" height="887"/>
+	<SubTexture name="bubbles.png instance 1" x="10" y="907" width="1853" height="983"/>
+	<SubTexture name="imps.png instance 1" x="10" y="1900" width="2737" height="618"/>
+	<SubTexture name="michael.png instance 1" x="10" y="2528" width="1853" height="983"/>
+</TextureAtlas>

@@ -1,0 +1,121 @@
+:bg:week4_1:
+:music:mommiTalki:0.9
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:default:Hey BF, they're playin my momma's song on the radio! You vibin' with it?
+
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:bf:smile:Yee yee, I'm rockin' with it!
+:effect:rightSide:
+:bf:smile:Y'know, GF? I don't think I've ever been with someone who makes me as happy as you do.
+:effect:rightSide:
+:bf:smile:It's so nice having someone as clingy as me by my side.
+
+:gf:smile:I wouldn't say I'm clingy, I'm just here to see you kick ass and not die!
+
+:effect:rightSide:
+:bf:sad:...
+
+:gf:worry:What's with the face? It's the truth.
+
+:effect:rightSide:
+:bf:sad:Right.
+:effect:rightSide:
+:bf:confused:Speaking of relationships...what did you do to Pico a few weeks ago?
+
+:gf:reassure:Oh him? Well, you know the shadow realm from Yu-Gi-Oh?
+:gf:reassure: It's essentially like that. He isn't suffering or anything, but he belongs to us...
+:gf:reassure:Me specifically.
+
+:effect:rightSide:
+:bf:angry:Aight, that's real sus.
+:effect:rightSide:
+:bf:angry:Why are you having another man around all the time huh?
+
+:effect:flip:
+:gf:angry:Are you dense? Why are you jumping to conclusions all defensively?
+:effect:flip:
+:gf:angry:I might have him around all the time, but he isn't even able to interact with me unless I say so.
+
+:effect:rightSide:
+:bf:scoff:None of this seems right to me.
+:effect:rightSide:
+:bf:scoff:The last couple of things you just said make me doubt your feelings for me.
+
+:gf:grimace:Come on now! Even if we've only been dating for less than 3 months, that doesn't mean shit--
+
+:effect:rightSide:
+:bf:angry:You're saying that I don't mean shit!?
+
+:gf:ugh:NO! UGH YOU'RE BEING ANNOYING THAT'S NOT EVEN WHAT I MEANT--
+:gf:owl: *thud*
+:gf:owl:Wait, did you hear that?
+:noChar:default:(???): Don't waste yer time believin' her.
+
+:effect:rightSide:
+:bf:post-up:What the--?! Who's there?!
+
+:bg:week4_2:
+
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:mom:default:Also, you're grounded, 'member? Your father and I own that ginger now. YOU can't use him.
+
+:effect:flip:
+:effect:toRight:0.6
+:gf:surprised:Momma??
+
+:mom:default:It's me honey! I'm crashin' this party.
+
+:effect:rightSide:
+:bf:blush:T-THAT'S YOUR MOM????
+
+:effect:rightSide:
+:gf:embarrassed:YEAH?? DON'T GET ANY IDEAS--
+
+:mom:point:SILENCE, GEAREST.
+:mom:point:Bojangles, Bubbles, Alvin, Michael!
+
+:effect:fadeIn:0.2
+:imps:imps:Ma'am, yes ma'am!!
+
+:mom:point:Make sure she doesn't get away or compromise this situation.
+
+:imps:imps:Aye!!
+
+:mom:default:Sorry to crash y'alls date, but yer initiation ain't over yet boy!
+
+:effect:rightSide:
+:gf:angry:You said you were staying out of this, mother.
+
+:mom:default:I was. Then Gnomeo over here decided to embarrass my shnuckums in front of his fans...
+:mom:default:You wouldn't believe how much he sobbed in my arms the night it happened.
+:mom:point:Tell me your name, boy.
+
+:effect:rightSide:
+:bf:nervous:BF...My name's BF. Like, Boyfriend.
+
+:mom:laugh:KEKEKEKE!! That's the dumbest name I've ever heard of!
+:mom:default:Anyway's, the name's Mommy Mearest.
+:mom:seduce:After this, though, the only thing you'll be callin' me is Mommy.
+
+:effect:rightSide:
+:bf:default:PFFT, you're funny. I like you, lady!
+
+:effect:rightSide:
+:effect:flip:
+:gf:think:(Thinking: The hell is she doing? Is she...she's trying to seduce BF, isn't she?!)
+:effect:rightSide:
+:gf:angry:(...Ugh! Whatever, I know BF's heart is in the right place! He's not going to fall for it.)
+:effect:rightSide:
+:effect:flip:
+:gf:think:(Then again...I made him really upset with me.) 
+:effect:rightSide:
+:effect:flip:
+:gf:think:(It might make it easier for him to succumb to her charms...)
+:effect:rightSide:
+:effect:flip:
+:gf:think:(Whatever! I always put my trust in you, BF, and I'll keep doing it. Prove me wrong!)

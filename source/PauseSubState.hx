@@ -1,5 +1,6 @@
 package;
 
+
 import Controls.Control;
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -26,6 +27,7 @@ class PauseSubState extends MusicBeatSubstate
 	{
 		super();
 
+	
 		pauseMusic = new FlxSound().loadEmbedded(Paths.music('breakfast'), true, true);
 		pauseMusic.volume = 0;
 		pauseMusic.play(false, FlxG.random.int(0, Std.int(pauseMusic.length / 2)));
@@ -105,6 +107,9 @@ class PauseSubState extends MusicBeatSubstate
 			{
 				case "Resume":
 					close();
+					if ((PlayState.SONG.song.toLowerCase() == 'high' || PlayState.SONG.song.toLowerCase() == 'milf') && PlayState.timerStop)
+					PlayState.poleTimer.active = true;
+					
 				case "Restart Song":
 					FlxG.resetState();
 				case "Exit to menu":
