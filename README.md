@@ -13,6 +13,7 @@ Don't even dare to make shitty pull requests or you'll be shot
 - [Cval](https://twitter.com/cval_brown) - Lazy coding
 - [Luc](https://twitter.com/Leukuh) - Dialogue 
 - [Shinseinaken](https://twitter.com/shnsnkn) -Dialogue
+- [bbpanzu](https://twitter.com/bbsub3) - Coding
 
 [Donate to us](https://www.paypal.com/paypalme/kolsan8)
 
