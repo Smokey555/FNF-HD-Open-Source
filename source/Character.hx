@@ -157,15 +157,15 @@ class Character extends FlxSprite
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24);
 				animation.addByPrefix('singUP', 'Dad Sing note UP', 24);
-				animation.addByPrefix('singRIGHT', 'dad sing note right', 24);
+				animation.addByPrefix('singRIGHT', 'Dad Sing Note right', 24);
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
-				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
+				animation.addByPrefix('singLEFT', 'dad sing note LEFT', 24);
 
 				addOffset('idle', 0, 170);
-				addOffset("singUP", 7, 189);
-				addOffset("singRIGHT", 71, 143);
-				addOffset("singLEFT", -1, 144);
-				addOffset("singDOWN", 1, 114);
+				addOffset("singUP", -7, 163);
+				addOffset("singRIGHT", -3, 134);
+				addOffset("singLEFT", 20, 140);
+				addOffset("singDOWN", 5, 82);
 
 				playAnim('idle');
 				
@@ -387,11 +387,24 @@ class Character extends FlxSprite
 
 				flipX = true;
 
-				case 'bf-spooky':
-				var tex = Paths.getSparrowAtlas('BOYFRIEND');
+				case 'bf-death':
+				var tex = Paths.getSparrowAtlas('GAME_OVER');
 				frames = tex;
-				animation.addByPrefix('idle', 'Idle', 24, false);
-				animation.addByPrefix('idle-stressed', 'Stressed Idle', 24, false);
+				animation.addByPrefix('firstDeath', "BF dies", 24, false);
+				animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
+				animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
+				setGraphicSize(Std.int(width * 0.94));
+				updateHitbox();
+				flipX = true;
+
+				
+				addOffset('firstDeath', -3, 13);
+				addOffset('deathLoop', -20, 8);
+				addOffset('deathConfirm', -24, 76);
+
+				case 'bf-spooky':
+				var tex = Paths.getSparrowAtlas('bfSpooky');
+				frames = tex;
 				animation.addByPrefix('singUP', 'Sing Up', 24, false);
 				animation.addByPrefix('singUP-stressed', 'Stressed Up', 24, false);
 				animation.addByPrefix('singLEFT', 'Sing Left', 24, false);
@@ -408,16 +421,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHTmiss-stressed', 'Miss Stress Right', 24, false);
 				animation.addByPrefix('singDOWNmiss', 'Miss Down', 24, false);
 				animation.addByPrefix('singDOWNmiss-stressed', 'Miss Stress Down', 24, false);
-				animation.addByPrefix('hey', 'BF HEY', 24, false);
-				animation.addByPrefix('firstDeath', "BF dies", 24, false);
-				animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
-				animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
-
-				animation.addByIndices('danceLeft', 'BF-spooky', [0, 1, 2, 3, 4, 5, 6, 7], "", 24, false);
-				animation.addByIndices('danceRight', 'BF-spooky', [8, 9, 10, 11, 12, 13, 14, 15], "", 24, false);
+		
+				animation.addByIndices('danceLeft', 'BF-spooky instance 1', [0, 1, 2, 3, 4, 5, 6, 7], "", 24, false);
+				animation.addByIndices('danceRight', 'BF-spooky instance 1', [8, 9, 10, 11, 12, 13, 14, 15], "", 24, false);
 
 
-				animation.addByPrefix('scared', 'BF idle shaking', 24);
+			
 				setGraphicSize(Std.int(width * 0.94));
 				updateHitbox();
 
@@ -447,12 +456,10 @@ class Character extends FlxSprite
 				addOffset("singDOWNmiss-stressed", -37, -56);
 
 				addOffset("hey", -1, -1);
-				addOffset('firstDeath', -10, 9);
-				addOffset('deathLoop', -20, 8);
-				addOffset('deathConfirm', -20, 62);
+				
 				addOffset('scared', -9, -4);
 
-				playAnim('idle');
+				playAnim('danceLeft');
 
 				flipX = true;
 

@@ -42,10 +42,12 @@ class ConfigMenu extends MusicBeatState
 	var cutsceneValue:String;
 	var glowValue:Bool;
 	var randomTapValue:Bool;
+	var disableDodgeSoundValue:Bool;
 	
 	var canChangeItems:Bool = true;
 
 	var leftRightCount:Int = 0;
+	public static var ingame:Bool = false;
 	
 	var settingDesc:Array<String> = [
 		"Adjust note timings.\nPress \"ENTER\" to start the offset calibration." + (FlxG.save.data.ee1?"\nHold \"SHIFT\" to force the pixel calibration.\nHold \"CTRL\" to force the normal calibration.":""), 
@@ -58,12 +60,15 @@ class ConfigMenu extends MusicBeatState
 		"Makes note arrows glow if they are able to be hit.\n[This disables modded note arrows unless there is a version of the files included in the mod.]",
 		"Prevents you from missing when you don't need to play.",
 		"Toggle Cutscenes. Everywhere option enables them in Freeplay. (Diaper mode turns them off, pussy.)",
+		"Disable the dodge sound effect.",
 		"Change custom key binds."
+		
 									];
 
 
 	override function create()
 	{	
+		trace('INGAME MODE : ' + ingame);
 		if(startSong)
 			FlxG.sound.playMusic(Paths.music("configurator", "fpsPlus"), 1, true);
 		else
@@ -78,16 +83,6 @@ class ConfigMenu extends MusicBeatState
 		bg.screenCenter();
 		add(bg);
 	
-		// var magenta = new FlxSprite(-80).loadGraphic('assets/images/menuBGMagenta.png');
-		// magenta.scrollFactor.x = 0;
-		// magenta.scrollFactor.y = 0;
-		// magenta.setGraphicSize(Std.int(magenta.width * 1.18));
-		// magenta.updateHitbox();
-		// magenta.screenCenter();
-		// magenta.visible = false;
-		// magenta.antialiasing = true;
-		// add(magenta);
-		// magenta.scrollFactor.set();
 		
 		Config.reload();
 		
@@ -102,6 +97,7 @@ class ConfigMenu extends MusicBeatState
 		cutsceneValue = Config.disableCutscenes;
 		glowValue = Config.noteGlow;
 		randomTapValue = Config.noRandomTap;
+		disableDodgeSoundValue = Config.disableDodgeSound;
 		cutsceneTypeInt = cutsceneTypes.indexOf(Config.disableCutscenes);
 		
 		var tex = Paths.getSparrowAtlas('FNF_main_menu_assets');
@@ -123,10 +119,9 @@ class ConfigMenu extends MusicBeatState
 		configText.borderSize = 3;
 		configText.borderQuality = 1;
 		
-		descText = new FlxText(320, 620, 640, "", 20);
+		descText = new FlxText(100, 660, 720, "", 20);
 		descText.scrollFactor.set(0, 0);
 		descText.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, FlxTextAlign.CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		//descText.borderSize = 3;
 		descText.borderQuality = 1;
 
 		add(configText);
@@ -152,6 +147,7 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue + 
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 1:
@@ -166,6 +162,7 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue + 
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 2:
@@ -179,7 +176,8 @@ class ConfigMenu extends MusicBeatState
 				"\nNEW INPUT: " + inputValue +
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue +
-				"\nCUTSCENES: " + cutsceneValue + 
+				"\nCUTSCENES: " + cutsceneValue +
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue + 
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 3:
@@ -194,6 +192,7 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue +
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 4:
@@ -208,6 +207,7 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue + 
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 5:
@@ -222,6 +222,7 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue +
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 6:
@@ -236,6 +237,7 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue + 
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 7:
@@ -250,6 +252,7 @@ class ConfigMenu extends MusicBeatState
 				"\n>NOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue + 
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 8:
@@ -264,6 +267,7 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\n>ALLOW GHOST TAPPING: " + randomTapValue + 
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 9:
@@ -278,6 +282,7 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue +  
 				"\n>CUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n[EDIT KEY BINDS]\n" +
 				"\n";
 			case 10:
@@ -292,6 +297,22 @@ class ConfigMenu extends MusicBeatState
 				"\nNOTE GLOW: " + glowValue +
 				"\nALLOW GHOST TAPPING: " + randomTapValue +  
 				"\nCUTSCENES: " + cutsceneValue + 
+				"\n>DISABLE DODGE SOUND: " + disableDodgeSoundValue +
+				"\n[EDIT KEY BINDS]\n" +
+				"\n";
+			case 11:
+				configText.text = 
+				"NOTE OFFSET: " + offsetValue + "ms" +
+				"\nACCURACY DISPLAY: " + accuracyType + 
+				"\nHP GAIN MULTIPLIER: " + healthValue / 10.0 + 
+				"\nHP DRAIN MULTIPLIER: " + (healthDrainValue / 10.0) + 
+				"\nHD HEALTH HEADS: " + iconValue +
+				"\nDOWNSCROLL: " + downValue +
+				"\nNEW INPUT: " + inputValue +
+				"\nNOTE GLOW: " + glowValue +
+				"\nALLOW GHOST TAPPING: " + randomTapValue +  
+				"\nCUTSCENES: " + cutsceneValue + 
+				"\nDISABLE DODGE SOUND: " + disableDodgeSoundValue +
 				"\n>[EDIT KEY BINDS]\n" +
 				"\n";
 		}
@@ -354,7 +375,7 @@ class ConfigMenu extends MusicBeatState
 
 						if(FlxG.keys.justPressed.ENTER){
 							FlxG.sound.music.fadeOut(0.3);
-							Config.write(offsetValue, accuracyType, healthValue / 10.0, healthDrainValue / 10.0, iconValue, downValue, inputValue, glowValue, randomTapValue, cutsceneValue);
+							Config.write(offsetValue, accuracyType, healthValue / 10.0, healthDrainValue / 10.0, iconValue, downValue, inputValue, glowValue, randomTapValue, cutsceneValue, disableDodgeSoundValue);
 							AutoOffsetState.forceEasterEgg = FlxG.keys.pressed.SHIFT ? 1 : (FlxG.keys.pressed.CONTROL ? -1 : 0);
 							FlxG.switchState(new AutoOffsetState());
 						}
@@ -510,12 +531,17 @@ class ConfigMenu extends MusicBeatState
 						if (cutsceneTypeInt < 0)
 							cutsceneTypeInt = 2;
 						cutsceneValue = cutsceneTypes[cutsceneTypeInt];
+					case 10: //Disable High Sound
+					if (controls.RIGHT_P || controls.LEFT_P) {
+						FlxG.sound.play(Paths.sound("scrollMenu"));
+						disableDodgeSoundValue = !disableDodgeSoundValue;
+					}
 
-					case 10: //Binds
+					case 11: //Binds
 						if (FlxG.keys.justPressed.ENTER) {
 							canChangeItems = false;
 							FlxG.sound.play(Paths.sound("scrollMenu"));
-							Config.write(offsetValue, accuracyType, healthValue / 10.0, healthDrainValue / 10.0, iconValue, downValue, inputValue, glowValue, randomTapValue, cutsceneValue);
+							Config.write(offsetValue, accuracyType, healthValue / 10.0, healthDrainValue / 10.0, iconValue, downValue, inputValue, glowValue, randomTapValue, cutsceneValue, disableDodgeSoundValue);
 							FlxG.switchState(new KeyBindMenu());
 						}
 						
@@ -524,10 +550,13 @@ class ConfigMenu extends MusicBeatState
 
 			if (controls.BACK)
 			{
-				Config.write(offsetValue, accuracyType, healthValue / 10.0, healthDrainValue / 10.0, iconValue, downValue, inputValue, glowValue, randomTapValue, cutsceneValue);
+				Config.write(offsetValue, accuracyType, healthValue / 10.0, healthDrainValue / 10.0, iconValue, downValue, inputValue, glowValue, randomTapValue, cutsceneValue, disableDodgeSoundValue);
 				canChangeItems = false;
 				FlxG.sound.music.stop();
 				FlxG.sound.play(Paths.sound("cancelMenu"));
+				if (ingame)
+				FlxG.switchState(new PlayState());
+				else
 				FlxG.switchState(new MainMenuState());
 			}
 
@@ -541,6 +570,9 @@ class ConfigMenu extends MusicBeatState
 					FlxG.sound.music.stop();
 					FlxG.sound.play(Paths.sound("cancelMenu"));
 
+					if (ingame)
+					FlxG.switchState(new PlayState());
+					else
 					FlxG.switchState(new MainMenuState());
 				}
 		

@@ -16,6 +16,7 @@ class Config
 	public static var noteGlow:Bool;
 	public static var noRandomTap:Bool;
 	public static var disableCutscenes:String;
+	public static var disableDodgeSound:Bool;
 
 	public static function resetSettings():Void{
 
@@ -29,6 +30,7 @@ class Config
 		FlxG.save.data.noteGlow = false;
 		FlxG.save.data.noRandomTap = false;
 		FlxG.save.data.disableCutscenes = 'story';
+		FlxG.save.data.disableDodgeSound = false;
 		reload();
 
 	}
@@ -45,6 +47,7 @@ class Config
 		noteGlow = FlxG.save.data.noteGlow;
 		noRandomTap = FlxG.save.data.noRandomTap;
 		disableCutscenes = FlxG.save.data.disableCutscenes;
+		disableDodgeSound = FlxG.save.data.disableDodgeSound;
 	}
 	
 	public static function write(
@@ -57,7 +60,8 @@ class Config
 								newInputW:Bool,
 								noteGlowW:Bool,
 								noRandomTapW:Bool,
-								disableCutscenesW:String
+								disableCutscenesW:String,
+								disableDodgeSoundW:Bool
 								):Void
 	{
 
@@ -71,6 +75,7 @@ class Config
 		FlxG.save.data.noteGlow = noteGlowW;
 		FlxG.save.data.noRandomTap = noRandomTapW;
 		FlxG.save.data.disableCutscenes = disableCutscenesW;
+		FlxG.save.data.disableDodgeSound = disableDodgeSoundW;
 		
 		reload();
 
@@ -98,6 +103,8 @@ class Config
 			FlxG.save.data.noRandomTap = false;
 		if(FlxG.save.data.disableCutscenes == null)
 			FlxG.save.data.disableCutscenes = 'story';
+		if(FlxG.save.data.disableDodgeSound == null)
+			FlxG.save.data.disableDodgeSound = false;
 		//bruh
 		
 

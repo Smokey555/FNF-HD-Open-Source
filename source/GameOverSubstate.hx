@@ -49,7 +49,7 @@ class GameOverSubstate extends MusicBeatSubstate
 				stageSuffix = '-pixel';
 				daBf = 'bf-pixel-dead';
 			case 'limo':
-				daBf = 'bf';
+				daBf = 'bf-death';
 				if(gotfuckinblown)daBf = 'bf-fucking-dies';
 				if (gofuckingdecked){
 					daBf = 'bf-death-street';
@@ -63,7 +63,7 @@ class GameOverSubstate extends MusicBeatSubstate
 				});
 				}
 			default:
-				daBf = 'bf';
+				daBf = 'bf-death';
 		}
 
 		super();

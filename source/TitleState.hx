@@ -305,7 +305,7 @@ class TitleState extends MusicBeatState
 			});
 			// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
 		}
-		new FlxTimer().start(0.2, function(tmr:FlxTimer) {
+		new FlxTimer().start(1, function(tmr:FlxTimer) {
 		if (pressedEnter && !skippedIntro)
 		{
 			skipIntro();

@@ -189,6 +189,7 @@ class MainMenuState extends MusicBeatState
 										//FlxTransitionableState.skipNextTransIn = true;
 										//FlxTransitionableState.skipNextTransOut = true;
 										FlxG.switchState(new ConfigMenu());
+										ConfigMenu.ingame = false;
 								}
 							});
 						}

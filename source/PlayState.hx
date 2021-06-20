@@ -130,7 +130,7 @@ class PlayState extends MusicBeatState
 	var doof:DialogueBox;
 	var overlay:FlxSprite;
 	var doof2:DialogueBox;
-
+	var skyBG:FlxSprite;
 	var fReturn:String;
 	var lamp:FlxSprite;
 	var hitbox:FlxSprite;
@@ -189,7 +189,7 @@ class PlayState extends MusicBeatState
 
 	override public function create()
 	{
-		trace('Hi cyndaquillaAC or whatever your name is');
+	
 		trace(Config.disableCutscenes);
 		Conductor.setSafeZone();
 		canHit = !Config.noRandomTap;
@@ -364,7 +364,7 @@ class PlayState extends MusicBeatState
 			ayoLookOut.visible = false;
 			ayoLookOut.scrollFactor.set();
 			FlxFlicker.flicker(ayoLookOut,0);
-			var skyBG:FlxSprite = new FlxSprite(-300, -600).loadGraphic(Paths.image('limo/limoSunset'));
+			skyBG = new FlxSprite(-300, -600).loadGraphic(Paths.image('limo/limoSunset'));
 			skyBG.scrollFactor.set(0.1, 0.1);
 			add(skyBG);
 
@@ -454,7 +454,6 @@ class PlayState extends MusicBeatState
 			dumbass = 14;
 			case 'high':
 			dumbass = 60;
-			skyBG.velocity.y = 2;
 			case 'milf':
 			skyBG.y += 300;
 			dumbass = 73;
@@ -1163,6 +1162,9 @@ class PlayState extends MusicBeatState
 
 	function startCountdown():Void
 	{
+
+		if (SONG.song.toLowerCase() == 'high')
+		skyBG.velocity.y = 2;
 		inCutscene = false;
 		camHUD.visible = true;
 
@@ -1660,7 +1662,8 @@ class PlayState extends MusicBeatState
 				}
 				if (lamp.x > -2400){
 					ayoLookOut.visible = true;
-					if(lamp.x < -2000)FlxG.sound.play(Paths.sound("warning", "week4"),0.65);
+					if(lamp.x < -2000 && !Config.disableDodgeSound)
+					FlxG.sound.play(Paths.sound("warning", "week4"),0.65);
 				}
 				
 				if (lamp.x > 80){
