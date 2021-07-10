@@ -1,11 +1,7 @@
 package;
 
-import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.animation.FlxBaseAnimation;
 import flixel.graphics.frames.FlxAtlasFrames;
-import flixel.system.FlxSound;
-import flixel.util.FlxColor;
 
 using StringTools;
 

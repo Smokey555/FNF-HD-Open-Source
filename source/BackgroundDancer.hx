@@ -1,10 +1,6 @@
 package;
 
-import flixel.math.FlxRandom;
 import flixel.FlxSprite;
-import flixel.graphics.frames.FlxAtlasFrames;
-import flixel.FlxG;
-
 class BackgroundDancer extends FlxSprite
 {
 
