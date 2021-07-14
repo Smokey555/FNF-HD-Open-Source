@@ -5,6 +5,7 @@ import flixel.FlxSprite;
 import flixel.math.FlxMath;
 import flixel.util.FlxTimer;
 
+import flixel.group.FlxSpriteGroup;
 using StringTools;
 
 /**
