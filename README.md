@@ -14,6 +14,7 @@ Don't even dare to make shitty pull requests or you'll be shot
 - [Luc](https://twitter.com/Leukuh) - Dialogue 
 - [Shinseinaken](https://twitter.com/shnsnkn) -Dialogue
 - [bbpanzu](https://twitter.com/bbsub3) - Coding
+- Me (y579) (https://twitter.com/y579_on_github) -Additonal Coding Help
 
 [Donate to us](https://www.paypal.com/paypalme/kolsan8)
 
