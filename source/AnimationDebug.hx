@@ -42,7 +42,7 @@ class AnimationDebug extends FlxState
 		gridBG.scrollFactor.set(0.5, 0.5);
 		add(gridBG);
 
-		if (daAnim == 'bf' )
+		if (daAnim == 'bf')
 			isDad = false;
 		
 		if (isDad)
@@ -55,7 +55,7 @@ class AnimationDebug extends FlxState
 			
 
 			char = dad;
-			if (daAnim == 'pico')
+			if (daAnim == 'pico' )
 			dad.flipX = true;
 			else
 			dad.flipX = false;

@@ -1,0 +1,18 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:smile:You don't have any special powers or anything BF...
+:gf:smile:But I swear every moment I spend with you feels like magic.
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:default:GF, promise me you'll always be here for me.
+:effect:rightSide:
+:bf:clear:No matter how crazy shit starts getting, that you'll be by my side.
+
+:gf:default:You know I'm not goin' anywhere. You're my favorite, I value you too much.
+
+:effect:rightSide:
+:bf:confused:...favorite what?
+
+:gf:giggle:Don't worry about it hon.

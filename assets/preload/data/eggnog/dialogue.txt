@@ -1,0 +1,85 @@
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:smile:Awww look at us, ain't we just one big, happy, discombobulated family?
+:effect:rightSide:
+:bf:smile:All adorbs and shit!
+:effect:rightSide:
+:bf:angry:Now let me talk to Santa!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:dad:default:You're not tryna spend some more time with us?
+:dad:smile:I think this is a wonderful bonding experience.
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:gf:angry:At the expense of others!
+:effect:rightSide:
+:gf:angry:Just look what you're doing to poor Santa.
+:effect:rightSide:
+:gf:point:By the way, what makes you guys think I'm all jolly with you two now?
+:effect:rightSide:
+:gf:point:At this point, I think you have some underlying reason for attacking my boyfriend.
+:effect:rightSide:
+:gf:angry:You either want him dead or want him working for you, huh?!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:mom:default:You're too young to understand, hon'.
+
+:dad:angry:He's got a power that no man on Earth could ever hope to possess.
+
+:effect:rightSide:
+:bf:defaultSweat:THE FUCK YOU MEAN? I JUST BE RAPPIN' N' SINGIN' N' SHIT!
+
+:dad:angry:That's the problem, Boyfriend.
+:dad:angry:ALL you do is rap and sing. Yet, for some reason, it's so entrancing.
+:dad:angry:You don't even know the weight of your powers.
+
+:effect:rightSide:
+:bf:nervous:...I don't know if it's that deep.
+
+:mom:point:Whether you wanna believe it or not, you have, and will continue to, harm innocents.
+:mom:seduce:What's worse is that you'll never understand 'til it's too late.
+:mom:happy:But hey, that's fine suga.
+:mom:happy:Keep that blissful ignorance.
+:mom:horny1:I adore it.
+
+:effect:flip:
+:effect:rightSide:
+:gf:confused:Wait wait, until it's too late for what?
+
+:dad:smile:Speaking of blissful, why don't we go back to our family bonding, eh Gilrfriend?
+
+:effect:flip:
+:effect:rightSide:
+:gf:grimace: eugh...
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:darnell:happy:AYO PICO, NENE COME SEE THIS! Santa's finna get shot!
+
+:effect:rightSide:
+:bf:confused:Pico?! Aren't you s'posed to be in a pocket dimension or somethin'?
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:pico:grimace:I'm not a pet, dumbass. I can still enjoy a Christmas evenin' at the mall.
+:pico:happy:Now let's go peep this function, Nene!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:nene:happy:Fuck an escalator! I could just fall faster.
+
+:noChar:default:*splatter*
+
+:pico:gloom:...
+
+:darnell:default:11. Shit can neva go right with you white niggas around.
+
+:effect:rightSide:
+:bf:fist:Alright pops, gimme somethin' more fast-paced this time! Last one was a sleeper.
+
+:dad:default 2:No problem, boh. Let's speed things up!

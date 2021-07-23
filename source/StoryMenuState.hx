@@ -27,11 +27,13 @@ class StoryMenuState extends MusicBeatState
 		['Bopeebo', 'Fresh', 'Dadbattle'],
 		['Spookeez', 'South', "Monster"],
 		['Pico', 'Philly', "Blammed"],
-		['Satin-Panties', 'High', "Milf"]
+		['Satin-Panties', 'High', "Milf"],
+		["Cocoa", "Eggnog", "Winter-Horrorland"],
+		['Breaking-Point']
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true];
+	public static var weekUnlocked:Array<Bool> = [true,true,true,true,true,true,true,true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['dad', 'bf', 'gf'],
@@ -40,18 +42,18 @@ class StoryMenuState extends MusicBeatState
 		['pico', 'bf', 'gf'],
 		['mom', 'bf', 'gf'],
 		['parents-christmas', 'bf', 'gf'],
-		['senpai', 'bf', 'gf'],
+		['dad', 'bf', 'gf'],
 		
 	];
 
 	var weekNames:Array<String> = [
 		"",
-		"Daddy Dearest",
-		"Spooky Month",
+		"DADDY DEAREST",
+		"SPOOKY MONTH",
 		"PICO",
 		"MOMMY MUST MURDER",
 		"RED SNOW",
-		"hating simulator ft. moawling"
+		"BREAKING POINT FT. MARBLE PAWNS"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -70,9 +72,12 @@ class StoryMenuState extends MusicBeatState
 	var sprDifficulty:FlxSprite;
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
-
+	var debug:Bool = false;
 	override function create()
 	{
+		#if debug
+		debug = true;
+		#end
 		transIn = FlxTransitionableState.defaultTransIn;
 		transOut = FlxTransitionableState.defaultTransOut;
 
@@ -173,13 +178,14 @@ class StoryMenuState extends MusicBeatState
 			grpWeekCharacters.visible = false;
 		}
 
-		weekSprites =  new FlxSprite(yellowBG.x, yellowBG.y);
-		weekSprites.frames = Paths.getSparrowAtlas('weekspriteSheet');
-		weekSprites.animation.addByIndices('week0', 'week',[0],"", 1, false);
-		weekSprites.animation.addByIndices('week1', 'week',[1],"", 1, false);
-		weekSprites.animation.addByIndices('week2', 'week',[2],"", 1, false);
-		weekSprites.animation.addByIndices('week3', 'week',[3],"", 1, false);
-		weekSprites.animation.addByIndices('week4', 'week',[4],"", 1, false);
+		weekSprites =  new FlxSprite(yellowBG.x, yellowBG.y).loadGraphic(Paths.image('weekspriteSheet'), true, 1280, 400);
+		weekSprites.animation.add('week0', [0], 0, false);
+		weekSprites.animation.add('week1', [1], 0, false);
+		weekSprites.animation.add('week2', [2], 0, false);
+		weekSprites.animation.add('week3', [3], 0, false);
+		weekSprites.animation.add('week4', [4], 0, false);
+		weekSprites.animation.add('week5', [5], 0, false);
+		weekSprites.animation.add('week6', [0], 0, false);
 		weekSprites.antialiasing = true;
 	
 	
@@ -306,7 +312,7 @@ class StoryMenuState extends MusicBeatState
 
 	function selectWeek()
 	{
-		if (weekUnlocked[curWeek])
+		if (weekUnlocked[curWeek] || debug)
 		{
 			if (stopspamming == false)
 			{

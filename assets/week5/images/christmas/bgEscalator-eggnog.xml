@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgEscalator2.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="esc00000" x="10" y="10" width="2973" height="1380"/>
+	<SubTexture name="esc10001" x="2993" y="10" width="2973" height="1380"/>
+	<SubTexture name="esc20002" x="10" y="1400" width="2973" height="1380"/>
+</TextureAtlas>

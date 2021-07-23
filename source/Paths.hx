@@ -109,6 +109,12 @@ class Paths
 	{
 		return FlxAtlasFrames.fromSparrow(image(key, library), file('images/$key.xml', library));
 	}
+	 inline static public function getCachedAtlas(ID:String,key:String, ?library:String)
+	 {
+		 var bitmap = GraphicsCacher.getCache(ID);
+		 trace('BITMAP EXISTS ' + bitmap);
+	 	return FlxAtlasFrames.fromSparrow(bitmap, file('images/$key.xml', library));
+	 }
 
 	inline static public function getPackerAtlas(key:String, ?library:String)
 	{

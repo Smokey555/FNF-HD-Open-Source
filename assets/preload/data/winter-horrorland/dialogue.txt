@@ -1,0 +1,37 @@
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:shocked:...
+
+:effect:fadeIn:4
+:monster:default:you enjoying the decorations, bud?
+
+:effect:rightSide:
+:bf:shocked:...
+
+:monster:default:come on, talk to me guy!
+:monster:default:you don't know how hard it was to kill that girl. she put up quite a fight.
+:monster:default:too bad she wasn't able to stick around!
+
+:effect:rightSide:
+:bf:shocked:...
+:effect:rightSide:
+:bf:shocked:Why man?
+:effect:rightSide:
+:bf:shocked:What did I ever do to you?
+
+:monster:default:nothin' to me. 
+:monster:default:you were just in the wrong relationship at the wrong time.
+
+:effect:rightSide:
+:bf:crying:you...
+
+:monster:default:no tears.
+:monster:default:head up, face me. time to carol.
+:monster:default:oh...one more thing...
+:monster:glare:watch out for gas.
+
+:effect:rightSide:
+:bf:wipe:
+:effect:rightSide:
+:bf:shocked:

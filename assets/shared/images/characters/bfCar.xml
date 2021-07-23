@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfCar.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle instance 10000" x="10" y="10" width="383" height="426" frameX="-3" frameY="-12" frameWidth="390" frameHeight="439"/>
+	<SubTexture name="Idle instance 10001" x="403" y="10" width="383" height="426" frameX="-3" frameY="-12" frameWidth="390" frameHeight="439"/>
+	<SubTexture name="Idle instance 10002" x="796" y="10" width="385" height="431" frameX="-2" frameY="-7" frameWidth="390" frameHeight="439"/>
+	<SubTexture name="Idle instance 10003" x="1191" y="10" width="385" height="431" frameX="-2" frameY="-7" frameWidth="390" frameHeight="439"/>
+	<SubTexture name="Idle instance 10004" x="1586" y="10" width="383" height="433" frameX="-4" frameY="-5" frameWidth="390" frameHeight="439"/>
+	<SubTexture name="Idle instance 10005" x="1979" y="10" width="383" height="433" frameX="-4" frameY="-5" frameWidth="390" frameHeight="439"/>
+	<SubTexture name="Idle instance 10006" x="2372" y="10" width="388" height="432" frameX="0" frameY="-6" frameWidth="390" frameHeight="439"/>
+	<SubTexture name="Idle instance 10007" x="2770" y="10" width="388" height="432" frameX="0" frameY="-6" frameWidth="390" frameHeight="439"/>
+	<SubTexture name="Idle instance 10008" x="3168" y="10" width="390" height="439"/>
+	<SubTexture name="Idle instance 10009" x="3568" y="10" width="390" height="439"/>
+	<SubTexture name="Idle instance 10010" x="3968" y="10" width="390" height="439"/>
+	<SubTexture name="Idle instance 10011" x="4368" y="10" width="390" height="439"/>
+	<SubTexture name="Idle instance 10012" x="3168" y="10" width="390" height="439"/>
+	<SubTexture name="Idle instance 10013" x="3568" y="10" width="390" height="439"/>
+	<SubTexture name="Miss Down instance 10000" x="4768" y="10" width="365" height="367" frameX="0" frameY="0" frameWidth="365" frameHeight="368"/>
+	<SubTexture name="Miss Down instance 10001" x="6301" y="10" width="346" height="358" frameX="-9" frameY="-9" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10002" x="6301" y="10" width="346" height="358" frameX="-9" frameY="-9" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10003" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10004" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10005" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10006" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10007" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10008" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10009" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10010" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10011" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10012" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10013" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10014" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10015" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10016" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10017" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10018" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10019" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10020" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10021" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10022" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10023" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10024" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10025" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10026" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10027" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Down instance 10028" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-13" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Left instance 10000" x="5143" y="10" width="357" height="428" frameX="-1" frameY="0" frameWidth="361" frameHeight="428"/>
+	<SubTexture name="Miss Left instance 10001" x="7381" y="10" width="361" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10002" x="7381" y="10" width="361" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10003" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10004" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10005" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10006" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10007" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10008" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10009" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10010" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10011" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10012" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10013" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10014" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10015" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10016" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10017" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10018" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10019" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10020" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10021" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10022" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10023" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10024" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10025" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10026" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10027" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10028" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10029" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10030" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10031" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10032" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Left instance 10033" x="7752" y="10" width="360" height="399" frameX="0" frameY="-21" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Right instance 10000" x="5510" y="10" width="406" height="429"/>
+	<SubTexture name="Miss Right instance 10001" x="440" y="469" width="371" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10002" x="440" y="469" width="371" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10003" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10004" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10005" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10006" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10007" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10008" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10009" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10010" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10011" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10012" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10013" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10014" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10015" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10016" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10017" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10018" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10019" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10020" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10021" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10022" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10023" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10024" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10025" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10026" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10027" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10028" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10029" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10030" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10031" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10032" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10033" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10034" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10035" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10036" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10037" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10038" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10039" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10040" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10041" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10042" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10043" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10044" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Right instance 10045" x="821" y="469" width="375" height="395" frameX="-9" frameY="-25" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Down instance 10000" x="5926" y="10" width="365" height="374"/>
+	<SubTexture name="Miss Stress Down instance 10001" x="6301" y="10" width="346" height="358" frameX="-9" frameY="-16" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10002" x="6301" y="10" width="346" height="358" frameX="-9" frameY="-16" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10003" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10004" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10005" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10006" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10007" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10008" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10009" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10010" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10011" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10012" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10013" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10014" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10015" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10016" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10017" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10018" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10019" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10020" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10021" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10022" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10023" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10024" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10025" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10026" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10027" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Down instance 10028" x="6657" y="10" width="348" height="355" frameX="-8" frameY="-19" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Miss Stress Left instance 10000" x="7015" y="10" width="356" height="449" frameX="-3" frameY="0" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10001" x="7381" y="10" width="361" height="399" frameX="-2" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10002" x="7381" y="10" width="361" height="399" frameX="-2" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10003" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10004" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10005" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10006" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10007" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10008" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10009" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10010" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10011" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10012" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10013" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10014" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10015" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10016" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10017" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10018" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10019" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10020" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10021" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10022" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10023" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10024" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10025" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10026" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10027" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10028" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10029" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10030" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10031" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10032" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Left instance 10033" x="7752" y="10" width="360" height="399" frameX="0" frameY="-43" frameWidth="363" frameHeight="449"/>
+	<SubTexture name="Miss Stress Right instance 10000" x="10" y="469" width="420" height="455"/>
+	<SubTexture name="Miss Stress Right instance 10001" x="440" y="469" width="371" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10002" x="440" y="469" width="371" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10003" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10004" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10005" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10006" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10007" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10008" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10009" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10010" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10011" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10012" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10013" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10014" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10015" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10016" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10017" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10018" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10019" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10020" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10021" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10022" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10023" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10024" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10025" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10026" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10027" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10028" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10029" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10030" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10031" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10032" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10033" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10034" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10035" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10036" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10037" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10038" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10039" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10040" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10041" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10042" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10043" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10044" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Right instance 10045" x="821" y="469" width="375" height="395" frameX="-10" frameY="-52" frameWidth="420" frameHeight="455"/>
+	<SubTexture name="Miss Stress Up instance 10000" x="1206" y="469" width="373" height="451" frameX="-5" frameY="0" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10001" x="1589" y="469" width="348" height="395" frameX="0" frameY="-56" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10002" x="1589" y="469" width="348" height="395" frameX="0" frameY="-56" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10003" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10004" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10005" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10006" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10007" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10008" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10009" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10010" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10011" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10012" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10013" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10014" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10015" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10016" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10017" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10018" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10019" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10020" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10021" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10022" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10023" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10024" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Stress Up instance 10025" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-53" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10000" x="2301" y="469" width="367" height="445" frameX="-12" frameY="0" frameWidth="379" frameHeight="445"/>
+	<SubTexture name="Miss Up instance 10001" x="1589" y="469" width="348" height="395" frameX="0" frameY="-49" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10002" x="1589" y="469" width="348" height="395" frameX="0" frameY="-49" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10003" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10004" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10005" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10006" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10007" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10008" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10009" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10010" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10011" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10012" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10013" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10014" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10015" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10016" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10017" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10018" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10019" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10020" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10021" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10022" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10023" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10024" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Miss Up instance 10025" x="1947" y="469" width="344" height="398" frameX="-2" frameY="-46" frameWidth="378" frameHeight="451"/>
+	<SubTexture name="Sing Down instance 10000" x="2678" y="469" width="365" height="343" frameX="0" frameY="-18" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10001" x="3053" y="469" width="365" height="343" frameX="0" frameY="-18" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10002" x="3428" y="469" width="365" height="357" frameX="0" frameY="-4" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10003" x="3803" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10004" x="4170" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10005" x="4537" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10006" x="4904" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10007" x="3803" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10008" x="4170" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10009" x="4537" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10010" x="4904" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10011" x="3803" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10012" x="4170" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10013" x="4537" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10014" x="4904" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10015" x="3803" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10016" x="4170" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10017" x="4537" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10018" x="4904" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10019" x="3803" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10020" x="4170" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10021" x="4537" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10022" x="4904" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10023" x="3803" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10024" x="4170" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10025" x="4537" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10026" x="4904" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10027" x="3803" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10028" x="4170" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10029" x="4537" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Down instance 10030" x="4904" y="469" width="357" height="360" frameX="-4" frameY="0" frameWidth="365" frameHeight="361"/>
+	<SubTexture name="Sing Left instance 10000" x="5271" y="469" width="356" height="424" frameX="0" frameY="0" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10001" x="5637" y="469" width="356" height="424" frameX="0" frameY="0" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10002" x="6003" y="469" width="356" height="424" frameX="0" frameY="0" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10003" x="6369" y="469" width="357" height="424"/>
+	<SubTexture name="Sing Left instance 10004" x="6736" y="469" width="353" height="422" frameX="-4" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10005" x="7099" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10006" x="7452" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10007" x="7805" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10008" x="10" y="934" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10009" x="7099" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10010" x="7452" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10011" x="7805" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10012" x="10" y="934" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10013" x="7099" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10014" x="7452" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10015" x="7805" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10016" x="10" y="934" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Left instance 10017" x="7099" y="469" width="343" height="422" frameX="-14" frameY="-2" frameWidth="357" frameHeight="424"/>
+	<SubTexture name="Sing Right instance 10000" x="363" y="934" width="413" height="433" frameX="-1" frameY="-1" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10001" x="786" y="934" width="413" height="433" frameX="-1" frameY="-1" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10002" x="1209" y="934" width="406" height="433" frameX="0" frameY="-1" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10003" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10004" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10005" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10006" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10007" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10008" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10009" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10010" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10011" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10012" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10013" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10014" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10015" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10016" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10017" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10018" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10019" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10020" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10021" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10022" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10023" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10024" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10025" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10026" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10027" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10028" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10029" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10030" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10031" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10032" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10033" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10034" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10035" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10036" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10037" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10038" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10039" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10040" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10041" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10042" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10043" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10044" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10045" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10046" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10047" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10048" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10049" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10050" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10051" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10052" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10053" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10054" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10055" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10056" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10057" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10058" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10059" x="1625" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10060" x="2037" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10061" x="2449" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Right instance 10062" x="2861" y="934" width="402" height="434" frameX="0" frameY="0" frameWidth="414" frameHeight="434"/>
+	<SubTexture name="Sing Up instance 10000" x="3273" y="934" width="357" height="471"/>
+	<SubTexture name="Sing Up instance 10001" x="3640" y="934" width="357" height="471"/>
+	<SubTexture name="Sing Up instance 10002" x="4007" y="934" width="357" height="455" frameX="0" frameY="-16" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10003" x="4374" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10004" x="4739" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10005" x="5104" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10006" x="5469" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10007" x="4374" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10008" x="4739" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10009" x="5104" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10010" x="5469" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10011" x="4374" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10012" x="4739" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10013" x="5104" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10014" x="5469" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Sing Up instance 10015" x="4374" y="934" width="355" height="445" frameX="0" frameY="-25" frameWidth="357" frameHeight="471"/>
+	<SubTexture name="Stressed Down instance 10000" x="5834" y="934" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10001" x="6209" y="934" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10002" x="6584" y="934" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10003" x="6959" y="934" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10004" x="7334" y="934" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10005" x="7709" y="934" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10006" x="10" y="1415" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10007" x="385" y="1415" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10008" x="760" y="1415" width="365" height="369" frameX="0" frameY="-5" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10009" x="1135" y="1415" width="357" height="374" frameX="-4" frameY="0" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10010" x="1502" y="1415" width="357" height="374" frameX="-4" frameY="0" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10011" x="1869" y="1415" width="357" height="374" frameX="-4" frameY="0" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10012" x="2236" y="1415" width="357" height="374" frameX="-4" frameY="0" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10013" x="1135" y="1415" width="357" height="374" frameX="-4" frameY="0" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10014" x="1502" y="1415" width="357" height="374" frameX="-4" frameY="0" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10015" x="1869" y="1415" width="357" height="374" frameX="-4" frameY="0" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Down instance 10016" x="2236" y="1415" width="357" height="374" frameX="-4" frameY="0" frameWidth="365" frameHeight="374"/>
+	<SubTexture name="Stressed Idle instance 10000" x="2603" y="1415" width="399" height="424" frameX="-1" frameY="-17" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10001" x="3012" y="1415" width="399" height="424" frameX="-1" frameY="-17" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10002" x="3421" y="1415" width="399" height="424" frameX="-1" frameY="-17" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10003" x="3830" y="1415" width="399" height="424" frameX="-1" frameY="-17" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10004" x="4239" y="1415" width="399" height="424" frameX="-1" frameY="-17" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10005" x="4648" y="1415" width="399" height="424" frameX="-1" frameY="-17" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10006" x="5057" y="1415" width="399" height="424" frameX="-1" frameY="-17" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10007" x="5466" y="1415" width="401" height="430" frameX="0" frameY="-12" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10008" x="5877" y="1415" width="401" height="430" frameX="0" frameY="-12" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10009" x="6288" y="1415" width="399" height="431" frameX="-3" frameY="-11" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10010" x="6697" y="1415" width="399" height="431" frameX="-3" frameY="-11" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10011" x="7106" y="1415" width="404" height="442" frameX="-1" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10012" x="7520" y="1415" width="404" height="442" frameX="-1" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10013" x="10" y="1867" width="405" height="442" frameX="-2" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10014" x="425" y="1867" width="405" height="442" frameX="-2" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10015" x="840" y="1867" width="405" height="442" frameX="-2" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10016" x="1255" y="1867" width="405" height="442" frameX="-2" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10017" x="1670" y="1867" width="405" height="442" frameX="-2" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10018" x="2085" y="1867" width="405" height="442" frameX="-2" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10019" x="2500" y="1867" width="405" height="442" frameX="-2" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Idle instance 10020" x="2915" y="1867" width="405" height="442" frameX="-2" frameY="0" frameWidth="407" frameHeight="442"/>
+	<SubTexture name="Stressed Left instance 10000" x="3330" y="1867" width="350" height="435" frameX="0" frameY="0" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10001" x="3690" y="1867" width="350" height="435" frameX="0" frameY="0" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10002" x="4050" y="1867" width="350" height="435" frameX="0" frameY="0" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10003" x="4410" y="1867" width="350" height="435" frameX="0" frameY="0" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10004" x="4770" y="1867" width="350" height="435" frameX="0" frameY="0" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10005" x="5130" y="1867" width="350" height="435" frameX="0" frameY="0" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10006" x="5490" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10007" x="5847" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10008" x="6204" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10009" x="6561" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10010" x="5490" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10011" x="5847" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10012" x="6204" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10013" x="6561" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10014" x="5490" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10015" x="5847" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10016" x="6204" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Left instance 10017" x="6561" y="1867" width="347" height="433" frameX="-7" frameY="-2" frameWidth="354" frameHeight="435"/>
+	<SubTexture name="Stressed Right instance 10000" x="6918" y="1867" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10001" x="7331" y="1867" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10002" x="7744" y="1867" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10003" x="10" y="2319" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10004" x="423" y="2319" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10005" x="836" y="2319" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10006" x="1249" y="2319" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10007" x="1662" y="2319" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10008" x="2075" y="2319" width="403" height="435" frameX="0" frameY="-1" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10009" x="2488" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10010" x="2900" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10011" x="3312" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10012" x="3724" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10013" x="2488" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10014" x="2900" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10015" x="3312" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10016" x="3724" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Right instance 10017" x="2488" y="2319" width="402" height="436" frameX="0" frameY="0" frameWidth="403" frameHeight="436"/>
+	<SubTexture name="Stressed Up instance 10000" x="4136" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10001" x="4525" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10002" x="4914" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10003" x="5303" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10004" x="5692" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10005" x="6081" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10006" x="6470" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10007" x="6859" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10008" x="7248" y="2319" width="379" height="460" frameX="-5" frameY="0" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10009" x="7637" y="2319" width="385" height="454" frameX="0" frameY="-5" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10010" x="10" y="2789" width="385" height="454" frameX="0" frameY="-5" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10011" x="405" y="2789" width="385" height="454" frameX="0" frameY="-5" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10012" x="800" y="2789" width="385" height="454" frameX="0" frameY="-5" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="Stressed Up instance 10013" x="7637" y="2319" width="385" height="454" frameX="0" frameY="-5" frameWidth="385" frameHeight="460"/>
+	<SubTexture name="boyfriend dodge instance 10000" x="1195" y="2789" width="430" height="447" frameX="-2" frameY="0" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10001" x="1635" y="2789" width="430" height="447" frameX="-2" frameY="0" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10002" x="2075" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10003" x="2517" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10004" x="2075" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10005" x="2517" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10006" x="2075" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10007" x="2517" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10008" x="2075" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10009" x="2517" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10010" x="2075" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10011" x="2517" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10012" x="2075" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10013" x="2517" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+	<SubTexture name="boyfriend dodge instance 10014" x="2075" y="2789" width="432" height="445" frameX="0" frameY="-1" frameWidth="432" frameHeight="447"/>
+</TextureAtlas>

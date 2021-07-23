@@ -1,0 +1,55 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:surprised:Baby?!
+:gf:surprised:BABY, WHAT'S WRONG WITH YOU? SPEAK TO ME!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:dad:shock:I-I didn't want this to happen but uh...
+:dad:smile:It makes our job a lot easier!
+
+:effect:fadeIn:0.8
+:effect:rightSide:
+:effect:enterStageRight:1.6
+:bf:dazed: hhh....
+:effect:rightSide:
+:bf:snap: !!
+
+:dad:shock: fuck
+
+:gf:relief:Oh my god, thank goodness.
+:gf:relief:It happened again...I'm sorry, are you okay-
+:gf:hug:...!!
+:gf:hug:What's going on?? The lights weren't off for that long babe.
+:gf:hug:(BF):I saw him again...that monster!!
+
+:effect:rightSide:
+:bf:cry:He, he cut your head off and it was on-top the Christmas tree!
+:effect:rightSide:
+:bf:cry:I was so scared you were gone. I missed you, I felt so weak that I couldn't do anything! 
+
+:gf:reassure 2:Baby...nothing can kill me. Not even you.
+:effect:flip:
+:gf:point:Whoever this monster is, if I ever catch 'em, I'm gonna fuckin' off 'em.
+
+:effect:rightSide:
+:bf:confused: ...
+:effect:rightSide:
+:bf:smile:okay!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:mom:bore:How boring! You should've died so I could've snatched you for myself.
+
+:dad:angry:No, he should've died so that we don't have to worry about him tryna KILL us.
+
+:mom:angry:Last I checked, I was the one who wore the pants in this relationship, malewife!
+
+:gf:giggle:Can you believe that's gonna be us someday?
+
+:effect:rightSide:
+:bf:clear:Some day? That was us a few months ago!
+:effect:rightSide:
+:bf:fist:Let's get outta here, I'm tryba give you a white Christmas tonight!
+
+:gf:sheesh: SHEESH, OK!

@@ -24,11 +24,11 @@ class Conductor
 	public static var offset:Float = 0;
 
 	public static var safeFramesOld:Float = 10;
-	public static var safeFramesNew:Float = 8;
+	public static var safeFramesNew:Float = 6;
 
-	public static var goodZone:Float = 0.2;
-	public static var badZone:Float = 0.75;
-	public static var shitZone:Float = 0.9;
+	public static var goodZone:Float = 0.25;
+	public static var badZone:Float = 0.50;
+	public static var shitZone:Float = 0.75;
 
 	public static var safeZoneOffset:Float = (safeFramesOld / 60) * 1000; // is calculated in create(), is safeFrames in milliseconds
 

@@ -4,8 +4,6 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.animation.FlxBaseAnimation;
-import flixel.graphics.frames.FlxAtlasFrames;
 
 using StringTools;
 
@@ -45,7 +43,6 @@ class Portrait extends FlxSprite
     function defineCharacter(_character){
 
         _character = characters.contains(_character) ? _character : "bf";
-
         frames = Paths.getSparrowAtlas("portrait/" + _character, "dialogue");
 
         switch(_character){
@@ -82,6 +79,12 @@ class Portrait extends FlxSprite
                 addAnim("smile", "bf smile.png");
                 addAnim("sulk", "bf sulk.png");
                 addAnim("clear", "bf week clear.png");
+                addAnim("cringe", "bf cringe.png");
+                addAnim("crying", "bf crying.png");
+                addAnim("scared", "bf scared.png");
+                addAnim("shocked", "bf shocked.png");
+                addAnim("snap", "bf snap.png");
+                addAnim("wipe", "bf wipe.png");
                 animation.play("default");
                 resize = 0.4;
             case "gf":
@@ -107,6 +110,14 @@ class Portrait extends FlxSprite
                 addAnim('reassure', 'gf reassure.png');
                 addAnim('cry','gf cry.png');
                 addAnim('think', 'gf think.png');
+                addAnim('blush 2', 'gf blush 2.png');
+                addAnim('hug', 'gf hug.png');
+                addAnim('point', 'gf point.png');
+                addAnim('reassure 2', 'gf reassure 2.png');
+                addAnim('relief', 'gf relief.png');
+                addAnim('sheesh', 'gf sheesh.png');
+                addAnim('giddy', 'gf giddy.png');
+                addAnim('eh', 'gf eh.png');
                 animation.play("default");
                 resize = 0.50;
             case "dad":
@@ -115,7 +126,12 @@ class Portrait extends FlxSprite
                 addAnim("bleed2", "dad bleed 2.png");
                 addAnim("limit", "dad limit.png");
                 addAnim("mic", "dad mic.png");
+                addAnim("angry", "dad angry.png");
+                addAnim("default 2", "dad default 2.png");
+                addAnim("shock", "dad shock.png");
+                addAnim("smile", "dad smile.png");
                 animation.play("default");
+                resize = 0.13;
             case "spooky":
                 addAnim("default", "skump default.png");
                 addAnim("happy", "skump happy.png");
@@ -125,6 +141,7 @@ class Portrait extends FlxSprite
                 addAnim("default", "monster default.png");
                 addAnim("laugh", "monster laugh.png");
                 addAnim("smile", "monster smile.png");
+                addAnim("glare", "monster glare.png");
                 animation.play("default");
             case "pico":
                 addAnim("default", "pico default.png");
@@ -147,6 +164,7 @@ class Portrait extends FlxSprite
                 addAnim("default", "darnell default.png");
                 addAnim("shit", "darnell shit.png");
                 addAnim("shocked", "darnell shocked.png");
+                addAnim("happy", "darnell happy.png");
                 animation.play("default");
                 resize = 0.38;
             case "nene":
@@ -154,6 +172,7 @@ class Portrait extends FlxSprite
                 addAnim("cries", "nene cries.png");
                 addAnim("disgusted", "nene disgusted.png");
                 addAnim("shocked", "nene shocked.png");
+                addAnim("happy", "nene happy.png");
                 animation.play("default");
                 resize = 0.5;
              case "mom":
@@ -171,10 +190,11 @@ class Portrait extends FlxSprite
                 addAnim("horny1", "mom horny 1.png");
                 addAnim("horny2", "mom horny 2.png");
                 addAnim("horny3", "mom horny 3.png");
+                addAnim("bore", "mom bore.png");
                 animation.play("default");
                 resize = 0.2;
                 
-                case "imps":
+            case "imps":
                 addAnim('alvin', 'alvin.png');
                 addAnim('bojangles', 'bojangles.png');
                 addAnim('bubbles', 'bubbles.png');

@@ -24,6 +24,9 @@ class HealthIcon extends FlxSprite
 			loadGraphic(Paths.image('iconGridHD'), true, 500, 500);
 
 			animation.add('bf', [0, 1, 0], 0, false, isPlayer);
+			animation.add('bf-christmas', [0, 1, 0], 0, false, isPlayer);
+			animation.add('bf-christmas-depressed', [0, 1, 0], 0, false, isPlayer);
+			animation.add('bf-date', [0, 1, 0], 0, false, isPlayer);
 			animation.add('bf-spooky', [0, 1, 0], 0, false, isPlayer);
 			animation.add('bf-car', [0, 1, 0], 0, false, isPlayer);
 			animation.add('bf-milf', [0, 1, 0], 0, false, isPlayer);
@@ -35,8 +38,11 @@ class HealthIcon extends FlxSprite
 			animation.add('dad', [2, 3, 4], 0, false, isPlayer);
 			animation.add('SHAKEYDAD', [2, 3, 4], 0, false, isPlayer);
 			animation.add('monster', [10, 11, 12], 0, false, isPlayer);
+			animation.add('monster-christmas', [10, 11, 12], 0, false, isPlayer);
 			animation.add('gf', [9, 9, 9], 0, false, isPlayer);
+			animation.add('gf-date', [9, 9, 9], 0, false, isPlayer);
 			animation.add('gf-car', [9, 9, 9], 0, false, isPlayer);
+			animation.add('parents-christmas', [21, 22, 23], 0, false, isPlayer);
 		
 			antialiasing = true;
 			updateHitbox();
@@ -48,6 +54,8 @@ class HealthIcon extends FlxSprite
 			loadGraphic('assets/images/iconGrid.png', true, 150, 150);
 			
 			animation.add('bf', [0, 1], 0, false, isPlayer);
+			animation.add('bf-christmas-depressed', [0, 1], 0, false, isPlayer);
+			animation.add('bf-date', [0, 1], 0, false, isPlayer);
 			animation.add('bf-spooky', [0, 1], 0, false, isPlayer);
 			animation.add('bf-car', [0, 1], 0, false, isPlayer);
 			animation.add('bf-milf', [0, 1], 0, false, isPlayer);
@@ -67,6 +75,7 @@ class HealthIcon extends FlxSprite
 			animation.add('spirit', [23, 23], 0, false, isPlayer);
 			animation.add('bf-old', [14, 15], 0, false, isPlayer);
 			animation.add('gf', [16], 0, false, isPlayer);
+			animation.add('gf-date', [16], 0, false, isPlayer);
 			animation.add('gf-car', [16], 0, false, isPlayer);
 			animation.add('gf-pixel', [16], 0, false, isPlayer);
 			animation.add('parents-christmas', [17, 18], 0, false, isPlayer);

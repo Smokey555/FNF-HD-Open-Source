@@ -1,0 +1,96 @@
+:bg:week5_mall:
+
+:noChar:default: (2): Hello, Funkin' County Mall Shoppers!
+
+:bg:week5_intercom1:
+
+:noChar:default:We hope you're having a jolly evening here in the-
+:noChar:default: (1): Yeah, yeah. Welcome to The Mall, thank you for bring' your fuckin' kids.
+:noChar:default:Can't wait to clean up after 'em.
+:noChar:default: (2): Be nice! It's not their fault you lost your other job.
+:noChar:default: (1): Oh no, don't worry. I most definitely did not want that shit.
+:noChar:default: (2): I just feel like you needa remember this is a happy time for everybody.
+:noChar:default:Even if you gotta fake it, it'll be worth it when you make other people happy!
+:noChar:default: (1): Maaan, FUCK other people. I love being a hateful motherfucker!
+:noChar:default:*sigh* Whatever though. I guess it ain't too bad.
+:noChar:default:Only thing that could make today worse is that blue haired kid showing up-
+:noChar:default:You have got to be shitting me.
+
+:bg:week5_holdhands:
+:bg:week5_screamshin:
+
+:noChar:default:BRO.
+
+:bg:hide:
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:smile:What am I gettin' for you first, boo?
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:default:YOU aren't getting me anything yet. I should treat you this time around.
+:gf:default:I'm thinking of getting you a new coat...this one's a bit yikes!
+
+:effect:rightSide:
+:bf:scared:HUH?! WHAT'D'I-DO?
+
+:effect:flip:
+:gf:angry:Have you not seen the trim around the hood? What poor animal did they kill for that?
+
+:effect:rightSide:
+:bf:fist:Ay well y'know what? He died for the greater good. Lil homie added to the drip!
+:effect:rightSide:
+:bf:smile:OH, OH, BABE, CAN WE GO VISIT SANTA PLEEEASE?!
+
+
+:gf:giggle:You're like a toddler!!
+:gf:giddy:I'M DOWN THOUGH LET'S GO!!
+
+:noChar:default: (FIVE MINUTES LATER...)
+
+:gf:eh:...
+:gf:eh:I don't really know what I expected.
+
+:effect:rightSide:
+:bf:default:Goddamn, on the holidays man?!
+:effect:rightSide:
+:bf:default:Y'all can't leave us alone for the fuckin' HOLIDAYS??
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:dad:default 2:You know we can't do that, boh.
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:mom:default:Your initiation MIGHT be over...
+:mom:laugh:BUT, we like messin' with you! It's hilarious how you can do little to stop us, too!
+
+:effect:rightSide:
+:bf:default:Come on bruh, we just wanted to talk with Santa. What he even do to y'all?
+
+:dad:default 2:Mommy and I took a correct guess at your maturity and figured you'd want to see Santa...
+:dad:default 2:SO, we prepared for your arrival. Now Santy Claus's at the end of a gun barrel!
+
+:effect:toRight:0.6
+:gf:angry:I'm guessing you guys wanna rap battle BF for Santa's life?
+
+:mom:default:RAP battle? Hon, did you forget what time 'a year it is?
+:mom:seduce:We jus' carolin', ain't that right babyblue?
+
+:effect:rightSide:
+:bf:cringe:I don't know how I feel about pet names after the last time, ma'am.
+:effect:rightSide:
+:bf:fist:Other than that though, YEAH! Let's have a damn good Christmas then!
+
+:dad:smile:No gimmicks this time around, Boyfriend!
+:dad:default:Let's show you how the Dearests bond on Christmas.
+
+:effect:rightSide:
+:gf:angry:...
+:effect:rightSide:
+:gf:angry:This is not how we bond on Christmas.
+:effect:rightSide:
+:effect:flip:
+:gf:grimace:Let alone ANY time of the year.

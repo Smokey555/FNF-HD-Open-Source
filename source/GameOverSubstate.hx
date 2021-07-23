@@ -48,6 +48,8 @@ class GameOverSubstate extends MusicBeatSubstate
 			case 'schoolEvil':
 				stageSuffix = '-pixel';
 				daBf = 'bf-pixel-dead';
+			case 'date':
+				daBf = 'bf-date-gameover';
 			case 'limo':
 				daBf = 'bf-death';
 				if(gotfuckinblown)daBf = 'bf-fucking-dies';

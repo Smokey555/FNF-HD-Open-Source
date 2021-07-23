@@ -1,0 +1,13 @@
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:oof:HUH?? The lights went out?
+
+:effect:rightSide:
+:bf:fist:Ayo GF, I think your lights used up some of the mall's electricity, haha...
+
+:effect:rightSide:
+:bf:fist:...
+
+:effect:rightSide:
+:bf:nervous2: GF...?

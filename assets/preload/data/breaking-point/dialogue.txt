@@ -1,0 +1,46 @@
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:smile:You enjoyin' the view? I paid a fat stack of money for this.
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:gf:default:It's from the mixtape money I'm guessing? Why are you spending so much on me, hon'?
+
+:effect:rightSide:
+:bf:reassure:I gotta show some love for my girl!
+:effect:rightSide:
+:bf:reassure:Plus, the whole drama with your mama blew my name up like hella!
+:effect:rightSide:
+:bf:fist:People watchin' my dodge lamps 'n' lasers made 'em think I was hot shit!
+:effect:rightSide:
+:bf:fist:WHICH I am, but y'know...
+
+:gf:smile:I'm proud of you, but you need to save your money!
+:gf:smile:I don't need material things like this.
+
+:effect:rightSide:
+:bf:reassure:I needa spoil you every now and then. It's the least I can do as a mortal.
+:effect:rightSide:
+:bf:smile:Besides, whenever I get cool with your folks, I'ma steal money from 'em often, hehe...
+
+:gf:giggle:You're really confident in getting on my parents' good side, huh?
+:gf:default:Well you needa' get them vocal chords in shape! My parents be goin' ham--
+
+:effect:rightSide:
+:bf:smile:Hol' up, you talkin' like me now? 
+:effect:rightSide:
+:bf:scoff:Stealin' my flow, bar for bar!
+
+:gf:blush 2:Oop, hehe...
+:gf:default:Either way, get those skills up boy! Serenade me.
+
+:effect:rightSide:
+:bf:confused:Hm...What should I sing?
+
+:gf:default:Oh I don't know, surprise me! Somethin' spacey might fight this scenery...
+
+:effect:rightSide:
+:bf:confused:...
+:effect:rightSide:
+:bf:default:I got one!! You gon' remember this babe!

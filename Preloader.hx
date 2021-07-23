@@ -10,7 +10,7 @@ import flash.Lib;
 import flixel.FlxG;
  
 @:bitmap("art/preloaderArt.png") class LogoImage extends BitmapData { }
- 
+
 class Preloader extends FlxBasePreloader
 {
     public function new(MinDisplayTime:Float=3, ?AllowedURLs:Array<String>) 

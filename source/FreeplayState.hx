@@ -11,7 +11,6 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
-import lime.utils.Assets;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
 
@@ -35,6 +34,17 @@ class FreeplayState extends MusicBeatState
 	var diffText:FlxText;
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
+	var blammedSteps:Array<Int> = [
+		128,140,148,160,166,172,180, 
+		192,204,212,224,230,236,244,
+		256,268,276,288,294,300,308,
+		320,332,340,352,358,364,372,
+		512,524,532,544,550,556,564,
+		576,588,596,608,614,620,628,
+		640,652,660,672,678,684,692
+
+	];
+		
 
 	var songWait:FlxTimer = new FlxTimer();
 	private var grpSongs:FlxTypedGroup<Alphabet>;
@@ -52,7 +62,8 @@ class FreeplayState extends MusicBeatState
 		{
 			songs.push(new SongMetadata(initSonglist[i], 1, 'gf'));
 		}
-
+		
+	//	GraphicsCacher.checkCache('bf');
 
 		/* 
 			if (FlxG.sound.music != null)
@@ -73,24 +84,19 @@ class FreeplayState extends MusicBeatState
 		isDebug = true;
 		#end
 
-		if (StoryMenuState.weekUnlocked[2] || isDebug)
 			addWeek(['Bopeebo', 'Fresh', 'Dadbattle'], 1, ['dad']);
 
-		if (StoryMenuState.weekUnlocked[2] || isDebug)
 			addWeek(['Spookeez', 'South', 'Monster'], 2, ['spooky', 'spooky', "monster"]);
 
-		if (StoryMenuState.weekUnlocked[3] || isDebug)
 			addWeek(['Pico', 'Philly', 'Blammed'], 3, ['pico']);
 		
-		if (StoryMenuState.weekUnlocked[4] || isDebug)
 			addWeek(['Satin-Panties', 'High', 'Milf'], 4, ['mom-car']);
 
-		/*if (StoryMenuState.weekUnlocked[4] || isDebug)
-			addWeek(['Satin-Panties', 'High', 'Milf'], 4, ['mom']);
+			addWeek(['Cocoa', 'Eggnog', 'Winter-Horrorland'], 5, ['parents-christmas','parents-christmas','monster']);
+		
+			addWeek(['Breaking-Point'], 5, ['gf']);
 
-		if (StoryMenuState.weekUnlocked[5] || isDebug)
-			addWeek(['Cocoa', 'Eggnog', 'Winter-Horrorland'], 5, ['parents-christmas', 'parents-christmas', 'monster-christmas']);
-
+		/*
 		if (StoryMenuState.weekUnlocked[6] || isDebug)
 			addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai', 'spirit']);*/
 
@@ -109,6 +115,10 @@ class FreeplayState extends MusicBeatState
 			var songText:Alphabet = new Alphabet(0, (70 * i) + 30, songs[i].songName, true, false);
 			songText.isMenuItem = true;
 			songText.targetY = i;
+			//songText.alpha = 0;
+			//songText.x -= 500;
+
+			//FlxTween.tween(songText, {x :songText.x + 500, alpha: 1},0.4, {ease:FlxEase.smoothStepOut, startDelay: 0.2 * i});
 			grpSongs.add(songText);
 
 			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
@@ -120,7 +130,10 @@ class FreeplayState extends MusicBeatState
 			icon.antialiasing = true;
 			}
 
-			// using a FlxGroup is too much fuss!
+			//icon.alpha = 0;
+			//icon.x -= 500;
+
+			//FlxTween.tween(icon, {x :songText.x + 500, alpha: 1},0.4, {ease:FlxEase.smoothStepOut, startDelay: 0.2 * i});
 			iconArray.push(icon);
 			add(icon);
 
@@ -295,10 +308,8 @@ class FreeplayState extends MusicBeatState
 		{
 			super.beatHit();
 			trace(curBeat);
-		
-		
-		
-		
+
+			
 			iconBop();
 			
 			if (FlxG.camera.zoom < 1.35 && songs[curSelected].songName.toLowerCase() == 'milf' && curBeat >= 8)
@@ -316,7 +327,15 @@ class FreeplayState extends MusicBeatState
 
 		}
 	
-		
+	override function stepHit()
+		{
+		super.stepHit();
+		if (FlxG.camera.zoom < 1.35 && songs[curSelected].songName.toLowerCase() == 'blammed' && blammedSteps.contains(curStep))
+			{
+				FlxG.camera.zoom += 0.070;
+				
+			}
+		}
 
 	function changeSelection(change:Int = 0)
 	{
@@ -343,11 +362,11 @@ class FreeplayState extends MusicBeatState
 
 		#if PRELOAD_ALL
 		FlxG.sound.music.stop();
-		songWait.cancel();
-		songWait.start(1, function(tmr:FlxTimer) {
+		//songWait.cancel();
+		//songWait.start(1, function(tmr:FlxTimer) {
 			Conductor.changeBPM(beatArray[curSelected]);
 			FlxG.sound.playMusic(Paths.inst(songs[curSelected].songName), 0);
-		});
+//		});
 		#end
 
 		var bullShit:Int = 0;

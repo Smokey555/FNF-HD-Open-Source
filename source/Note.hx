@@ -4,9 +4,7 @@ import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
-#if polymod
-import polymod.format.ParseRules.TargetSignatureElement;
-#end
+//import polymod.format.ParseRules.TargetSignatureElement;
 
 using StringTools;
 
@@ -22,11 +20,12 @@ class Note extends FlxSprite
 	public var wasGoodHit:Bool = false;
 	public var isGlowing:String = (Config.noteGlow) ? "fpsPlus" : "shared";
 	public var prevNote:Note;
-
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
-
 	public var noteScore:Float = 1;
+	public var playedEditorClick:Bool = false;
+	public var editorBFNote:Bool = false;
+	public var absoluteNumber:Int;
 
 	public static var swagWidth:Float = 160 * 0.7;
 	public static var PURP_NOTE:Int = 0;
@@ -205,7 +204,7 @@ class Note extends FlxSprite
 		{
 			// The * 0.5 is so that it's easier to hit them too late, instead of too early
 			if (strumTime > Conductor.songPosition - Conductor.safeZoneOffset
-				&& strumTime < Conductor.songPosition + (Conductor.safeZoneOffset * 0.5))
+				&& strumTime < Conductor.songPosition + (Conductor.safeZoneOffset))
 				canBeHit = true;
 			else
 				canBeHit = false;

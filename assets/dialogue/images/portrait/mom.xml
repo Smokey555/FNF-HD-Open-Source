@@ -3,17 +3,18 @@
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="mom angry.png" x="10" y="10" width="1641" height="1364"/>
-	<SubTexture name="mom crazy.png" x="1661" y="10" width="1730" height="1376"/>
-	<SubTexture name="mom default horny.png" x="3401" y="10" width="983" height="1423"/>
-	<SubTexture name="mom default sweat.png" x="4394" y="10" width="983" height="1428"/>
-	<SubTexture name="mom default.png" x="5387" y="10" width="983" height="1426"/>
-	<SubTexture name="mom grab.png" x="6380" y="10" width="1339" height="1442"/>
-	<SubTexture name="mom happy.png" x="10" y="1462" width="1025" height="1384"/>
-	<SubTexture name="mom horny 1.png" x="1045" y="1462" width="1069" height="1418"/>
-	<SubTexture name="mom horny 2.png" x="2124" y="1462" width="1069" height="1418"/>
-	<SubTexture name="mom horny 3.png" x="3203" y="1462" width="1126" height="1418"/>
-	<SubTexture name="mom laugh.png" x="4339" y="1462" width="986" height="1397"/>
-	<SubTexture name="mom point.png" x="5335" y="1462" width="1440" height="1324"/>
-	<SubTexture name="mom seduce.png" x="10" y="2890" width="1641" height="1364"/>
-	<SubTexture name="mom smirk.png" x="1661" y="2890" width="1025" height="1384"/>
+	<SubTexture name="mom bore.png" x="1661" y="10" width="1322" height="1677"/>
+	<SubTexture name="mom crazy.png" x="2993" y="10" width="1730" height="1376"/>
+	<SubTexture name="mom default horny.png" x="4733" y="10" width="983" height="1423"/>
+	<SubTexture name="mom default sweat.png" x="5726" y="10" width="983" height="1428"/>
+	<SubTexture name="mom default.png" x="6719" y="10" width="983" height="1426"/>
+	<SubTexture name="mom grab.png" x="10" y="1697" width="1339" height="1442"/>
+	<SubTexture name="mom happy.png" x="1359" y="1697" width="1025" height="1384"/>
+	<SubTexture name="mom horny 1.png" x="2394" y="1697" width="1069" height="1418"/>
+	<SubTexture name="mom horny 2.png" x="3473" y="1697" width="1069" height="1418"/>
+	<SubTexture name="mom horny 3.png" x="4552" y="1697" width="1126" height="1418"/>
+	<SubTexture name="mom laugh.png" x="5688" y="1697" width="986" height="1397"/>
+	<SubTexture name="mom point.png" x="6684" y="1697" width="1440" height="1324"/>
+	<SubTexture name="mom seduce.png" x="10" y="3149" width="1641" height="1364"/>
+	<SubTexture name="mom smirk.png" x="1661" y="3149" width="1025" height="1384"/>
 </TextureAtlas>
