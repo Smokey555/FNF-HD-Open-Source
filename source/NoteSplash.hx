@@ -1,4 +1,4 @@
-//hi 
+//hi, asset of splash should be in shared if you dunno where to put it smokey.
 package;
 
 import flixel.FlxG;
