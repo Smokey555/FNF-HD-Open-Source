@@ -38,6 +38,7 @@ import flixel.tweens.FlxTween;
 import flixel.ui.FlxBar;
 import flixel.util.FlxColor;
 import flixel.util.FlxSort;
+import NoteSplash;
 import flixel.util.FlxTimer;
 
 using StringTools;
@@ -78,6 +79,8 @@ class PlayState extends MusicBeatState
 	private var gf:Character;
 	private var boyfriend:Boyfriend;
 
+	private var Splashboo:NoteSplash;
+
 	var isStressed:String;
 	var shootBeats:Array<Int> = [32, 48, 64, 80, 104, 120, 160, 163, 165, 168, 171, 173, 200, 216, 224, 232, 240, 248, 256];
 	var shootBeatsBSide:Array<Int> = [32,36,40,44,48,52,56,64,68,72,76,80,88,94,104,108,112,116,120,160, 163, 165, 168, 171, 173,180,184,188,196,200,204,208,216, 224, 232, 240, 248, 256];
@@ -86,6 +89,7 @@ class PlayState extends MusicBeatState
 
 	private var notes:FlxTypedGroup<Note>;
 	private var unspawnNotes:Array<Note> = [];
+	var groupsplash:FlxTypedGroup<NoteSplash>;
 
 	private var strumLine:FlxSprite;
 	private var curSection:Int = 0;
@@ -273,6 +277,11 @@ class PlayState extends MusicBeatState
 
 		if (SONG == null)
 			SONG = Song.loadFromJson('tutorial');
+
+		groupsplash = new FlxTypedGroup<NoteSplash>();
+		var sploosh = new NoteSplash(100, 100, 0);
+		sploosh.alpha = 0.7;
+		groupsplash.add(sploosh);
 
 		Conductor.mapBPMChanges(SONG);
 		Conductor.changeBPM(SONG.bpm);
@@ -1248,6 +1257,7 @@ class PlayState extends MusicBeatState
 
 		strumLineNotes = new FlxTypedGroup<FlxSprite>();
 		add(strumLineNotes);
+		add(groupsplash);
 
 		playerStrums = new FlxTypedGroup<FlxSprite>();
 
@@ -1324,6 +1334,7 @@ class PlayState extends MusicBeatState
 		add(scoreTxt);	
 		strumLineNotes.cameras = [camHUD];
 		notes.cameras = [camHUD];
+		groupsplash.cameras = [camHUD];
 		healthBar.cameras = [camHUD];
 		healthBarBG.cameras = [camHUD];
 		iconP1.cameras = [camHUD];
@@ -2757,7 +2768,7 @@ class PlayState extends MusicBeatState
 
 	var endingSong:Bool = false;
 
-	private function popUpScore(strumtime:Float):Void
+	private function popUpScore(strumtime:Float, dote:Note):Void
 	{
 		var noteDiff:Float = Math.abs(strumtime - Conductor.songPosition);
 		// boyfriend.playAnim('hey');
@@ -2808,8 +2819,12 @@ class PlayState extends MusicBeatState
 				}
 				score = 200;
 			}
-		if (daRating == 'sick')
+		if (daRating == 'sick'){
 			totalNotesHit += 1;
+			var thenote = groupsplash.recycle(NoteSplash);
+			thenote.setupNoteSplash(dote.x, dote.y, dote.noteData);
+			groupsplash.add(thenote);
+		}
 	
 		//trace('hit ' + daRating);
 
@@ -3425,7 +3440,7 @@ class PlayState extends MusicBeatState
 
 				if (!note.isSustainNote)
 				{
-					popUpScore(note.strumTime);
+					popUpScore(note.strumTime, note);
 					combo += 1;
 				}
 				else
