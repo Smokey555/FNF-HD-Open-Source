@@ -19,13 +19,13 @@ class Gallery extends MusicBeatState
 {
 	
 var txtOptionTitle:FlxText;
-var weeks:Array<String> = ['week1', 'week2', 'week3', 'week4'];
-
+var weeks:Array<String> = ['week1', 'week2', 'week3', 'week4','week5'];
 var weekImages:Array<Dynamic> =[
 ['bf', 'gf', 'dad'],
 ['skump','monster', 'void'],
 ['pico','darnell','nene'],
-['mom', 'void', 'void']
+['void', 'mom', 'void'],
+['void','sonic','void']
 ];
 var weekTexts:FlxTypedGroup<FlxSprite>;
 var selectionBG:FlxTypedGroup<FlxSprite>;
@@ -45,7 +45,8 @@ override function create()
 		#end
 		
 		shit = new FlxObject(0, 0, 1, 1);
-		
+		shit.screenCenter();
+		FlxG.camera.focusOn(shit.getPosition());
 		Conductor.changeBPM(95);
 		FlxG.sound.playMusic(Paths.music('gallery'), 1);
 		var bg:FlxSprite = new FlxSprite(0,0).makeGraphic(1280,720,FlxColor.fromRGB(69,108,207),false);
@@ -91,6 +92,7 @@ override function create()
 				art.setGraphicSize(Std.int(art.width * 0.15));
 				art.updateHitbox();
 				art.antialiasing = true;
+				art.scrollFactor.set(1,1);
 				artSprites.add(art);
 			
 			}
@@ -119,7 +121,7 @@ override function create()
 		}
 
 
-
+		FlxG.camera.focusOn(shit.getPosition());
 		if (FlxG.sound.music != null)
 		Conductor.songPosition = FlxG.sound.music.time;
 		super.update(elapsed);
@@ -129,7 +131,6 @@ override function create()
 
 
 	public function changeWeek(change:Int = 0):Void{
-		
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.5);
 		curSelected += change;
 		if (curSelected < 0)
@@ -150,7 +151,13 @@ override function create()
 			weekText.alpha = 1;
 		}
 		});
-	
+		for (shit in weekTexts.members){
+			if (change == 1)
+			FlxTween.tween(shit,{x: shit.x - 150},0.5,{ease:FlxEase.cubeOut});
+			if (change == -1)
+			FlxTween.tween(shit,{x: shit.x + 150},0.5,{ease:FlxEase.cubeOut});	
+
+		}
 			artSprites.members[0].loadGraphic(Paths.image('gallery/art/' + weekImages[curSelected][0] + suffix));
 			artSprites.members[1].loadGraphic(Paths.image('gallery/art/' + weekImages[curSelected][1] + suffix));
 			artSprites.members[2].loadGraphic(Paths.image('gallery/art/' + weekImages[curSelected][2] + suffix));
@@ -177,7 +184,6 @@ override function create()
 	}
 
 	override function closeSubState(){
-		shit.screenCenter();
 		canSelect = true;
 		FlxG.camera.focusOn(shit.getPosition());
 		FlxG.camera.zoom = 1;

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sonicBody.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SONIC RUN0000" x="10" y="10" width="435" height="242" frameX="-3" frameY="-3" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0001" x="10" y="10" width="435" height="242" frameX="-3" frameY="-3" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0002" x="455" y="10" width="422" height="254" frameX="-10" frameY="-11" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0003" x="455" y="10" width="422" height="254" frameX="-10" frameY="-11" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0004" x="10" y="274" width="253" height="249" frameX="-79" frameY="-17" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0005" x="273" y="274" width="253" height="254" frameX="-79" frameY="-11" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0006" x="536" y="274" width="438" height="239" frameX="0" frameY="0" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0007" x="536" y="274" width="438" height="239" frameX="0" frameY="0" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0008" x="10" y="538" width="426" height="252" frameX="0" frameY="-13" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0009" x="10" y="538" width="426" height="252" frameX="0" frameY="-13" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0010" x="446" y="538" width="251" height="241" frameX="-84" frameY="-24" frameWidth="438" frameHeight="266"/>
+	<SubTexture name="SONIC RUN0011" x="707" y="538" width="252" height="250" frameX="-84" frameY="-13" frameWidth="438" frameHeight="266"/>
+</TextureAtlas>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SUPER_SONIC_TRANSFORM.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SONIC TRANSFORM0000" x="5" y="5" width="362" height="497" frameX="-33" frameY="-90" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0001" x="372" y="5" width="340" height="488" frameX="-44" frameY="-99" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0002" x="372" y="5" width="340" height="488" frameX="-44" frameY="-99" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0003" x="372" y="5" width="340" height="488" frameX="-44" frameY="-99" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0004" x="372" y="5" width="340" height="488" frameX="-44" frameY="-99" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0005" x="372" y="5" width="340" height="488" frameX="-44" frameY="-99" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0006" x="717" y="5" width="427" height="675" frameX="0" frameY="0" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0007" x="1149" y="5" width="421" height="629" frameX="-3" frameY="-41" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0008" x="1575" y="5" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0009" x="5" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0010" x="447" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0011" x="447" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0012" x="889" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0013" x="889" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0014" x="447" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0015" x="447" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0016" x="889" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0017" x="889" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0018" x="447" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0019" x="447" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0020" x="889" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0021" x="889" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0022" x="447" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0023" x="447" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0024" x="889" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+	<SubTexture name="SONIC TRANSFORM0025" x="889" y="685" width="437" height="612" frameX="-3" frameY="-58" frameWidth="440" frameHeight="675"/>
+</TextureAtlas>

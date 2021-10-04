@@ -23,12 +23,13 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
+	
 	var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	#if !switch
-	var optionShit:Array<String> = ['story mode', 'freeplay', 'donate', 'options', 'gallery'];
+	var optionShit:Array<String> = ['story mode', 'freeplay', 'donate', 'options'];
 	#else
 	var optionShit:Array<String> = ['story mode', 'freeplay'];
 	#end
@@ -127,6 +128,10 @@ class MainMenuState extends MusicBeatState
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
 
+		//AtlasFrameMaker.renderTest('assets/images/TEST', "Idle");
+
+	
+
 		// NG.core.calls.event.logEvent('swag').send();
 
 		changeItem();
@@ -146,8 +151,6 @@ class MainMenuState extends MusicBeatState
 		if (!selectedSomethin)
 		{
 
-			if (FlxG.keys.justPressed.END)
-				FlxG.switchState(new Gallery());
 			if (controls.UP_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
@@ -204,6 +207,7 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story mode':
+										FlxG.sound.music.stop();
 										FlxG.switchState(new StoryMenuState());
 										trace("Story Menu Selected");
 									case 'freeplay':

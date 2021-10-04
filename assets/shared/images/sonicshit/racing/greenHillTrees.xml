@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="greenHillTrees.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="greenHillTrees0000" x="10" y="10" width="981" height="577" frameX="0" frameY="-4" frameWidth="1175" frameHeight="581"/>
+	<SubTexture name="greenHillTrees0001" x="1001" y="10" width="981" height="577" frameX="-86" frameY="-4" frameWidth="1175" frameHeight="581"/>
+	<SubTexture name="greenHillTrees0002" x="10" y="597" width="982" height="577" frameX="-119" frameY="-4" frameWidth="1175" frameHeight="581"/>
+	<SubTexture name="greenHillTrees0003" x="10" y="597" width="982" height="577" frameX="-194" frameY="0" frameWidth="1175" frameHeight="581"/>
+</TextureAtlas>

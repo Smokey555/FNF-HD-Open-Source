@@ -1,0 +1,72 @@
+:noChar:default:???: Hey...'ay man! 
+:noChar:default:???: You conscious dude?
+
+:bg:green_hill_1:
+:effect:hidden:
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:snap:!!
+
+:effect:rightSide:
+:bf:scratch:The hell? How'd I get outside? What's goin' on?
+
+:noChar:default:???: You're in MY court now, lil dude!
+
+:effect:rightSide:
+:bf:scared:HUH!?
+
+:bg:green_hill_2:
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:sonic:default:Sorry about that!
+:sonic:default:You were in the way of my daily lap around Green Hill.
+:sonic:default:I tried stopping before I ran into you, but I guess my momentum still carried for a bit.
+:sonic:laugh:You good though? You looked pretty out of it.
+
+:effect:rightSide:
+:bf:scared:NAHNAHNAHNAHNAH NAH.
+
+:effect:rightSide:
+:bf:scared:You can't just come around and start acting like this is a common occurance...
+
+:effect:rightSide:
+:bf:giddy:YOU'RE SONIC THE FUCKIN' HEDGEHOG!!
+
+:sonic:default:Yep, I'm no one special, just a dude who loves to chill and do good.
+
+:effect:rightSide:
+:bf:giddy:NO ONE SPECIAL??
+
+:effect:rightSide:
+:bf:happy:You've saved the world on a multitude of occasions, you run faster than the speed of sound,
+
+:effect:rightSide:
+:bf:happy:And don't even get me started on you grabbin' the Chaos Emeralds. SUPER SAIYAN SHIT BRUH!
+
+:effect:rightSide:
+:bf:happy:Not to mention you do all this NAKED! IT'S SO COOL!
+
+:sonic:blush:Well when you put it like that...I guess I AM someone special, heh.
+
+:effect:rightSide:
+:bf:happy:I've always wanted to be like you, ever since I was younger. My whole fit's based on your image in some ways!
+
+
+:sonic:laugh:Never thought I'd meet someone as dedicated as you...a bit strange in all honesty.
+:sonic:default:Say, what's your favorite past time?
+
+:effect:rightSide:
+:bf:confused:Honestly? Rapping.
+:effect:rightSide:
+:bf:happy:It's all I've been doing for the past few months. Just bein' on the grind y'know?
+
+:sonic:default:Aw yeah! I love rap, I jam out to it constantly! I also do a little bit of free styling when I'm bored.
+
+:effect:rightSide:
+:bf:fist:Yee yee, I've seen you emcee in some commercials before! I wanna see if it was all bluff.
+
+:sonic:confused:Commercials? That probably wasn't me, I hate public speaking and all that stuff!
+:sonic:default:If you're tryna rap though, then let's chill and jam out! I've got nothin' but time.

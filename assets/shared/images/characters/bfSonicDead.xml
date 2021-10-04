@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfSonicDead.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF SONIC DEAD0000" x="10" y="10" width="499" height="563" frameX="0" frameY="-31" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0001" x="10" y="10" width="499" height="563" frameX="0" frameY="-16" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0002" x="10" y="10" width="499" height="563" frameX="0" frameY="0" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0003" x="10" y="10" width="499" height="563" frameX="0" frameY="-115" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0004" x="10" y="10" width="499" height="563" frameX="0" frameY="-229" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0005" x="10" y="10" width="499" height="563" frameX="0" frameY="-343" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0006" x="10" y="10" width="499" height="563" frameX="0" frameY="-458" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0007" x="10" y="10" width="499" height="563" frameX="0" frameY="-572" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0008" x="10" y="10" width="499" height="563" frameX="0" frameY="-687" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0009" x="10" y="10" width="499" height="563" frameX="0" frameY="-687" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0010" x="10" y="10" width="499" height="563" frameX="0" frameY="-687" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0011" x="10" y="10" width="499" height="563" frameX="0" frameY="-687" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0012" x="10" y="10" width="499" height="563" frameX="0" frameY="-687" frameWidth="499" frameHeight="1251"/>
+	<SubTexture name="BF SONIC DEAD0013" x="10" y="10" width="499" height="563" frameX="0" frameY="-687" frameWidth="499" frameHeight="1251"/>
+</TextureAtlas>

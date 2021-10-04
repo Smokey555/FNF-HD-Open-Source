@@ -1,5 +1,6 @@
 package;
 
+import flixel.FlxCamera;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
@@ -44,32 +45,39 @@ class AnimationDebug extends FlxState
 
 		if (daAnim == 'bf')
 			isDad = false;
-		
+
 		if (isDad)
 		{
+			// var hitbox:FlxSprite = new FlxSprite(0,0);
 			dad = new Character(0, 0, daAnim);
 			dad.screenCenter();
 			dad.debugMode = true;
+			// var hitboxInfo = dad.getHitbox();
+			// hitbox.makeGraphic(Std.int(hitboxInfo.width),Std.int(hitboxInfo.height),FlxColor.RED);
+			// hitbox.screenCenter();
+			// add(hitbox);
 			add(dad);
-			
-			
+
+			var midPoint:FlxSprite = new FlxSprite(0, 0).makeGraphic(2, 2, FlxColor.GREEN);
+			midPoint.x = dad.getMidpoint().x;
+			midPoint.y = dad.getMidpoint().y;
+			add(midPoint);
 
 			char = dad;
-			if (daAnim == 'pico' )
-			dad.flipX = true;
+			if (daAnim == 'pico' || daAnim == 'bf-sonic')
+				dad.flipX = true;
 			else
-			dad.flipX = false;
+				dad.flipX = false;
 
 			dadOverlay = new Character(0, 0, daAnim);
 			dadOverlay.screenCenter();
 			dadOverlay.debugMode = true;
-			
+			dadOverlay.flipX = true;
 			dadOverlay.alpha = 0;
 			add(dadOverlay);
 		}
 		else
 		{
-
 			isBF = true;
 
 			bf = new Boyfriend(0, 0);
@@ -95,10 +103,9 @@ class AnimationDebug extends FlxState
 		textAnim.scrollFactor.set();
 		add(textAnim);
 
-
 		if (isDad)
-		trace('DAD');
-		
+			trace('DAD');
+
 		genBoyOffsets();
 
 		camFollow = new FlxObject(0, 0, 2, 2);
@@ -116,7 +123,8 @@ class AnimationDebug extends FlxState
 
 		for (anim => offsets in char.animOffsets)
 		{
-			var text:FlxText = new FlxText(10, 20 + (18 * daLoop), 0, anim + ": " + offsets, 15);
+			var text:FlxText;
+			text = new FlxText(10, 20 + (18 * daLoop), 0, anim + ": " + offsets, 15);
 			text.scrollFactor.set();
 			text.color = FlxColor.BLUE;
 			dumbTexts.add(text);
@@ -139,25 +147,28 @@ class AnimationDebug extends FlxState
 
 	override function update(elapsed:Float)
 	{
-
-
-		if (FlxG.keys.justPressed.END){
-		trace('FLIP THE DAMN X NIGGA');
-		dadOverlay.flipX = false;
+		
+		if (FlxG.keys.justPressed.PAGEDOWN)
+		{
+			trace('FLIP THE DAMN X NIGGA'); // ?????? //Shut up rozberd!!111
+			dadOverlay.flipX = !dadOverlay.flipX;
 		}
-		if(isBF){
-
-			if(FlxG.keys.justPressed.DELETE && bfOverlay.alpha == 0)
+		if (FlxG.keys.justPressed.PAGEUP){
+			trace('shitass');
+			dad.flipX = !dad.flipX;
+		}
+		if (isBF)
+		{
+			if (FlxG.keys.justPressed.DELETE && bfOverlay.alpha == 0)
 				bfOverlay.alpha = 0.4;
-			else if(FlxG.keys.justPressed.DELETE && bfOverlay.alpha == 0.4)
+			else if (FlxG.keys.justPressed.DELETE && bfOverlay.alpha == 0.4)
 				bfOverlay.alpha = 0;
-
 		}
-		if (isDad){
-			
-			if(FlxG.keys.justPressed.DELETE && dadOverlay.alpha == 0)
+		if (isDad)
+		{
+			if (FlxG.keys.justPressed.DELETE && dadOverlay.alpha == 0)
 				dadOverlay.alpha = 0.4;
-			else if(FlxG.keys.justPressed.DELETE && dadOverlay.alpha == 0.4)
+			else if (FlxG.keys.justPressed.DELETE && dadOverlay.alpha == 0.4)
 				dadOverlay.alpha = 0;
 		}
 
@@ -212,7 +223,7 @@ class AnimationDebug extends FlxState
 			updateTexts();
 			genBoyOffsets(false);
 		}
-		
+
 		if (FlxG.keys.justPressed.ESCAPE)
 		{
 			FlxG.switchState(new PlayState());

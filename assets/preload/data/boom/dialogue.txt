@@ -1,0 +1,53 @@
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:pant:AHYUGH, AHCK...
+
+:effect:rightSide:
+:bf:pant:FUCK man, I knew you were fast when it came to running, but you spit fast as hell too!
+
+:effect:rightSide:
+:bf:default:I barely even had a chance to catch my breath throughout that!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:sonic:happy:I had that one memorized, I'm always thinking about it when I run through here.
+
+:sonic:laugh:Plus, I DID carry you throughout that.
+
+:effect:rightSide:
+:bf:scoff:I aspire to be at that level of creativity with my music.
+
+:sonic:default:Well, when you're chasin' baddies all the time, you gotta give yourself something to lose yourself to.
+:sonic:happy:It helps getting to the goal a lot easier.
+
+:effect:rightSide:
+:bf:confused:It's funny. We rap for two entirely different goals.
+
+:effect:rightSide:
+:bf:fist:You rap to escape, I rap to entertain and get laid!
+
+:sonic:confused:Get...laid? Why would you need to rap in order to sleep?
+
+:effect:rightSide:
+:bf:nervous:(Thinking: Wow...he's dense.)
+
+:effect:rightSide:
+:bf:happy:(Thinking: He just like me for real!)
+
+:sonic:default:Hey lil dude, I never even got your name...
+
+:effect:rightSide:
+:bf:fist:It's BF, like Boyfriend!
+
+:sonic:happy:I'll just call ya B! Simple, and to the point.
+:sonic:fist:Alright, B, let's see if you can keep up with me now!
+
+:effect:rightSide:
+:bf:wind: --!!
+
+:effect:flip:
+:bf:angry:BRO WHAT THE HELL!?
+
+:effect:rightSide:
+:bf:post-up:WAIT FOR ME, DAMMIT! 

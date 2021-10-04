@@ -20,7 +20,7 @@ class HealthIcon extends FlxSprite
 	{
 
 		super();
-		if(Config.betterIcons){
+		//if(Config.betterIcons){
 			loadGraphic(Paths.image('iconGridHD'), true, 500, 500);
 
 			animation.add('bf', [0, 1, 0], 0, false, isPlayer);
@@ -28,6 +28,7 @@ class HealthIcon extends FlxSprite
 			animation.add('bf-christmas-depressed', [0, 1, 0], 0, false, isPlayer);
 			animation.add('bf-date', [0, 1, 0], 0, false, isPlayer);
 			animation.add('bf-spooky', [0, 1, 0], 0, false, isPlayer);
+			animation.add('bf-run', [0, 1, 0], 0, false, isPlayer);
 			animation.add('bf-car', [0, 1, 0], 0, false, isPlayer);
 			animation.add('bf-milf', [0, 1, 0], 0, false, isPlayer);
 			animation.add('mom', [15, 16, 17], 0, false, isPlayer);
@@ -40,6 +41,11 @@ class HealthIcon extends FlxSprite
 			animation.add('monster', [10, 11, 12], 0, false, isPlayer);
 			animation.add('monster-christmas', [10, 11, 12], 0, false, isPlayer);
 			animation.add('gf', [9, 9, 9], 0, false, isPlayer);
+			animation.add('sonic', [24, 25, 26], 0, false, isPlayer);
+			animation.add('sonic-run', [24, 25, 26], 0, false, isPlayer);
+			animation.add('super-sonic', [24, 25, 26], 0, false, isPlayer);
+			animation.add('bf-sonic', [24, 25, 26], 0, false, isPlayer);
+			animation.add('omochao', [27, 28, 27], 0, false, isPlayer);
 			animation.add('gf-date', [9, 9, 9], 0, false, isPlayer);
 			animation.add('gf-car', [9, 9, 9], 0, false, isPlayer);
 			animation.add('parents-christmas', [21, 22, 23], 0, false, isPlayer);
@@ -49,8 +55,8 @@ class HealthIcon extends FlxSprite
 
 			defualtIconScale = 0.25;
 			//"Defualticonscale" ok bro
-		}
-		else{
+		//}
+		/*else{
 			loadGraphic('assets/images/iconGrid.png', true, 150, 150);
 			
 			animation.add('bf', [0, 1], 0, false, isPlayer);
@@ -84,6 +90,7 @@ class HealthIcon extends FlxSprite
 
 			antialiasing = !pixelIcons.contains(char);
 		}
+		*/
 		
 		antialiasing = !pixelIcons.contains(char);
 		animation.play(char);

@@ -1,0 +1,55 @@
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:super-sonic:default:I'm really impressed. You were able to keep up the whole time without much fail--
+
+:noChar:default:*crash*
+
+:bg:green_hill_3:
+:effect:hidden:
+
+:super-sonic:yikes:Nevermind.
+:super-sonic:reassure:Hey kid, I don't know if you can hear me...but I think you should stick to rapping.
+:super-sonic:default:Being me isn't easy. Being ANYONE who isn't you is difficult.
+:super-sonic:default:There's nothing wrong with wanting to do more for others.
+:super-sonic:default:However, it's okay to accept that you won't always be able to do more for others, too.
+:super-sonic:reassure:You can still be strong and help others without being super fast or physically built.
+:super-sonic:reassure:I don't know anything about you, but I bet the people in your life already see you as strong enough.
+:super-sonic:reassure:Someday in the near future, you'll be able to up your limits. This is too early though!
+:super-sonic:default:I gotta head out now, but I'm proud of you for coming this far. Let me grab some rings to patch you right...
+
+:bg:green_hill_4:
+:noChar:default:*GASP*
+:noChar:default:...
+
+:bg:blank:
+
+:effect:flip:
+:bf:scratch:No way...you mean, I was dreaming that whole time? I'm not actually that strong, am I?
+:bf:sulk:It's never gonna be enough, is it?
+
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:gf:tired:Baby, can you lay back down with me? I had a niiightmare...
+
+:effect:leftSide:
+:bf:blush2:...
+:bf:blush2:(Thinking: I might not be strong enough for myself yet, but if I'm strong enough for her...I guess that's enough.)
+:bf:clear:(Thinking: Thanks Sonic...I had that dream for a reason, but it was really taxing on my brain.)
+
+:effect:flip:
+:bf:happy:(Thinking: I guess I'll just lay back down.)
+
+:effect:flip:
+:bf:nervous:...
+
+:effect:flip:
+:bf:nervous2:(Thinking: I feel really uncomfortable...am I--am I laying on something?)
+
+:effect:flip:
+:bf:giddy:WHAT'S THIS? A RING?!
+
+:bf:sulk:Oh...wait...that's just my cock ring. Whatever man.
+
+:bg:green_hill_5:
+:noChar:default:I'll probably wake up later and hop into the Chao Garden.

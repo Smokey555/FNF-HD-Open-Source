@@ -17,19 +17,20 @@
 	<SubTexture name="gf grimace.png" x="3951" y="1284" width="902" height="1203"/>
 	<SubTexture name="gf happy cry 2.png" x="4863" y="1284" width="1432" height="1028"/>
 	<SubTexture name="gf happy cry.png" x="6305" y="1284" width="1432" height="1028"/>
-	<SubTexture name="gf hug.png" x="10" y="2607" width="1864" height="1590"/>
-	<SubTexture name="gf nervous.png" x="1884" y="2607" width="998" height="1221"/>
-	<SubTexture name="gf owl.png" x="2892" y="2607" width="1073" height="1113"/>
-	<SubTexture name="gf point.png" x="3975" y="2607" width="1749" height="1663"/>
-	<SubTexture name="gf pout.png" x="5734" y="2607" width="824" height="1143"/>
-	<SubTexture name="gf reassure 2.png" x="6568" y="2607" width="1259" height="1321"/>
-	<SubTexture name="gf reassure.png" x="10" y="4280" width="919" height="1013"/>
-	<SubTexture name="gf relief.png" x="939" y="4280" width="1431" height="1321"/>
-	<SubTexture name="gf sheesh.png" x="2380" y="4280" width="1470" height="1405"/>
-	<SubTexture name="gf smile.png" x="3860" y="4280" width="1108" height="1264"/>
-	<SubTexture name="gf surprised.png" x="4978" y="4280" width="1228" height="1236"/>
-	<SubTexture name="gf think.png" x="6216" y="4280" width="932" height="993"/>
-	<SubTexture name="gf wehhh.png" x="10" y="5695" width="1131" height="1108"/>
-	<SubTexture name="gf worry.png" x="1151" y="5695" width="1027" height="1191"/>
-	<SubTexture name="nervous 2.png" x="2188" y="5695" width="998" height="1221"/>
+	<SubTexture name="gf hug.png" x="10" y="2607" width="1440" height="1230"/>
+	<SubTexture name="gf nervous.png" x="1460" y="2607" width="998" height="1221"/>
+	<SubTexture name="gf owl.png" x="2468" y="2607" width="1073" height="1113"/>
+	<SubTexture name="gf point.png" x="3551" y="2607" width="1219" height="1159"/>
+	<SubTexture name="gf pout.png" x="4780" y="2607" width="824" height="1143"/>
+	<SubTexture name="gf reassure 2.png" x="5614" y="2607" width="1259" height="1321"/>
+	<SubTexture name="gf reassure.png" x="6883" y="2607" width="919" height="1013"/>
+	<SubTexture name="gf relief.png" x="10" y="3938" width="1431" height="1321"/>
+	<SubTexture name="gf sheesh.png" x="1451" y="3938" width="1214" height="1159"/>
+	<SubTexture name="gf smile.png" x="2675" y="3938" width="1108" height="1264"/>
+	<SubTexture name="gf surprised.png" x="3793" y="3938" width="1228" height="1236"/>
+	<SubTexture name="gf think.png" x="5031" y="3938" width="932" height="993"/>
+	<SubTexture name="gf tired.png" x="5973" y="3938" width="1197" height="1087"/>
+	<SubTexture name="gf wehhh.png" x="10" y="5269" width="1131" height="1108"/>
+	<SubTexture name="gf worry.png" x="1151" y="5269" width="1027" height="1191"/>
+	<SubTexture name="nervous 2.png" x="2188" y="5269" width="998" height="1221"/>
 </TextureAtlas>

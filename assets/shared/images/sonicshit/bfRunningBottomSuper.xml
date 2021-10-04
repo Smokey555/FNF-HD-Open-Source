@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfRunningBottomSuper.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF BOTTOM0000" x="10" y="10" width="417" height="424" frameX="-8" frameY="0" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0001" x="10" y="10" width="417" height="424" frameX="-8" frameY="0" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0002" x="427" y="10" width="414" height="423" frameX="-7" frameY="-3" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0003" x="427" y="10" width="414" height="423" frameX="-7" frameY="-3" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0004" x="841" y="10" width="378" height="423" frameX="0" frameY="-43" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0005" x="1219" y="10" width="375" height="449" frameX="-3" frameY="-19" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0006" x="10" y="459" width="474" height="402" frameX="-8" frameY="0" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0007" x="10" y="459" width="474" height="402" frameX="-8" frameY="0" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0008" x="484" y="459" width="472" height="400" frameX="-7" frameY="-3" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0009" x="484" y="459" width="472" height="400" frameX="-7" frameY="-3" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0010" x="956" y="459" width="369" height="368" frameX="0" frameY="-52" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF BOTTOM0011" x="1325" y="459" width="366" height="397" frameX="-3" frameY="-25" frameWidth="482" frameHeight="468"/>
+	<SubTexture name="BF MISS0000" x="10" y="861" width="587" height="508" frameX="-1" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0001" x="597" y="861" width="588" height="508" frameX="0" frameY="-10" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0002" x="1185" y="861" width="588" height="508" frameX="0" frameY="0" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0003" x="1185" y="861" width="588" height="508" frameX="0" frameY="0" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0004" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0005" x="598" y="1369" width="0" height="0" frameX="-294" frameY="-273" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0006" x="598" y="1369" width="0" height="0" frameX="-294" frameY="-273" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0007" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0008" x="598" y="1369" width="0" height="0" frameX="-294" frameY="-273" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0009" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0010" x="598" y="1369" width="0" height="0" frameX="-294" frameY="-273" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0011" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0012" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0013" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0014" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0015" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+	<SubTexture name="BF MISS0016" x="10" y="1369" width="588" height="508" frameX="0" frameY="-20" frameWidth="588" frameHeight="528"/>
+</TextureAtlas>

@@ -1,5 +1,6 @@
 package;
 
+import animateatlas.AtlasFrameMaker;
 import flixel.math.FlxRandom;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
@@ -15,10 +16,10 @@ class BackgroundDancer extends FlxSprite
 
 		super(x, y);
 
-		frames = Paths.getSparrowAtlas("limo/limoDancers");
-		animation.addByIndices('danceLeft', 'imps', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
-		animation.addByIndices('danceRight', 'imps', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
-		animation.addByPrefix('youseewhathemissin', 'impsDEAD', 24, false);
+		frames = AtlasFrameMaker.construct('LIMO_DANCERS');
+		animation.addByIndices('danceLeft', 'Dance', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+		animation.addByIndices('danceRight', 'Dance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+		animation.addByPrefix('youseewhathemissin', 'Dead', 24, false);
 		
 		animation.play('danceLeft');
 		antialiasing = true;
@@ -28,7 +29,7 @@ class BackgroundDancer extends FlxSprite
 
 	var danceDir:Bool = false;
 
-	public function dance(shitpoo:String=""):Void
+	public function dance():Void
 	{
 		danceDir = !danceDir;
 		if (danceDir)

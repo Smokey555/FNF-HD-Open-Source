@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RINGS.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF NOTE RIGHT MISS RING0000" x="5" y="5" width="295" height="307" frameX="-298" frameY="-55" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0001" x="305" y="5" width="246" height="307" frameX="-323" frameY="-55" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0002" x="556" y="5" width="353" height="412" frameX="-284" frameY="0" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0003" x="914" y="5" width="491" height="450" frameX="-210" frameY="-42" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0004" x="1410" y="5" width="587" height="353" frameX="-152" frameY="-126" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0005" x="5" y="460" width="637" height="277" frameX="-122" frameY="-202" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0006" x="647" y="460" width="832" height="173" frameX="-28" frameY="-306" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0007" x="5" y="742" width="809" height="147" frameX="-40" frameY="-332" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0008" x="819" y="742" width="809" height="147" frameX="-40" frameY="-332" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0009" x="5" y="894" width="841" height="148" frameX="-24" frameY="-331" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0010" x="851" y="894" width="890" height="148" frameX="0" frameY="-331" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0011" x="5" y="1047" width="841" height="148" frameX="-24" frameY="-331" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0012" x="5" y="742" width="809" height="147" frameX="-40" frameY="-332" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0013" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0014" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0015" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0016" x="5" y="1047" width="841" height="148" frameX="-24" frameY="-331" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0017" x="5" y="742" width="809" height="147" frameX="-40" frameY="-332" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0018" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0019" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0020" x="5" y="742" width="809" height="147" frameX="-40" frameY="-332" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0021" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0022" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0023" x="5" y="1047" width="841" height="148" frameX="-24" frameY="-331" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0024" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0025" x="5" y="894" width="841" height="148" frameX="-24" frameY="-331" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0026" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0027" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0028" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0029" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0030" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0031" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+	<SubTexture name="BF NOTE RIGHT MISS RING0032" x="851" y="1047" width="2" height="2" frameX="-238" frameY="-477" frameWidth="890" frameHeight="492"/>
+</TextureAtlas>

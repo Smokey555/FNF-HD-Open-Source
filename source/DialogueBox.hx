@@ -56,6 +56,8 @@ class DialogueBox extends FlxSpriteGroup
 	var portraitMOM:Portrait;
 	var portraitIMPS:Portrait;
 	var portraitNOCHAR:Portrait;
+	var portraitSONIC:Portrait;
+	var portraitSUPERSONIC:Portrait;
 
 	var portraitLeft:FlxSprite;
 	var portraitRight:FlxSprite;
@@ -170,8 +172,13 @@ class DialogueBox extends FlxSpriteGroup
 		{
 		
 
-			portraitBF = new Portrait(170, 15, "bf");
+			portraitBF = new Portrait(170, 100, "bf");
 			add(portraitBF);
+			
+			portraitSONIC = new Portrait(170, 90, "sonic");
+			add(portraitSONIC);
+			portraitSUPERSONIC = new Portrait(170, 90, "super-sonic");
+			add(portraitSUPERSONIC);
 
 			portraitGF = new Portrait(170, 50, "gf");
 			add(portraitGF);
@@ -422,6 +429,13 @@ class DialogueBox extends FlxSpriteGroup
 			case "noChar":
 				portraitNOCHAR.playFrame("default");
 				changeSound('momText',0);
+			case "sonic":
+				portraitSONIC.playFrame(curAnim);
+				changeSound('sonicText',0.6);
+			
+			case "super-sonic":
+				portraitSUPERSONIC.playFrame(curAnim);
+				changeSound('sonicText',0.6);
 			
 			case "effect":
 				switch(curAnim){
@@ -548,7 +562,7 @@ class DialogueBox extends FlxSpriteGroup
 
 	function portraitArray(){
 	//Why? i don't know, i was bored and hey it's easier to work with
-	var portraitArray = [portraitBF,portraitGF,portraitDAD,portraitSPOOKY,portraitMONSTER,portraitDARNELL,portraitNENE,portraitMOM,portraitPICO,portraitIMPS];
+	var portraitArray = [portraitBF,portraitGF,portraitDAD,portraitSPOOKY,portraitMONSTER,portraitDARNELL,portraitNENE,portraitMOM,portraitPICO,portraitIMPS,portraitSONIC,portraitSUPERSONIC];
 	return portraitArray;
 	}
 	

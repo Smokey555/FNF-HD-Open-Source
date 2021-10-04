@@ -15,7 +15,7 @@ class Portrait extends FlxSprite
 
     private var resize = 0.35;
 
-    private var characters:Array<String> = ["bf", "gf", "dad", "spooky", "monster", "pico", "darnell", "nene", 'mom', 'imps'];
+    public var characters:Array<String> = ["bf", "gf", "dad", "spooky", "monster", "pico", "darnell", "nene", 'mom', 'imps', 'sonic', 'super-sonic', 'sonic'];
 
     var posTween:FlxTween;
     var alphaTween:FlxTween;
@@ -50,43 +50,52 @@ class Portrait extends FlxSprite
             case "noChar":
                 addAnim("default", "noChar instance 1");
             case "bf":
-                addAnim("default", "bf default.png");
-                addAnim("bfGf", "bf and gf default.png");
-                addAnim("confused", "bf confused.png");
-                addAnim("dazed", "bf dazed.png");
-                addAnim("defaultSweat", "bf default sweaty.png");
-                addAnim("fistSweat", "bf fist sweat.png");
-                addAnim("fist", "bf fist.png");
-                addAnim('defaultBlush', 'bf default blush.png');
-                addAnim('fistBlush', 'bf fist blush.png');
-                addAnim('dreamy', 'bf dreamy.png');
-                addAnim('blush', 'bf blush.png');
-                addAnim('pant', 'bf pant.png');
-                addAnim('happyCry', 'bf happy cry.png');
-                addAnim('post-up', 'bf post-up.png');
-                addAnim('angry', 'bf angry.png');
-                addAnim('angry2', 'bf angry 2.png');
-                addAnim('cry', 'bf cry.png');
-                addAnim('sad', 'bf sad.png');
-                addAnim("flirt", "bf flirt.png");
-                addAnim("kiss", "bf kiss.png");
-                addAnim("nervous2", "bf nervous 2.png");
-                addAnim("nervous", "bf nervous.png");
-                addAnim("oof", "bf oof.png");
-                addAnim("questionMark", "bf question mark.png");
-                addAnim("reassure", "bf reassure.png");
-                addAnim("scoff", "bf scoff.png");
-                addAnim("smile", "bf smile.png");
-                addAnim("sulk", "bf sulk.png");
-                addAnim("clear", "bf week clear.png");
-                addAnim("cringe", "bf cringe.png");
-                addAnim("crying", "bf crying.png");
-                addAnim("scared", "bf scared.png");
-                addAnim("shocked", "bf shocked.png");
-                addAnim("snap", "bf snap.png");
-                addAnim("wipe", "bf wipe.png");
+                addAnim2("default", "Symbol 1",[11]);
+                addAnim2("bfGf", "Symbol 1",[0]);
+                addAnim2("confused", "Symbol 1",[5]);
+                addAnim2("dazed","Symbol 1",[9]);
+                addAnim2("defaultSweat", "Symbol 1",[11]);
+                addAnim2("fistSweat", "Symbol 1",[15]);
+                addAnim2("fist", "Symbol 1",[16]);
+                addAnim2('defaultBlush', "Symbol 1",[10]);
+                addAnim2('fistBlush', "Symbol 1",[14]);
+                addAnim2('dreamy', "Symbol 1",[13]);
+                addAnim2('blush', "Symbol 1",[4]);
+                addAnim2('pant', "Symbol 1",[24]);
+                addAnim2('happyCry', "Symbol 1",[19]);
+                addAnim2('post-up',"Symbol 1",[25]);
+                addAnim2('angry', "Symbol 1",[2]);
+                addAnim2('angry2', "Symbol 1",[1]);
+                addAnim2('cry', "Symbol 1",[7]);
+                addAnim2('sad', "Symbol 1",[30]);
+                addAnim2("flirt", "Symbol 1",[17]);
+                addAnim2("kiss", "Symbol 1",[20]);
+                addAnim2("nervous2", "Symbol 1",[21]);
+                addAnim2("nervous", "Symbol 1",[22]);
+                addAnim2("oof", "Symbol 1",[23]);
+                addAnim2("questionMark","Symbol 1",[26]);
+                addAnim2("reassure", "Symbol 1",[27]);
+                addAnim2("scoff", "Symbol 1",[32]);
+                addAnim2("happy", "Symbol 1",[35]);
+                addAnim2("smile", "Symbol 1",[35]);
+                addAnim2("sulk", "Symbol 1",[37]);
+                addAnim2("clear", "Symbol 1",[38]);
+                addAnim2("cringe", "Symbol 1",[6]);
+                addAnim2("crying", "Symbol 1",[8]);
+                addAnim2("scared", "Symbol 1",[31]);
+                addAnim2("shocked", "Symbol 1",[34]);
+                addAnim2("snap", "Symbol 1",[36]);
+                addAnim2("wipe", "Symbol 1",[40]);
+                 //***************////**/**/
+                addAnim2("run", "Symbol 1",[28]);
+                addAnim2("run-sad", "Symbol 1",[29]);
+                addAnim2('giddy',"Symbol 1",[18]);
+                addAnim2('wind',"Symbol 1",[39]);
+                addAnim2('scratch',"Symbol 1",[33]);
+                addAnim2('blush2',"Symbol 1",[3]);
+
                 animation.play("default");
-                resize = 0.4;
+                resize = 0.5;
             case "gf":
                 addAnim("default", "gf default.png");
                 addAnim("angry", "gf angry.png");
@@ -118,6 +127,7 @@ class Portrait extends FlxSprite
                 addAnim('sheesh', 'gf sheesh.png');
                 addAnim('giddy', 'gf giddy.png');
                 addAnim('eh', 'gf eh.png');
+                addAnim('tired','gf tired.png');
                 animation.play("default");
                 resize = 0.50;
             case "dad":
@@ -200,9 +210,20 @@ class Portrait extends FlxSprite
                 addAnim('bubbles', 'bubbles.png');
                 addAnim('imps', 'imps.png');
                 addAnim('michael', 'michael.png');
-                animation.play("default");
+                animation.play("alvin");
                 resize = 0.4;
         
+            case 'sonic':
+                addAnim('blush', 'sonic blush.png');
+                addAnim('default', 'sonic default.png');
+                addAnim('fist', 'sonic fist.png');
+                addAnim('happy', 'sonic happy.png');
+                addAnim('laugh', 'sonic laugh.png');
+                addAnim('run', 'sonic run.png');
+            case 'super-sonic':
+                addAnim('default', 'super sonic default.png');
+                addAnim('reassure', 'super sonic reassure.png');
+                addAnim('yikes', 'super sonic yikes.png');
 
         }
 
@@ -212,6 +233,9 @@ class Portrait extends FlxSprite
     
     function addAnim(anim:String, prefix:String){
         animation.addByPrefix(anim,prefix, 0, false);
+    }    
+    function addAnim2(anim:String, prefix:String,indices:Array<Int>){
+        animation.addByIndices(anim,prefix,indices,"", 0, false);
     }    
 
     public function playFrame(?_frame:String = "default"){

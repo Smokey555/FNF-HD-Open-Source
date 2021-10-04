@@ -1,0 +1,31 @@
+:effect:fadeIn:0.4
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:bf:run:SONIC MY MAN, I DON'T KNOW HOW I'M KEEPIN' UP WITH YOU RIGHT NOW...
+
+:effect:rightSide:
+:bf:run:BUT I'M STARTING TO GET EXHAUSTED!!
+
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:sonic:run:WELL THEN WHY DID YOU COME ALONG? YOU'RE IN MY WORLD AND YOU'RE GETTING TIRED?
+:sonic:run:SORRY TO TELL YOU BUT THAT CAN'T FLY HERE. WHAT EXACTLY BROUGHT YOU HERE?
+
+:effect:rightSide:
+:bf:run:I DON'T KNOW WHY I'M HERE, BUT I COULDN'T HAVE ASKED FOR A BETTER PLACE TO BE!
+:effect:rightSide:
+:bf:run:Ever since I was a kid, I looked up to how courageous and strong you are. 
+:effect:rightSide:
+:bf:run:No matter how dire the stakes are, you always go in with no worries! You're everything I'm not.
+:effect:rightSide:
+:bf:run-sad:I WANT TO HELP PEOPLE OUTSIDE OF MUSIC! I want to be strong for my girl...
+:effect:rightSide:
+:bf:run-sad:But everytime she's in a bad situation, I'm helpless. All I can do is rap and sing and hope to win.
+:effect:rightSide:
+:bf:run:I'M TIRED OF BEIN' WEAK, SONIC! I WANNA BE STRONG AND PROTECT THOSE I LOVE!
+
+:sonic:run:I understand that. But you have to know that my line of work is FAR more complex than just dealing with drama.
+:sonic:run:Your best way of becoming strong is going past your limits, pushing boundaries you didn't even know existed!
+
+:effect:rightSide:
+:bf:run:I'LL DO ANYTHING DAWG, JUST...JUST TELL ME WHAT I CAN DO!

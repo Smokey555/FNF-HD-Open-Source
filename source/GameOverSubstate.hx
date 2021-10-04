@@ -30,7 +30,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static var gotfuckinblown:Bool = false;
 	public static var gofuckingdecked:Bool = false;
 	public var lmao:FlxText = new FlxText(0,600,0,"Try pressing SPACE next time",32);
-
+	public var snd = "";
 	public function new(x:Float, y:Float)
 	{
 		
@@ -39,7 +39,7 @@ class GameOverSubstate extends MusicBeatSubstate
 		var daBf:String = '';
 		
 		lmao.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0, 2, 1);
-		
+		snd = Paths.sound('fnf_loss_sfx' + stageSuffix);
 		switch (daStage)
 		{
 			case 'school':
@@ -64,6 +64,13 @@ class GameOverSubstate extends MusicBeatSubstate
 					add(lmao);
 				});
 				}
+			case 'sonic-stage':
+				daBf = 'bf-sonic-death';
+				snd = Paths.sound('ded');
+				
+			case 'omochao-stage':
+				daBf = 'bf-sonic-death-2';
+				snd = Paths.sound('ded');
 			default:
 				daBf = 'bf-death';
 		}
@@ -89,8 +96,9 @@ class GameOverSubstate extends MusicBeatSubstate
 			});
 
 		
-	
-		FlxG.sound.play(Paths.sound('fnf_loss_sfx' + stageSuffix));
+			FlxG.sound.play(snd);
+		
+		
 		Conductor.changeBPM(100);
 
 		// FlxG.camera.followLerp = 1;
@@ -122,7 +130,11 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		if (bf.animation.curAnim.name == 'firstDeath' && bf.animation.curAnim.curFrame == 12)
 		{
-			FlxG.camera.follow(camFollow, LOCKON, 0.004);
+			FlxG.camera.follow(camFollow, LOCKON, 0.05);
+			if (snd == Paths.sound('ded')){
+				bf.visible = false;
+				endBullshit();
+			}
 		}
 
 		if (bf.animation.curAnim.name == 'firstDeath' && bf.animation.curAnim.finished)

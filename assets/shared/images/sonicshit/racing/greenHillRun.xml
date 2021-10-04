@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="greenHillRun.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="greenHillRun0000" x="10" y="10" width="1277" height="337"/>
+	<SubTexture name="greenHillRun0001" x="10" y="10" width="1277" height="337"/>
+	<SubTexture name="greenHillRun0002" x="10" y="357" width="1277" height="337"/>
+	<SubTexture name="greenHillRun0003" x="10" y="357" width="1277" height="337"/>
+</TextureAtlas>

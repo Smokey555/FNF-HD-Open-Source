@@ -36,7 +36,7 @@ class Boyfriend extends Character
 					if (PlayState.fuckCval)
 						playAnim('idle-stressed', true, false, 10);
 						else
-						dance();
+						dance('');
 			}
 
 			if (animation.curAnim.name == 'firstDeath' && animation.curAnim.finished)

@@ -1,5 +1,6 @@
 package;
 
+
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -20,10 +21,11 @@ using StringTools;
 
 class FreeplayState extends MusicBeatState
 {
-	
+
 	var songs:Array<SongMetadata> = [];
 	var beatArray:Array<Int> = [100,100,120,180,150,165,130,150,175,165,110,125,180];
 	var selector:FlxText;
+	
 	
 	var curSelected:Int = 0;
 	var defaultCamZoom:Float = 1;
@@ -49,12 +51,11 @@ class FreeplayState extends MusicBeatState
 	var songWait:FlxTimer = new FlxTimer();
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
-
 	private var iconArray:Array<HealthIcon> = [];
 
 	override function create()
 	{
-
+	
 		Conductor.changeBPM(110);
 		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglist'));
 
@@ -96,6 +97,8 @@ class FreeplayState extends MusicBeatState
 		
 			addWeek(['Breaking-Point'], 5, ['gf']);
 
+			addWeek(['Green-Hill', 'Boom', 'Racing','Happy-Time'], 5, ['sonic']);
+
 		/*
 		if (StoryMenuState.weekUnlocked[6] || isDebug)
 			addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai', 'spirit']);*/
@@ -123,12 +126,12 @@ class FreeplayState extends MusicBeatState
 
 			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
 			icon.sprTracker = songText;
-			if (Config.betterIcons){
+			//if (Config.betterIcons){
 			icon.setGraphicSize(Std.int(icon.width *0.30));
 			icon.updateHitbox();
 			//is antialiasing even needed here? i'm not sure lol
 			icon.antialiasing = true;
-			}
+			//}
 
 			//icon.alpha = 0;
 			//icon.x -= 500;
@@ -221,7 +224,7 @@ class FreeplayState extends MusicBeatState
 			{
 				iconArray[i].animation.curAnim.curFrame = 0;
 			}
-		if (Config.betterIcons)
+		//if (Config.betterIcons)
 		iconArray[curSelected].animation.curAnim.curFrame = 2;
 		FlxG.camera.zoom = FlxMath.lerp(defaultCamZoom, FlxG.camera.zoom, 0.95);
 	
@@ -289,6 +292,10 @@ class FreeplayState extends MusicBeatState
 			curDifficulty = 2;
 		if (curDifficulty > 2)
 			curDifficulty = 0;
+
+		if(curSelected > 16){
+			curDifficulty = 2;
+		}
 
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
@@ -392,6 +399,8 @@ class FreeplayState extends MusicBeatState
 				// item.setGraphicSize(Std.int(item.width));
 			}
 		}
+
+		changeDiff(0);
 	}
 
 	function iconBop(?_scale:Float = 1.25, ?_time:Float = 0.2):Void {
