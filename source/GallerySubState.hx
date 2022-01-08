@@ -99,6 +99,8 @@ function changeSelection(change:Int = 0):Void
             tweencol(57,106,144);
             case 'mom': 
             tweencol(194,85,163);
+	    case 'amogus': 
+            tweencol(194,85,163);
         }
             
 
